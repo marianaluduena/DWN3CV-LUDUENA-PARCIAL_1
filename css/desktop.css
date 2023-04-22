@@ -1,0 +1,111 @@
+
+
+nav {
+    max-width: 100%;
+
+}
+
+.navbar-nav>.nav-link.active {
+    font-size: 1rem;
+
+}
+
+.navbar>.container-fluid{
+    justify-content: flex-start;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+
+h1 {
+    font-size: 4.5rem;
+}
+
+
+/*...............CARROUSEL............*/
+
+.carousel {
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+}
+
+.carousel-item{
+
+    background-color: rgb(247, 175, 21);
+}
+.img__container__carousel {
+    max-width: 890px;
+}
+
+.img__carrousel{
+    height: 510px;
+}
+
+.parrafo__carrousel{
+    color: whitesmoke;
+    font-family: "Playfair", "Lora", Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+/*...............SECCIÓN: HOME............*/
+
+#cofre__magico {
+
+    display: flex;
+}
+
+.frase__container {
+    width: 50%;
+}
+
+/*...............SECCIÓN: PRODUCTOS ............*/
+
+a.card-link.btn__comprar:hover{
+
+   color: #0a4665; 
+   background-color: rgb(247 175 21 / 80%);
+}
+
+/*...............SECCIÓN: ¿POR QUÉ APRENDER MAGIA? ............*/
+
+iframe {
+    display: block;
+    aspect-ratio: 16/ 9;
+}
+
+/*...............SECCIÓN: CONTACTO - FORMULARIO ............*/
+
+input {
+    width: 400px;
+}
+
+#opciones {
+
+    justify-content: center;
+}
+
+.container__form__textarea{
+
+    width: 90%;
+}
+
+textarea {
+
+    min-height: 15rem;
+}
+
+.form__btn {
+    font-size: 1.5rem;
+    width: 20%;
+}
+
+/*........................FOOTER:EMPRESA..........*/
+
+#btn__newsletter{
+
+    width: 50%;
+
+}
+

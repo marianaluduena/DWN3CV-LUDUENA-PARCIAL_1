@@ -1,0 +1,177 @@
+/*...............ESTILOS GRALES............*/
+
+section {
+    padding: 1rem;
+}
+
+p,
+li {
+    text-align: center;
+}
+
+p {
+
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 2.5rem;
+}
+
+h2,
+h3 {
+    margin: 0 auto;
+
+}
+
+h2 {
+    font-size: 2rem;
+
+
+
+}
+
+h3 {
+    font-size: 1.5rem;
+
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+/*...............MENÚ DE NAVEGACIÓN............*/
+
+nav {
+    max-width: 730px;
+    justify-content: center;
+    margin: 1.5rem auto;
+    border-radius: 15px;
+}
+
+
+nav .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+}
+
+.navbar-nav>.nav-link.active {
+    font-size: 1rem;
+
+}
+
+.nav-link {
+    border: none;
+}
+
+
+/*...............SECCIÓN: NOSOTROS............*/
+
+.frase__container {
+    width: 80%;
+}
+
+
+.container__texto__fondo {
+    margin: 2rem auto;
+}
+
+.card__fondo__transparente {
+    margin: 2rem;
+
+}
+
+/*...............SECCIÓN: PRODUCTOS............*/
+
+.accordion {
+    --bs-accordion-bg: #2f7587;
+    --bs-accordion-border-color: none;
+}
+
+.accordion-button {
+    background-color: rgb(247 175 21 / 80%);
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.4rem;
+    margin: 0.5rem auto;
+
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ffc107;
+    background-color: #0a4665
+}
+
+span {
+
+    font-size: 1.8rem;
+    width: 50%;
+    margin: 1rem auto;
+}
+
+/*...............PÁGINA APARTE PRODUCTOS: ESPOSAS DE ESCAPISMO............*/
+
+.producto__caracteristicas {
+    margin: 1rem;
+}
+
+/*...............SECCIÓN: ¿POR QUÈ APRENDER MAGIA? ............*/
+
+iframe {
+    display: block;
+    margin: 3rem auto;
+}
+
+/*................SECCIÓN: FORMULARIO.........................*/
+
+label {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.form-control {
+    padding: 1rem;
+    width: 80%;
+}
+
+input .form-control {
+    width: 300px;
+}
+
+#opciones {
+    margin: 2rem auto;
+}
+
+#magiaFav {
+
+    padding: 0.5rem;
+    font-size: 1.4rem;
+}
+
+#comentarios {
+    min-height: 20rem;
+    font-size: 1.2rem;
+}
+
+.form__btn {
+    font-size: 1.3rem;
+    width: 70%;
+    margin: 1.5rem auto;
+    padding: 0.5rem;
+}
+/*........................FOOTER:EMPRESA..........*/
+
+#input__newsletter__sm__y__md{
+    width: 100%;
+}
+
+#btn__newsletter{
+
+    width: 100%;
+}
+
+
+/*........................FOOTER: ACERCA DE MÍ..........*/
+
+.skills__card {
+    max-height: 600px;
+}

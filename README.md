@@ -1,2 +1,2 @@
-# DWN3CV-LUDUENA-PARCIAL_1
- Simulación de un e-commerce de magia dinámico  con PHP, HTML 5, Css, JS y Boostrap.
+# LUDUENA-PROYECTO-TIENDA-MAGIA
+ Simulación de un e-commerce responsive de magia
