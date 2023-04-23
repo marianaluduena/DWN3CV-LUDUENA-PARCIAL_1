@@ -7,7 +7,7 @@
  * @return string es la cant máxima de palabras que se mostrará con un elipsis (...) 
  */ 
 
- function resumirDescProd(string $descripProd, int $cantPalabras = 20) : string
+ function resumirDescProd(string $descripProd, int $cantPalabras = 30) : string
  {
  
      // explode toma una pieza de texto y la divide cuando encuentra un elemento

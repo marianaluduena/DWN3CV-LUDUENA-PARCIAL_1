@@ -13,8 +13,8 @@ function mostrarCatalogoCompleto(): array
             "id" => 1,
             "nombre" => "Cartas",
             "rama" => "cartomagia",
-            "nivel" => "Fácil",
-            "descripcion" => "Las cartas Bicycle estándar son un clásico en el mundo de la magia y no pueden faltarte en su kit de mago. Su plastificado de alta calidad las hacen resistentes, duraderas y fáciles de manipular. ¡Son ideales incluso para cardistry",
+            "nivel" => "Todos",
+            "descripcion" => "Las cartas Bicycle estándar son un clásico en el mundo de la magia y no pueden faltarte en su kit de mago. Su plastificado de alta calidad las hacen resistentes, duraderas y fáciles de manipular. ¡Son ideales incluso para cardistry!",
             "creador" => "varios",
             "marca" => "Bicycle",
             "formato" => "Físico",
@@ -27,17 +27,17 @@ function mostrarCatalogoCompleto(): array
             "nombre" => "Encuentra a la dama",
             "rama" => "cartomagia",
             "nivel" => "Difícil",
-            "descripcion" => "",
+            "descripcion" => "Un clásico en la magia callejera: intentá encontrar a la dama... si podés. Replicá éste asombroso efecto pero con un detalle extra: ¡usando cartas grandes! Éstas cartas extra grandes son e 30 X 30 cm, plastificadas, ligeras y de excelente calidad. Si ya éste efecto engañoso es asombroso con cartas normales, llevado a gran escala lo es aún más.",
             "creador" => "Jack Wilder",
             "marca" => "Theory11",
             "formato" => "Físico",
             "img" => "encuentra__a__la__dama.jpg",
-            "precio" => 5.599
+            "precio" => 5599
         ],
 
         [
             "id" => 3,
-            "nombre" => "Aros",
+            "nombre" => "Aros chinos",
             "rama" => "manipulacion",
             "nivel" => "Media",
             "descripcion" => " Ya sea en su forma más pequeña de 10 cm, mediana de 20 cm o en su máximo tamaño de 30 cm, los aros chinos nunca fallan en crear un efecto impactante en tu público. Son de acero inoxidable, ligeros y vienen en packs de 3, 4 o 6 aros según el tamaño que tengan. ¡Entrelazá los aros chinos entre sí y soltalos de una forma impactante!",
@@ -45,14 +45,14 @@ function mostrarCatalogoCompleto(): array
             "marca" => "Theori11",
             "formato" => "Físico",
             "img" => "aros__chinos.png",
-            "precio" => 3.500
+            "precio" => 3500
         ],
 
         [
             "id" => 4,
             "nombre" => "Esponjas",
             "rama" => "manipulacion",
-            "nivel" => "Media",
+            "nivel" => "Medio",
             "creador" => "varios",
             "descripcion" => " Su textura suave, flexible y tamaño pequeño hacen de las esponjas un elemento perfecto para toda clase de magos: profesionales o aficionados. Vienen en packs de 5 esponjas. ¿Preferís formas más interesantes? ¡Estás en el lugar indicado! Tenemos muchas formas más: cubos, conejitos, lunas y estrellas son algunas de ellas.",
             "marca" => "Magia y Cardistry",
@@ -71,7 +71,7 @@ function mostrarCatalogoCompleto(): array
             "marca" => "Magia y Cardistry",
             "formato" => "Físico",
             "img" => "panuelo__magico.jpg",
-            "precio" => 2.050
+            "precio" => 2050
         ],
 
         [
@@ -84,7 +84,7 @@ function mostrarCatalogoCompleto(): array
             "marca" => "Theory11",
             "formato" => "Físico",
             "img" => "esposas.png",
-            "precio" => 2.000
+            "precio" => 2000
         ],
 
         [
@@ -92,13 +92,97 @@ function mostrarCatalogoCompleto(): array
             "nombre" => "Billete de fuego",
             "rama" => "magia__de__escenario",
             "nivel" => "Difícil",
-            "descripcion" => " El papel de chispa o papel flash es el mejor aliado para manipular el fuego. Vienen en packs de 10 unidades.  Están diseñados para prenderse y apagarse rápidamente, sin dejar cenizas ni humo. Esto hará que tus manos queden completamente impecables después del efecto.",
+            "descripcion" => "El papel de chispa o papel flash es el mejor aliado para manipular el fuego. Vienen en packs de 10 unidades.  Están diseñados para prenderse y apagarse rápidamente, sin dejar cenizas ni humo. Esto hará que tus manos queden completamente impecables después del efecto.",
             "creador" => "varios",
             "marca" => "Theory11",
             "formato" => "Físico",
             "img" => "billete__fuego.webp",
-            "precio" => 1.250
-        ]
+            "precio" => 1250
+        ],
+
+        [
+
+            "id" => 8,
+            "nombre" => "Cartas Avengers",
+            "rama" => "cartomagia",
+            "nivel" => "Todos",
+            "descripcion" => "Para todos los fans de los superhéroes (y villanos) de Marvel Comics presentamos éste original mazo temático para darle un toque más personal y divertido a tu magia. Iron Man, Black Widow, Thor, Hack eye y Spiderman entre otros estarán presentes en cada uno de tus efectos. Creá momentos únicos e inolvidables con tu mazo personalizado de Avengers.",
+            "creador" => "Theory11",
+            "marca" => "Theory11",
+            "formato" => "Físico",
+            "img" => "avengers__cartas.png",
+            "precio" => 5050
+        ],
+
+        [
+
+            "id" => 9,
+            "nombre" => "Cartas Harry Potter",
+            "rama" => "cartomagia",
+            "nivel" => "Todos",
+            "descripcion" => "Pasá de ser un muggle a un verdadero mago y creá un ambiente mágico y único con las cartas originales del mago más famoso de todos: Harry Potter. Si hay alguien entre tu público que no disfruta de la magia, probá cambiar su opinión usando éste mazo tan pedido por los fans de la saga de JK Rowling, y transformá su experiencia en una única que nunca olvidará.",
+            "creador" => "Theory11",
+            "marca" => "Theory11",
+            "formato" => "Físico",
+            "img" => "hp__cartas.jpg",
+            "precio" => 5090
+        ],
+
+        [
+
+            "id" => 10,
+            "nombre" => "Tres migas",
+            "rama" => "magia__de__escenario",
+            "nivel" => "Intermedio",
+            "descripcion" => "'Sólo tres migas y un pocillo' decía el gran mago argentino René Lavand, y sólo con éso era capaz de crear un veradero milagro ante los ojos de su audiencia. Eso es todo lo que necesitás para llenar el pocillo con 2 migas y 1 siempre al bolsillo. No importa la cantidad de veces que lo repitas ni si rápido o lento, siempre aparecerán 3 migas cuando vuelques el contenido ante tu público.",
+            "creador" => "René Lavand",
+            "marca" => "Magia y Cardistry",
+            "formato" => "Físico",
+            "img" => "tres__migas.jpg",
+            "precio" => 3150
+        ],
+
+        [
+
+            "id" => 11,
+            "nombre" => "Cartas El Señor de los Anillos",
+            "rama" => "cartomagia",
+            "nivel" => "Todos",
+            "descripcion" => "Uno de los mazos de cartas más pedidos de nuestra tienda. La Tierra Media es el lugar perfecto para ambientar con algún relato fantástico, ya sea de la saga o inventado por vos, todos los efectos de magia que se te ocurrran. ¡El límite es tu imaginación!",
+            "creador" => "Theory11",
+            "marca" => "Theory11",
+            "formato" => "Físico",
+            "img" => "lotr__cartas.jpg",
+            "precio" => 5050
+        ],
+
+        [
+
+            "id" => 12,
+            "nombre" => "Carta esposas",
+            "rama" => "escapismo",
+            "nivel" => "Fácil",
+            "descripcion" => "Realizá un escape original y muy visual usando sólo una carta y tus pulgares. El truco consiste en una carta con dos agujeros, y el resto corre por tu cuenta para la presentación y finalmente soltarte de una simple carta.",
+            "creador" => "Julio Ribera",
+            "marca" => "Magia y Cardistry",
+            "formato" => "Físico",
+            "img" => "carta__esposas.jpg",
+            "precio" => 2050
+        ],
+
+        [
+
+            "id" => 13,
+            "nombre" => "Cartas Star Wars",
+            "rama" => "cartomagia",
+            "nivel" => "Todos",
+            "descripcion" => "Llevá tu magia a una galaxia muy, muy, lejana con las cartas temáticas de Star Wars y ambientá tus historias con los Jedi, los Sith y el Imperio. ¡Vas a ver que todos van a sentirse dentro de una película de Star Wars y van a interesarse más! No te dejes arrastrar al Lado Oscuro de la Magia, y que la Magia te acompañe",
+            "creador" => "Theory11",
+            "marca" => "Theory11",
+            "formato" => "Físico",
+            "img" => "cartas__star__wars.webp",
+            "precio" => 5050
+        ],
 
     ];
 
@@ -112,19 +196,26 @@ function mostrarCatalogoCompleto(): array
  * @param array 
  */
 
- function devolverDatosProducto(string $rama):array{
+function devolverDatosProducto(string $rama): array
+{
 
-$producto = [];
+    $producto = [];
 
-$catalogo = mostrarCatalogoCompleto();
+    $catalogo = mostrarCatalogoCompleto();
 
-foreach($catalogo as $efectoProducto){
+    // Cómo pasarlo a operador ternario??
 
-    if($efectoProducto["rama"] == $rama){
-
-        $producto[] = $efectoProducto;
+    if($rama =="todos"){
+        return mostrarCatalogoCompleto();
     }
-}
-return $producto;
 
- }
+
+    foreach ($catalogo as $efectoProducto) {
+
+        if ($efectoProducto["rama"] == $rama) {
+
+            $producto[] = $efectoProducto;
+        }
+    }
+    return $producto;
+}

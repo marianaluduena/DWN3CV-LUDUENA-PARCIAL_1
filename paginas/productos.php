@@ -9,11 +9,6 @@ require_once "libraries/misProductos.php";
 
 // "rama" será el parámetro que la superglobal tomará de la URL en index.php declarada en los links a las categorías
 $categoriaElegida = $_GET["rama"] ?? FALSE;
-
-echo "<pre>";
-print_r($categoriaElegida);
-echo "</pre>";
-
 $catalogo = devolverDatosProducto($categoriaElegida);
 
 /* 
@@ -63,7 +58,7 @@ $titulo = ucwords(str_replace("__", " ", $categoriaElegida));
                                 <?= $efecto["nivel"] ?>
                             </p>
 
-                            <span class="precio">$ <?= number_format($efecto["precio"], 2, ".", ",") ?></span>
+                            <span class="precio">$ <?= number_format($efecto["precio"], 2, ",", ".") ?></span>
 
                             <a href="./producto__detalle/esposas.html" class="card-link btn__comprar">Comprar</a>
                         </div>
