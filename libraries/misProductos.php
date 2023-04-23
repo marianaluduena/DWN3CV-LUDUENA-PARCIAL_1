@@ -12,7 +12,7 @@ function mostrarCatalogoCompleto(): array
         [
             "id" => 1,
             "nombre" => "Cartas",
-            "rama" => "Cartomagia",
+            "rama" => "cartomagia",
             "nivel" => "Fácil",
             "descripcion" => "Las cartas Bicycle estándar son un clásico en el mundo de la magia y no pueden faltarte en su kit de mago. Su plastificado de alta calidad las hacen resistentes, duraderas y fáciles de manipular. ¡Son ideales incluso para cardistry",
             "creador" => "varios",
@@ -25,7 +25,7 @@ function mostrarCatalogoCompleto(): array
         [
             "id" => 2,
             "nombre" => "Encuentra a la dama",
-            "rama" => "Cartomagia",
+            "rama" => "cartomagia",
             "nivel" => "Difícil",
             "descripcion" => "",
             "creador" => "Jack Wilder",
@@ -38,7 +38,7 @@ function mostrarCatalogoCompleto(): array
         [
             "id" => 3,
             "nombre" => "Aros",
-            "rama" => "Manipulación",
+            "rama" => "manipulacion",
             "nivel" => "Media",
             "descripcion" => " Ya sea en su forma más pequeña de 10 cm, mediana de 20 cm o en su máximo tamaño de 30 cm, los aros chinos nunca fallan en crear un efecto impactante en tu público. Son de acero inoxidable, ligeros y vienen en packs de 3, 4 o 6 aros según el tamaño que tengan. ¡Entrelazá los aros chinos entre sí y soltalos de una forma impactante!",
             "creador" => "Ching Ling Foo",
@@ -51,7 +51,7 @@ function mostrarCatalogoCompleto(): array
         [
             "id" => 4,
             "nombre" => "Esponjas",
-            "rama" => "Manipulación",
+            "rama" => "manipulacion",
             "nivel" => "Media",
             "creador" => "varios",
             "descripcion" => " Su textura suave, flexible y tamaño pequeño hacen de las esponjas un elemento perfecto para toda clase de magos: profesionales o aficionados. Vienen en packs de 5 esponjas. ¿Preferís formas más interesantes? ¡Estás en el lugar indicado! Tenemos muchas formas más: cubos, conejitos, lunas y estrellas son algunas de ellas.",
@@ -64,7 +64,7 @@ function mostrarCatalogoCompleto(): array
         [
             "id" => 5,
             "nombre" => "Pañuelo mágico",
-            "rama" => "Manipulación",
+            "rama" => "manipulacion",
             "nivel" => "Fácil",
             "descripcion" => "Uno de los efectos más visuales que tenemos es pasar, literalmente, un pañuelo de seda a través de cualquier smartphone propio o, todavía mejor, de algún voluntario. Muy visual, muy fácil de hacer, es apto para principiantes y el asombro está garantizado. La magia y la tecnología se mezclan todo el tiempo, y ésto es prueba de ello.",
             "creador" => "Penn & Teller",
@@ -77,7 +77,7 @@ function mostrarCatalogoCompleto(): array
         [
             "id" => 6,
             "nombre" => "Esposas",
-            "rama" => "Escapismo",
+            "rama" => "escapismo",
             "nivel" => "Difícil",
             "descripcion" => "Su acero inoxidable, las cadenas, los candados y las llaves que atrapan tus manos son suficiente para convencer a tu público de que son esposas 100% reales, sin una sola parte de plástico. ¡Esto hará todavía más increíble tu escapismo cuando en tres segundos liberes tus manos de ellas de una manera imposible! Las esposas incluyen dos candados y llave",
             "creador" => "Harry Houdini",
@@ -90,7 +90,7 @@ function mostrarCatalogoCompleto(): array
         [
             "id" => 7,
             "nombre" => "Billete de fuego",
-            "rama" => "Magia de escenario",
+            "rama" => "magia__de__escenario",
             "nivel" => "Difícil",
             "descripcion" => " El papel de chispa o papel flash es el mejor aliado para manipular el fuego. Vienen en packs de 10 unidades.  Están diseñados para prenderse y apagarse rápidamente, sin dejar cenizas ni humo. Esto hará que tus manos queden completamente impecables después del efecto.",
             "creador" => "varios",

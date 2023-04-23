@@ -1,31 +1,33 @@
 <?php
 
+/*
+Ésta sección sólo traerá los productos de una determinada categoría que
+el usuario eligió, no el catálogo completo de todos los productos de la tienda.
+*/
+
 require_once "libraries/misProductos.php";
 
-$productoElegido = $_GET["nombre"] ?? FALSE;
+// "rama" será el parámetro que la superglobal tomará de la URL en index.php declarada en los links a las categorías
+$categoriaElegida = $_GET["rama"] ?? FALSE;
 
-$catalogo = devolverDatosProducto($productoElegido);
+echo "<pre>";
+print_r($categoriaElegida);
+echo "</pre>";
 
-/* Array incrustado de los productos de la tienda
-Incrustar el array de productos con require SIEMPRE ANTES de la función
-que mostrará el catálogo completo o de lo contrario no va
-a funcionar.
+$catalogo = devolverDatosProducto($categoriaElegida);
 
-
+/* 
 Función ucwords convertirá la 1er letra de todos los nombres 
 de las ramas de magia a mayúsculas
 */
 
-$titulo = ucwords(str_replace("__", " ", $productoElegido));
-
+$titulo = ucwords(str_replace("__", " ", $categoriaElegida));
 
 ?>
-
 
 <section class="row">
 
     <div class="container">
-        <!-- <h2 id="productos" class="text-md-center my-3 my-md-5 py-3">Productos</h2> -->
         <h2 class="text-md-center my-3 my-md-5 py-3">Mirá todo nuestro catálogo de: <?= $titulo ?></h2>
     </div>
 

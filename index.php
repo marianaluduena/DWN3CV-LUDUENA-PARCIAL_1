@@ -5,6 +5,7 @@ require_once "libraries/funciones.php";
 // Defino cuáles serán las páginas/secciones válidas del sitio web
 
 $pagsValidas = [
+
     "home" => [
         "titulo" => "Inicio",
     ],
@@ -12,7 +13,10 @@ $pagsValidas = [
         "titulo" => "Ramas de la magia",
     ],
     "productos" => [
-        "titulo" => "Productos",
+        "titulo" => "Todos nuestros productos",
+    ],
+    "producto" => [
+        "titulo" => "Detalle de producto",
     ],
     "beneficios" => [
         "titulo" => "¿Por qué aprender magia?",
@@ -43,8 +47,6 @@ $pagina = $_GET["pag"];
 
 // Si el usuario no envía ningún nombre de mi sitio, enviarlo al home
 
-//$pagina = isset($_GET["pag"]) ? $pagina = $_GET["pag"] : "home";
-
 $pagina = $_GET["pag"] ?? "home";
 
 // Si el usurio eligió un tipo de magia
@@ -57,7 +59,6 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
 
     $entrada = "404";
     $tituloPag = "Página no encontrada";
-
 } else {
 
     // $entrada será la sección solicitada por el usuario del sitio
@@ -126,12 +127,12 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="index.php?pag=home">Home</a>
                     <a class="nav-link active" href="index.php?pag=ramas">Tipos de magia</a>
-
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="index.php?pag=productos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Productos
                         </a>
                         <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="index.php?pag=productos">Todos</a></li>
                             <li><a class="dropdown-item" href="index.php?pag=productos&rama=cartomagia">Cartomagia</a></li>
                             <li><a class="dropdown-item" href="index.php?pag=productos&rama=manipulacion">Manipulación</a></li>
                             <li><a class="dropdown-item" href="index.php?pag=productos&rama=magia__de__escenario">Escenario</a></li>

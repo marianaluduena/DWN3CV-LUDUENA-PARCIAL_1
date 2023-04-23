@@ -41,10 +41,9 @@ h4 {
 /*...............MENÚ DE NAVEGACIÓN............*/
 
 nav {
-    max-width: 730px;
+  
     justify-content: center;
-    margin: 1.5rem auto;
-    border-radius: 15px;
+    
 }
 
 
