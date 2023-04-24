@@ -205,10 +205,11 @@ function devolverDatosProducto(string $rama): array
 
     // Cómo pasarlo a operador ternario??
 
-    if($rama =="todos"){
+   if($rama =="todos"){
         return mostrarCatalogoCompleto();
     }
 
+    //$rama == "todos" ? mostrarCatalogoCompleto();
 
     foreach ($catalogo as $efectoProducto) {
 
