@@ -202,7 +202,7 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
                             <li>Historia</li>
                         </a>
 
-                        <a href="#productos">
+                        <a href="index.php?pag=productos&rama=todos">
                             <li>Productos</li>
                         </a>
 

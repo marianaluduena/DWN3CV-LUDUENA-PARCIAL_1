@@ -57,6 +57,7 @@ h1 {
 h2 {
     --bs--text: center;
     font-size: 1.6rem;
+    width: 100%;
 }
 
 h3 {
@@ -369,13 +370,16 @@ label .form-label {
     margin: 1.2rem auto;
     text-align: center;
     line-height: 2.5rem;
+  
 }
 
 .form-label {
-    margin-bottom: 2rem;
-    padding: 0.5rem;
+   /* margin-bottom: 2rem;
+    
+     width: 250px;
+    */
     border-radius: 5px;
-    width: 250px;
+    padding: 0.5rem;
 }
 
 .datos {
@@ -384,7 +388,7 @@ label .form-label {
 }
 
 label {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     display: inline-block;
 }
 

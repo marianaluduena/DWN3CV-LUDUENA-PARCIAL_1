@@ -31,7 +31,7 @@ function mostrarCatalogoCompleto(): array
             "creador" => "Jack Wilder",
             "marca" => "Theory11",
             "formato" => "Físico",
-            "img" => "encuentra__a__la__dama.jpg",
+            "img" => "encuentra__a__la__dama.png",
             "precio" => 5599
         ],
 
@@ -124,7 +124,7 @@ function mostrarCatalogoCompleto(): array
             "creador" => "Theory11",
             "marca" => "Theory11",
             "formato" => "Físico",
-            "img" => "hp__cartas.jpg",
+            "img" => "hp__cartas.png",
             "precio" => 5090
         ],
 
@@ -206,6 +206,7 @@ function devolverDatosProducto(string $rama): array
     // Cómo pasarlo a operador ternario??
 
    if($rama =="todos"){
+
         return mostrarCatalogoCompleto();
     }
 
