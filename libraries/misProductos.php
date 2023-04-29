@@ -2,7 +2,7 @@
 
 /**
  * Función que devuelve el catálogo completo sin importar la categoría
- * @return array es un array que devuelve todo el catálogo de mi sitio web
+ * @return array es un array que devuelve todos los productos del sitio web
  */
 
 function mostrarCatalogoCompleto(): array
@@ -191,8 +191,8 @@ function mostrarCatalogoCompleto(): array
 
 
 /**
- * Función para devolver los datos de un producto específico
- * @param string $rama contendrá el nombre del producto con esa categoría
+ * Función para devolver los productos de una categoría específica
+ * @param string $rama será un string que buscará el nombre del producto con esa categoría
  * @return array $producto contendrá todos los productos devueltos con esa categoría
  */
 
