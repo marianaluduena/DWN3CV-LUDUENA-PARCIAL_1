@@ -192,11 +192,11 @@ function mostrarCatalogoCompleto(): array
 
 /**
  * Función para devolver los datos de un producto específico
- * @param string $producto contendrá el nombre del producto
- * @param array 
+ * @param string $rama contendrá el nombre del producto con esa categoría
+ * @return array $producto contendrá todos los productos devueltos con esa categoría
  */
 
-function devolverDatosProducto(string $rama): array
+function devolverProductoPorCat(string $rama): array
 {
 
     $producto = [];
@@ -205,7 +205,7 @@ function devolverDatosProducto(string $rama): array
 
     // Cómo pasarlo a operador ternario??
 
-   if($rama =="todos"){
+    if ($rama == "todos") {
 
         return mostrarCatalogoCompleto();
     }
@@ -220,4 +220,25 @@ function devolverDatosProducto(string $rama): array
         }
     }
     return $producto;
+}
+
+/**
+ * Función que devuelve todos los datos de 1 producto elegido por el usuario
+ * @param int $idProducto es el Id del producto
+ */
+
+function traerProductoPorId(int $idProducto,)
+{
+
+    // 1ero traer todo el catálogo completo
+    $catalogo = mostrarCatalogoCompleto();
+
+    foreach ($catalogo as $efectoProducto) {
+
+        // si el id encontrado se cumple, devuelve
+        if ($efectoProducto["id"] == $idProducto) {
+
+            return  $efectoProducto;
+        }
+    }
 }
