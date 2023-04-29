@@ -223,11 +223,12 @@ function devolverProductoPorCat(string $rama): array
 }
 
 /**
- * Función que devuelve todos los datos de 1 producto elegido por el usuario
+ * Función que devuelve 1 producto elegido por el usuario
  * @param int $idProducto es el Id del producto
+ * @return mixed devuelve un array con los datos del producto encontrado, caso contrario null
  */
 
-function traerProductoPorId(int $idProducto,)
+function traerProductoPorId(int $idProducto,) : mixed
 {
 
     // 1ero traer todo el catálogo completo
@@ -241,4 +242,6 @@ function traerProductoPorId(int $idProducto,)
             return  $efectoProducto;
         }
     }
+
+    return null;
 }

@@ -1,36 +1,29 @@
 <?php
 
 /*
-Ésta sección sólo traerá los productos de una determinada categoría que
-el usuario eligió, no el catálogo completo de todos los productos de la tienda.
+Ésta sección sólo traerá el producto que el usuario eligió.
 */
 
 require_once "libraries/misProductos.php";
 
-// "rama" será el parámetro que la superglobal tomará de la URL en index.php declarada en los links a las categorías
-$categoriaElegida = $_GET["rama"] ?? FALSE;
+// La superglobal irá a buscar el id del producto solicitado en el catálogo, sino devolver false
 
-$catalogo = devolverProductoPorCat($categoriaElegida);
+$idProducto = $_GET["id"] ?? FALSE;
 
-/* 
-Función ucwords convertirá la 1er letra de todos los nombres 
-de las ramas de magia a mayúsculas
-*/
-
-$titulo = ucwords(str_replace("__", " ", $categoriaElegida));
+$efecto = traerProductoPorId($idProducto);
 
 ?>
 
 <section class="row">
-
+<!--
     <div class="container">
         <h2 class="text-md-center my-3 my-md-5 py-3">Mirá todo nuestro catálogo de: <?= $titulo ?></h2>
-    </div>
+    </div> -->
 
-    <!-- Verificar si el array de categoría no está vacío -->
+    <!-- Verificar si el array de producto no está vacío -->
 
-    <?php if (!empty($catalogo)) { ?>
-        <?php foreach ($catalogo as $efecto)
+    <?php if (!empty($idProducto)) { ?>
+        <?php foreach ($idProducto as $efecto)
         /* echo "<pre>";
         print_r($efecto);
         echo "</pre>";*/ { ?>
@@ -75,6 +68,6 @@ $titulo = ucwords(str_replace("__", " ", $categoriaElegida));
 
         <!-- Si el array del catálogo está vacío-->
     <?php } else { ?>
-        <div class="col-12 text-danger text-center h3">No se encontraron resultados de ésa categoría</div>
+        <div class="col-12 text-danger text-center h3">No encontramos el producto buscado</div>
     <?php } ?>
 </section>
