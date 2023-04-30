@@ -10,7 +10,7 @@ require_once "libraries/misProductos.php";
 
 $idProducto = $_GET["id"] ?? FALSE;
 
-$efecto = traerProductoPorId($idProducto);
+$producto = traerProductoPorId($idProducto);
 
 ?>
 
@@ -23,48 +23,42 @@ $efecto = traerProductoPorId($idProducto);
     <!-- Verificar si el array de producto no está vacío -->
 
     <?php if (!empty($idProducto)) { ?>
-        <?php foreach ($idProducto as $efecto)
-        /* echo "<pre>";
-        print_r($efecto);
-        echo "</pre>";*/ { ?>
-
+       
             <div class="col-12 col-md-6 col-lg-4 ">
                 <div class="row">
 
                     <div class="col-12 text-center ">
-                        <h3 class="my-3 py-3"><?= $efecto["nombre"] ?></h3>
+                        <h3 class="my-3 py-3"><?= $producto["nombre"] ?></h3>
                     </div>
 
                     <div class="col-12 p-3">
 
                         <div class="card">
 
-                            <img src="./img/productos/<?= $efecto["img"] ?>" class="card-img-top pastilla__producto" alt="<?= $efecto["nombre"] ?>">
+                            <img src="./img/productos/<?= $producto["img"] ?>" class="card-img-top pastilla__producto" alt="<?= $producto["nombre"] ?>">
 
                             <div class="card-body">
                                 <h3 class="titulo__producto__card"> Descripción</h3>
 
                                 <p class="card-text text-md-center">
-                                    <?= resumirDescProd($efecto["descripcion"], 30) ?>
+                                    <?= resumirDescProd($producto["descripcion"], 30) ?>
                                 </p>
 
                                 <h3 class="titulo__producto__card">Nivel</h3>
 
                                 <p class="card-text text-md-center">
-                                    <?= $efecto["nivel"] ?>
+                                    <?= $producto["nivel"] ?>
                                 </p>
 
-                                <span class="precio">$ <?= number_format($efecto["precio"], 2, ",", ".") ?></span>
+                                <span class="precio">$ <?= number_format($producto["precio"], 2, ",", ".") ?></span>
 
-                                <a href="index.php?pag=producto&id=<?=$efecto["id"] ?>" class="card-link btn__comprar">Comprar</a>
+                               <a href="index.php?pag=producto&id=<?=$producto["id"] ?>" class="card-link btn__comprar">Comprar</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             </div>
-
-        <?php } ?>
 
         <!-- Si el array del catálogo está vacío-->
     <?php } else { ?>

@@ -196,8 +196,7 @@ function mostrarCatalogoCompleto(): array
  * @return array $producto contendrá todos los productos devueltos con esa categoría
  */
 
-function devolverProductoPorCat(string $rama): array
-{
+function devolverProductoPorCat(string $rama): array {
 
     $producto = [];
 
@@ -228,8 +227,7 @@ function devolverProductoPorCat(string $rama): array
  * @return mixed devuelve un array con los datos del producto encontrado, caso contrario null
  */
 
-function traerProductoPorId(int $idProducto,) : mixed
-{
+function traerProductoPorId(int $idProducto):mixed {
 
     // 1ero traer todo el catálogo completo
     $catalogo = mostrarCatalogoCompleto();

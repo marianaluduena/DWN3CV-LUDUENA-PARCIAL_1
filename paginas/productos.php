@@ -63,7 +63,7 @@ $titulo = ucwords(str_replace("__", " ", $categoriaElegida));
 
                                 <span class="precio">$ <?= number_format($efecto["precio"], 2, ",", ".") ?></span>
 
-                                <a href="index.php?pag=producto&id=<?=$efecto["id"] ?>" class="card-link btn__comprar">Comprar</a>
+                                <a href="index.php?pag=producto&id=<?=$efecto["id"] ?>" class="card-link btn__comprar">Ver más</a>
                             </div>
                         </div>
                     </div>

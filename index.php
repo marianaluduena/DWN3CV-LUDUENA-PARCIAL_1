@@ -135,7 +135,7 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
                             Productos
                         </a>
                         <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=todos">Todos</a></li>
+                            <li><a class="dropdown-item" href="index.php?pag=productos&rama=todos">Todos</a></li>
                             <li><a class="dropdown-item" href="index.php?pag=productos&rama=cartomagia">Cartomagia</a></li>
                             <li><a class="dropdown-item" href="index.php?pag=productos&rama=manipulacion">Manipulación</a></li>
                             <li><a class="dropdown-item" href="index.php?pag=productos&rama=magia__de__escenario">Escenario</a></li>
