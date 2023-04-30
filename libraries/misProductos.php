@@ -235,11 +235,10 @@ function traerProductoPorId(int $idProducto):mixed {
     foreach ($catalogo as $efectoProducto) {
 
         // si el id encontrado se cumple, devuelve
-        if ($efectoProducto["id"] == $idProducto) {
+        if ($efectoProducto["id"] == $idProducto){
 
-            return  $efectoProducto;
+            return $efectoProducto;
         }
     }
-
     return null;
 }

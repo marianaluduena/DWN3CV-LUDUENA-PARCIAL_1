@@ -17,12 +17,12 @@ $producto = traerProductoPorId($idProducto);
 <section class="row">
 <!--
     <div class="container">
-        <h2 class="text-md-center my-3 my-md-5 py-3">Mirá todo nuestro catálogo de: <?= $titulo ?></h2>
+     
     </div> -->
 
     <!-- Verificar si el array de producto no está vacío -->
 
-    <?php if (!empty($idProducto)) { ?>
+    <?php if (!empty($producto)) { ?>
        
             <div class="col-12 col-md-6 col-lg-4 ">
                 <div class="row">
@@ -52,7 +52,7 @@ $producto = traerProductoPorId($idProducto);
 
                                 <span class="precio">$ <?= number_format($producto["precio"], 2, ",", ".") ?></span>
 
-                               <a href="index.php?pag=producto&id=<?=$producto["id"] ?>" class="card-link btn__comprar">Comprar</a>
+                               <a href="#" class="card-link btn__comprar">Comprar</a>
                             </div>
                         </div>
                     </div>
