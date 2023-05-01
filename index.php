@@ -1,6 +1,7 @@
 <?php
 
-require_once "libraries/funciones.php";
+//require_once "libraries/funciones.php";
+
 
 // Defino cuáles serán las páginas/secciones válidas del sitio web
 

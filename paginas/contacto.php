@@ -67,7 +67,7 @@
 
         <div class="row justify-content-center">
             <div class="col-lg-10 col-md-12">
-                <form method="POST" class="form justify-content-center" action="enviar__datos.php">
+                <form method="POST" class="form justify-content-center" action="ultraSecreto/enviar__datos.php">
                     <div class="row">
                         <div class="col-12 col-md-6 mb-3">
                             <label for="nombre" class="form-label datos">Nombre *</label>
@@ -113,6 +113,7 @@
                                 <option value="2">Escapismo</option>
                                 <option value="3">Manipulación</option>
                                 <option value="4">Magia de escenario</option>
+                                <option value="5">Mentalismo</option>
                             </select>
                         </div>
                     </div>
