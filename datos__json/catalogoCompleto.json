@@ -1,4 +1,5 @@
-[{
+[
+    {
     "id": 1,
     "nombre": "Cartas",
     "rama": "cartomagia",
@@ -12,18 +13,6 @@
 }, 
 {
     "id": 2,
-    "nombre": "Aros chinos",
-    "rama": "manipulacion",
-    "nivel": "Media",
-    "descripcion": " Ya sea en su forma m\u00e1s peque\u00f1a de 10 cm, mediana de 20 cm o en su m\u00e1ximo tama\u00f1o de 30 cm, los aros chinos nunca fallan en crear un efecto impactante en tu p\u00fablico. Son de acero inoxidable, ligeros y vienen en packs de 3, 4 o 6 aros seg\u00fan el tama\u00f1o que tengan. \u00a1Entrelaz\u00e1 los aros chinos entre s\u00ed y soltalos de una forma impactante!",
-    "creador": "Ching Ling Foo",
-    "marca": "Theori11",
-    "formato": "F\u00edsico",
-    "img": "aros__chinos.png",
-    "precio": 3500
-}, 
-{
-    "id": 3,
     "nombre": "Encuentra a la dama",
     "rama": "cartomagia",
     "nivel": "Dif\u00edcil",
@@ -34,7 +23,18 @@
     "img": "encuentra__a__la__dama.png",
     "precio": 5599
 }, 
-
+{
+    "id": 3,
+    "nombre": "Aros chinos",
+    "rama": "manipulacion",
+    "nivel": "Media",
+    "descripcion": " Ya sea en su forma m\u00e1s peque\u00f1a de 10 cm, mediana de 20 cm o en su m\u00e1ximo tama\u00f1o de 30 cm, los aros chinos nunca fallan en crear un efecto impactante en tu p\u00fablico. Son de acero inoxidable, ligeros y vienen en packs de 3, 4 o 6 aros seg\u00fan el tama\u00f1o que tengan. \u00a1Entrelaz\u00e1 los aros chinos entre s\u00ed y soltalos de una forma impactante!",
+    "creador": "Ching Ling Foo",
+    "marca": "Theori11",
+    "formato": "F\u00edsico",
+    "img": "aros__chinos.png",
+    "precio": 3500
+}, 
 {
     "id": 4,
     "nombre": "Esponjas",
@@ -152,6 +152,90 @@
     "creador": "Theory11",
     "marca": "Theory11",
     "formato": "F\u00edsico",
-    "img": "cartas__star__wars.webp",
+    "img": "star__wars__cartas.jpg",
     "precio": 5050
+}, 
+{
+    "id": 14,
+    "nombre": "Cubiletes profesionales",
+    "rama": "escenario",
+    "nivel": "Intermedio",
+    "descripcion": "Un cl\u00e1sico de la magia. El mago te muestra c\u00f3mo las bolas rojas viajan de un cubilete a otro, desaparecen y aparecen. Este es un set de cubiletes completamente s\u00f3lido. Trae todo lo que necesitas para llevar a cabo las rutinas cl\u00e1sicas de esta rama de la magia. No solo es completamente pr\u00e1ctico, sino que tambi\u00e9n se ve hermoso. Incluye tres cubiletes, cuatro bolas rojas, y una bolsa negra de terciopelo para moverlo f\u00e1cilmente.",
+    "creador": "Penn & Teller",
+    "marca": "Magia y Cardistry",
+    "formato": "F\u00edsico",
+    "img": "cubiletes__profesionales__laton.jpg",
+    "precio": 10.299
+}, 
+{
+    "id": 15,
+    "nombre": "Bandas el\u00e1sticas",
+    "rama": "manipulacion",
+    "nivel": "Intermedio",
+    "descripcion": "Cre\u00e1 ilusiones y efectos muy visuales usando s\u00f3lo unas simples bandas el\u00e1sticas especialemnte dise\u00f1adas para magia. Al estar fabricadas con silicona son mucho m\u00e1s resistentes y duraderas que las bandas el\u00e1sticas convencionales. Vienen 100 unidades en cada bolsa y en colores surtidos: rojo, amarillo, verde y azul. Tienen 4 cm de di\u00e1metro.",
+    "creador": "Julio Ribera",
+    "marca": "Magia y Cardistry",
+    "formato": "F\u00edsico",
+    "img": "bandas__elasticas.jpg",
+    "precio": 3999
+}, 
+{
+    "id": 16,
+    "nombre": "Cuchara m\u00e1gica",
+    "rama": "mentalismo",
+    "nivel": "F\u00e1cil",
+    "descripcion": "Us\u00e1 una cuchara de caf\u00e9 o t\u00e9 prestada completamente normal sin ning\u00fan trucaje (que puede estar incluso firmada) y hac\u00e9 que el metal de esa misma cuchara se vuelva l\u00edquido visualmente entre las yemas de tus dedos mientras se dobla lentamente deform\u00e1ndose y cambiando completamente de forma. Finalmente, \u00a1vuelve a restaurarse en su condici\u00f3n original! Sin cambios, ni gaffs, la MISMA cuchara se devuelve al espectador para que la guarde como un recuerdo asombroso. Muy visual, muy f\u00e1cil, de hacer, pod\u00e9s hacer \u00e9ste efecto estando rodeado, el reseteo es instant\u00e1neo y lo mejor: \u00a1pod\u00e9s usar una cuchara prestada!",
+    "creador": "Jack Wilder",
+    "marca": "Magia y Cardistry",
+    "formato": "F\u00edsico",
+    "img": "cuchara__doblada.jpg",
+    "precio": 15199
+}, 
+{
+    "id": 17,
+    "nombre": "Anillos de poder",
+    "rama": "manipulacion",
+    "nivel": "Dif\u00edcil",
+    "descripcion": "Pon\u00e9s un anillo en tu dedo \u00edndice y un segundo despu\u00e9s SALTA a su dedo pulgar. Pero \u00e9se es s\u00f3lo el inicio: pon\u00e9s luego el anillo en tu dedo medio y (no dejes que nadie parpade\u00e9 o se lo perder\u00e1) m\u00e1gicamnete tu anillo se TELETRANSPORTA a tu dedo anular DE LA OTRA MANO. Con un simple pase m\u00e1gico tu anillo finalmente se derrite y se solidifica en la palma de tu mano. \u00bfLa mejor parte? Es muy f\u00e1cil de aprender. Hay 5 modelos disponibles para que elijas y todas las medidas disponibles. 5 anillos de poder, 1 anillo para sorprenderlos a todos.",
+    "creador": "Callen Morelli",
+    "marca": "Theory11",
+    "formato": "F\u00edsico",
+    "img": "anillos__magneticos.jpg",
+    "precio": 8290
+}, 
+{
+    "id": 18,
+    "nombre": "Loops m\u00e1gicos",
+    "rama": "mentalismo",
+    "nivel": "Intermedio",
+    "descripcion": "Imaginate tener la capacidad de levitar cualquier objeto \u00a1con \u00e9stos loops m\u00e1gicos eso es posible! Cada pack viene con 8 loops invisibles lo suficientemente fuertes para mover objetos pesados \u200b\u200bcomo cubiertos, anteojos de sol, billetes\u2026incluso pod\u00e9s hacer flotar un anillo prestado! Y lo mejor de todo es que la preparaci\u00f3n solo te llevar\u00e1 unos segundos. El protector de loops los proteger\u00e1 en todo momento de cualquier da\u00f1o o presi\u00f3n. Ya no ten\u00e9s que preocuparte por la disminuci\u00f3n de la fuerza de los loops debido a los exclusivos protectores patentados que los seguros seguros bajo cualquier condici\u00f3n.",
+    "creador": "Yigal Mesika",
+    "marca": "Magia y Cardistry",
+    "formato": "F\u00edsico",
+    "img": "loop__invisible.jpg",
+    "precio": 4520
+}, 
+{
+    "id": 19,
+    "nombre": "13 escalones del mentalismo",
+    "rama": "mentalismo",
+    "nivel": "Intermedio",
+    "descripcion": "El manual por excelencia del mundo del mentalismo. Tony Corinda, uno de los genios de la magia mental de nuestro tiempo, descubre paso a paso, los m\u00e9todos y t\u00e9cnicas m\u00e1s efectivos del arte de leer la mente. En los Trece Escalones del Mentalismo descubrir\u00e1s y aprender\u00e1s a: leer el pensamiento de miembros del p\u00fablico, Predecir los n\u00fameros ganadores de loter\u00edas y quinielas, Predecir titulares de prensa. Un recorrido por los m\u00e1s asombrosos experimentos con mediums. Todas las claves de la lectura del pasado, futuro y presente de cualquier individuo. Trucos publicitarios y consejos para tu promoci\u00f3n como mago. El u\u00f1il (juegos con u\u00f1il), Lectura de l\u00e1piz, de labios, del sonido, t\u00e1ctil y muscular, Predicciones, Vendas (juegos con vendas), Papeletas, Test de libro, Telepat\u00eda entre dos, Juegos con cartas. La Biblia del Mentalismo, ahora en espa\u00f1ol. ",
+    "creador": "Tony Corinda",
+    "marca": "Magia y Cardistry",
+    "formato": "Digital",
+    "img": "trece__escalones__del__mentalismo.jpg",
+    "precio": 5990
+}, 
+{
+    "id": 20,
+    "nombre": "12 Juegos con una baraja prestada",
+    "rama": "cartomagia",
+    "nivel": "Todos",
+    "descripcion": "\u00bfCansado de tener que llevar encima mil trucajes especiales para poder hacer magia? Gardner te da una soluci\u00f3n con 12 efectos brillantes y entretenidos con una simple baraja normal.",
+    "creador": "Martin Gardner",
+    "marca": "Magia y Cardistry",
+    "formato": "Digital",
+    "img": "libro__juegos__cartomagia.jpg",
+    "precio": 3159
 }]

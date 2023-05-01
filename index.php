@@ -138,6 +138,7 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
                             <li><a class="dropdown-item" href="index.php?pag=productos&rama=todos">Todos</a></li>
                             <li><a class="dropdown-item" href="index.php?pag=productos&rama=cartomagia">Cartomagia</a></li>
                             <li><a class="dropdown-item" href="index.php?pag=productos&rama=manipulacion">Manipulación</a></li>
+                            <li><a class="dropdown-item" href="index.php?pag=productos&rama=mentalismo">Mentalismo</a></li>
                             <li><a class="dropdown-item" href="index.php?pag=productos&rama=magia__de__escenario">Escenario</a></li>
                             <li><a class="dropdown-item" href="index.php?pag=productos&rama=escapismo">Escapismo</a></li>
                         </ul>
