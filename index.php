@@ -10,6 +10,9 @@ $pagsValidas = [
     "home" => [
         "titulo" => "Inicio",
     ],
+    "nosotros" => [
+        "titulo" => "Nosotros",
+    ],
     "ramas" => [
         "titulo" => "Ramas de la magia",
     ],
@@ -130,6 +133,7 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="index.php?pag=home">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.php?pag=nosotros">Nosotros</a>
                     <a class="nav-link active" href="index.php?pag=ramas">Tipos de magia</a>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="index.php?pag=productos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
