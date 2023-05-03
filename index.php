@@ -1,5 +1,6 @@
 <?php
 
+//require_once "clases/Efecto.php";
 require_once "libraries/funciones.php";
 
 
@@ -23,7 +24,7 @@ $pagsValidas = [
         "titulo" => "Detalle de producto",
     ],
     "beneficios" => [
-        "titulo" => "¿Por qué aprender magia?",
+        "titulo" => "Beneficios de la magia",
     ],
     "truco" => [
         "titulo" => "Probá éste truco",
@@ -31,8 +32,8 @@ $pagsValidas = [
     "contacto" => [
         "titulo" => "Contacto"
     ],
-    "acerca__de" => [
-        "titulo" => "Acerca de"
+    "acerca" => [
+        "titulo" => "Acerca"
     ]
 ];
 
@@ -148,10 +149,10 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
                             <li><a class="dropdown-item" href="index.php?pag=productos&rama=escapismo">Escapismo</a></li>
                         </ul>
                     </li>
-                    <a class="nav-link active" href="index.php?pag=beneficios">¿Por qué aprender magia?</a>
+                    <a class="nav-link active" href="index.php?pag=beneficios">Beneficios de la magia</a>
                     <a class="nav-link active" href="index.php?pag=truco">¡Probá éste truco!</a>
                     <a class="nav-link active" href="index.php?pag=contacto">Contacto</a>
-                    <a class="nav-link active" href="index.php?pag=acerca__de">Acerca de</a>
+                    <a class="nav-link active" href="index.php?pag=acerca">Acerca</a>
                 </div>
             </div>
 

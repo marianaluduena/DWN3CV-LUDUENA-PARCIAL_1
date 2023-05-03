@@ -15,10 +15,6 @@ $producto = traerProductoPorId($idProducto);
 ?>
 
 <section class="row">
-<!--
-    <div class="container">
-     
-    </div> -->
 
     <!-- Verificar si el array de producto no está vacío -->
 
