@@ -5,9 +5,8 @@ nav {
 
 }
 
-.navbar-nav>.nav-link.active {
+li.nav-item.dropdown>a.nav-link.dropdown-toggle{
     font-size: 1rem;
-
 }
 
 .navbar>.container-fluid{
@@ -76,7 +75,7 @@ iframe {
 }
 
 /*...............SECCIÓN: CONTACTO - FORMULARIO ............*/
-
+/*
 input {
     width: 400px;
 }
@@ -94,7 +93,7 @@ input {
 textarea {
 
     min-height: 15rem;
-}
+}*/
 
 .form__btn {
     font-size: 1.5rem;

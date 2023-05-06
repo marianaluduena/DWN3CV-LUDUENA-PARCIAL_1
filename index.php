@@ -105,10 +105,19 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
 
 <body>
 
-    <!-- Menú de navegación -->
+    <!-- Menú de navegación ORIGINAL-->
 
-    <!-- Código nav original-->
     <nav class="navbar navbar-expand-md">
+
+        <!-- Barra de búsqueda sólo para mobile -->
+
+        <form class="d-flex d-md-none m-auto my-2" role="search">
+            <div class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Qué estás buscando?" aria-label="Search">
+                <button class="btn btn-primary btn__small" type="submit">Buscar</button>
+            </div>
+        </form>
+
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php?pag=home">
                 <img class="favicon" src="./img/varios/logo.png" alt="Cofre mágico abriéndose" width="70" height="50">
@@ -142,6 +151,7 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
                     <a class="nav-link active" href="index.php?pag=acerca">Acerca</a>
                 </div>
             </div>
+
 
         </div>
     </nav>
