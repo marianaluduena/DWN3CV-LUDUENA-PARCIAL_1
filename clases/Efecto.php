@@ -1,0 +1,237 @@
+<?php
+
+// La clase debe llamarse igual al título del archivo.php que la contiene
+
+class Efecto
+{
+    public $id;
+    public $nombre;
+    public $rama;
+    public $nivel;
+    public $descripcion;
+    public $creador;
+    public $marca;
+    public $formato;
+    public $img;
+    public $precio;
+
+    /** Devuelve todo el catálogo (generando copias de sí mismo de todos sus productos)
+     * @return array devuelve un array de objetos Efecto
+     */
+
+    public function mostrarCatalogoCompleto(): array
+    {
+
+        $catalogo = [];
+
+        $datosJson = file_get_contents("datos__json/catalogoCompleto.json");
+        $datosJsonDecode = json_decode($datosJson);
+
+
+        foreach ($datosJsonDecode as $valor) {
+
+            // new self generará una nueva instancia (una copia vacía de sí mismo) del objeto efecto
+
+            $efecto = new self();
+
+            $efecto->id = $valor->id;
+            $efecto->nombre = $valor->nombre;
+            $efecto->rama = $valor->rama;
+            $efecto->nivel = $valor->nivel;
+            $efecto->descripcion = $valor->descripcion;
+            $efecto->creador = $valor->creador;
+            $efecto->marca = $valor->marca;
+            $efecto->formato = $valor->formato;
+            $efecto->img = $valor->img;
+            $efecto->precio = $valor->precio;
+
+            $catalogo[] = $efecto;
+        }
+
+        return $catalogo;
+    }
+
+    /** Devuelve el catálogo completo de productos que pertenecen a una determinada rama
+     * @param string $rama será un string con el nombre de la rama a buscar 
+     * @return Efecto[] será un array que contiene las instancias del objeto Efecto
+     */
+
+    public function devolverProductoPorRama(string $rama): array
+    {
+
+        // Traigo los objetos Efecto del catálogo de Json
+
+        $catalogo = $this->mostrarCatalogoCompleto();
+
+        // Si el usuario eligió la rama "todos", devolver todos
+
+        if ($rama == "todos") return $catalogo;
+
+        // Si el usuario eligió una rama específica, devolver los productos de esa rmama
+
+        $productos = [];
+
+        foreach ($catalogo as $efectoProducto) {
+
+            if (($efectoProducto->rama == $rama)) {
+
+                $productos[] = $efectoProducto;
+            }
+        }
+        return $productos;
+    }
+
+    // Buscar / devolver un producto por ID
+
+    /** Función que devuelve todos los datos de un producto específico
+     * @param int $idProducto es el Id del producto requerido
+     */
+
+    public function traerProductoPorId(int $idProducto): Efecto
+    {
+
+        // 1ero traer todo el catálogo completo
+        $catalogo = $this->mostrarCatalogoCompleto();
+
+        foreach ($catalogo as $efectoProducto) {
+
+            // si el id encontrado se cumple, devuelve
+            if ($efectoProducto->id == $idProducto) {
+
+                return $efectoProducto;
+            }
+        }
+        return null;
+    }
+
+    // Devolver / traer el precio formateado del producto
+
+    /** 
+     * Función wue devuelve un string con el precio formateado con . y , correspondientes
+     */
+
+    public function traerPrecioYFormatear(): string
+    {
+
+        return number_format($this->precio, 2, ",", ".");
+    }
+
+    // Devolver / traer la descripción del producto resumida
+
+    /**
+     *  Función que resume la descripción de los productos y que queden todos a la misma altura
+     * @param int $cantPalabras es la cant deseada de palabras a extraer
+     * @return string es la cant máxima de palabras que se mostrará con un elipsis (...) 
+     */
+
+    public function resumirDescProd(int $cantPalabras = 15): string
+    {
+        $descripProd = $this->descripcion;
+
+        // explode toma una pieza de texto y la divide cuando encuentra un elemento
+        // se le va a pasar el espacio (" ") y el valor será la descripción del prod
+
+        $arrayResumen = explode(" ", $descripProd);
+
+        if (count($arrayResumen) <= $cantPalabras) {
+            $descripResumida = $cantPalabras;
+        } else {
+            array_splice($arrayResumen, $cantPalabras);
+            $descripResumida = implode(" ", $arrayResumen) . " ...";
+        }
+        return $descripResumida;
+    }
+
+    // Tomar y devolver los datos únicos de cada producto
+
+    /**
+     * Función que devuelve el valor único del id del producto
+     */
+
+    public function traerId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Función que devuelve el valor único del nombre del producto
+     */
+
+    public function traerNombre()
+    {
+
+        return $this->nombre;
+    }
+
+    /**
+     * Función que devuelve el valor único de la rama del producto
+     */
+
+    public function traerRama()
+    {
+        return $this->rama;
+    }
+
+    /**
+     * Función que devuelve el valor único del nivel del producto
+     */
+
+    public function traerNivel()
+    {
+        return $this->nivel;
+    }
+
+    /**
+     * Función que devuelve el valor único de la descripcion del producto
+     */
+
+    public function traerDescripcion()
+    {
+        return $this->descripcion;
+    }
+
+    /**
+     * Función que devuelve el valor único del creador del producto
+     */
+
+    public function traerNombreCreador()
+    {
+        return $this->creador;
+    }
+
+    /**
+     * Función que devuelve el valor único de la marca del producto
+     */
+
+    public function traerMarca()
+    {
+        return $this->marca;
+    }
+
+    /**
+     * Función que devuelve el valor único del formato del producto
+     */
+
+    public function traerFormato()
+    {
+        return $this->formato;
+    }
+
+    /**
+     * Función que devuelve el valor único de la img del producto
+     */
+
+    public function traerImg()
+    {
+        return $this->img;
+    }
+
+    /**
+     * Función que devuelve el valor único del precio del producto
+     */
+
+    public function traerPrecio()
+    {
+        return $this->precio;
+    }
+};

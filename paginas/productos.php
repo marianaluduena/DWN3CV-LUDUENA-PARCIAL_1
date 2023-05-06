@@ -5,19 +5,22 @@
 el usuario eligió, no el catálogo completo de todos los productos de la tienda.
 */
 
-require_once "libraries/misProductos.php";
+// "rama" será el parámetro que la superglobal tomará de la URL en index.php declarada en los links a las ramas
 
-// "rama" será el parámetro que la superglobal tomará de la URL en index.php declarada en los links a las categorías
-$categoriaElegida = $_GET["rama"] ?? FALSE;
+$ramaElegida = $_GET["rama"] ?? FALSE;
 
-$catalogo = devolverProductoPorCat($categoriaElegida);
+// Creo un nuevo objeto Efecto vacío que se llenará de datos 
+
+$objetoEfecto = new Efecto();
+
+$catalogo = $objetoEfecto->devolverProductoPorRama($ramaElegida);
 
 /* 
 Función ucwords convertirá la 1er letra de todos los nombres 
 de las ramas de magia a mayúsculas
 */
 
-$titulo = ucwords(str_replace("__", " ", $categoriaElegida));
+$titulo = ucwords(str_replace("__", " ", $ramaElegida));
 
 ?>
 
@@ -39,31 +42,31 @@ $titulo = ucwords(str_replace("__", " ", $categoriaElegida));
                 <div class="row">
 
                     <div class="col-12 text-center ">
-                        <h3 class="my-3 py-3"><?= $efecto["nombre"] ?></h3>
+                        <h3 class="my-3 py-3"><?= $efecto->nombre ?></h3>
                     </div>
 
                     <div class="col-12 p-3">
 
                         <div class="card">
 
-                            <img src="./img/productos/<?= $efecto["img"] ?>" class="card-img-top pastilla__producto" alt="<?= $efecto["nombre"] ?>">
+                            <img src="./img/productos/<?= $efecto->img ?>" class="card-img-top pastilla__producto" alt="<?= $efecto->nombre ?>">
 
                             <div class="card-body">
                                 <h3 class="titulo__producto__card"> Descripción</h3>
 
                                 <p class="card-text text-md-center">
-                                    <?= resumirDescProd($efecto["descripcion"], 30) ?>
+                                    <?= $efecto ->resumirDescProd() ?>
                                 </p>
 
                                 <h3 class="titulo__producto__card">Nivel</h3>
 
                                 <p class="card-text text-md-center">
-                                    <?= $efecto["nivel"] ?>
+                                    <?= $efecto->nivel ?>
                                 </p>
 
-                                <span class="precio">$ <?= number_format($efecto["precio"], 2, ",", ".") ?></span>
+                                <span class="precio">$ <?= $efecto ->traerPrecioYFormatear() ?></span>
 
-                                <a href="index.php?pag=producto&id=<?=$efecto["id"] ?>" class="card-link btn__comprar">Ver más</a>
+                                <a href="index.php?pag=producto&id=<?= $efecto ->id ?>" class="card-link btn__comprar">Ver más</a>
                             </div>
                         </div>
                     </div>

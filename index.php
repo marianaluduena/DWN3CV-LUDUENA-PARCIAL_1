@@ -1,8 +1,8 @@
 <?php
 
-//require_once "clases/Efecto.php";
-require_once "libraries/funciones.php";
+// Se importa el archivo con la clase Efecto para poder usarlo
 
+require_once "clases/Efecto.php";
 
 // Defino cuáles serán las páginas/secciones válidas del sitio web
 
@@ -41,25 +41,12 @@ $pagsValidas = [
 para ir guardando los nombres de las secciones/páginas del sitio
 al las que el usuario será dirigido
 */
+
 $parametrosMiWeb = $_GET;
-
-/*
-echo "<pre>";
-print_r($parametrosMiWeb);
-echo "</pre>";
-*/
-
-/*superglobal para sólo traer la parte de la web que el usuario pida
-$pagina = $_GET["pag"];
-*/
 
 // Si el usuario no envía ningún nombre de mi sitio, enviarlo al home
 
 $pagina = $_GET["pag"] ?? "home";
-
-// Si el usurio eligió un tipo de magia
-
-
 
 // Verificar si un valor existe dentro del array $pagsValidas
 
