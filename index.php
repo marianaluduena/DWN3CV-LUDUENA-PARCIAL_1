@@ -132,26 +132,83 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
                     <a class="nav-link active" aria-current="page" href="index.php?pag=home">Home</a>
                     <a class="nav-link active" aria-current="page" href="index.php?pag=nosotros">Nosotros</a>
                     <a class="nav-link active" href="index.php?pag=ramas">Tipos de magia</a>
+
                     <li class="nav-item dropdown">
+
                         <a class="nav-link dropdown-toggle" href="index.php?pag=productos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Productos
                         </a>
+
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="index.php?pag=productos&rama=todos">Todos</a></li>
-                            <li><a class="dropdown-item" href="index.php?pag=productos&rama=cartomagia">Cartomagia</a></li>
-                            <li><a class="dropdown-item" href="index.php?pag=productos&rama=manipulacion">Manipulación</a></li>
-                            <li><a class="dropdown-item" href="index.php?pag=productos&rama=mentalismo">Mentalismo</a></li>
-                            <li><a class="dropdown-item" href="index.php?pag=productos&rama=magia__de__escenario">Escenario</a></li>
-                            <li><a class="dropdown-item" href="index.php?pag=productos&rama=escapismo">Escapismo</a></li>
-                        </ul>
+
+                            <li><a class="dropdown-item" href="index.php?pag=productos&rama=todos">Todos</a> </li>
+
+                            <!--CÓDIGO ORIGINAL -->
+
+                            <ul class="ul-second text-center">
+                                <li class="niveles li__subcategorias">
+                                    Niveles
+                                    <ul class="ul-third">
+                                        <li class="li__subcategorias">Todos</li>
+                                        <li class="li__subcategorias">Fácil</li>
+                                        <li class="li__subcategorias">Intemedio</li>
+                                        <li class="li__subcategorias">Difícil</li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <ul class="ul-second text-center">
+                                <li class="niveles li__subcategorias">
+                                    Categorías
+                                <li><a class="dropdown-item" href="index.php?pag=productos&rama=cartomagia">Cartomagia</a></li>
+                                <li><a class="dropdown-item" href="index.php?pag=productos&rama=manipulacion">Manipulación</a></li>
+                                <li><a class="dropdown-item" href="index.php?pag=productos&rama=mentalismo">Mentalismo</a></li>
+                                <li><a class="dropdown-item" href="index.php?pag=productos&rama=magia__de__escenario">Escenario</a></li>
+                                <li><a class="dropdown-item" href="index.php?pag=productos&rama=escapismo">Escapismo</a></li>
                     </li>
+                    </ul>
+
+                    <!-- CÓDIGO PRUEBA DE DESPLEGAR LOS MENÚS: BORRAR SI NO FUNCIONA
+                                <li class="text-center">
+                                    Categorías
+                                    <ul class="ul-third">
+                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=cartomagia">Cartomagia</a></li>
+                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=manipulacion">Manipulación</a></li>
+                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=mentalismo">Mentalismo</a></li>
+                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=magia__de__escenario">Escenario</a></li>
+                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=escapismo">Escapismo</a></li>
+                                    </ul>
+                                </li>
+                           
+
+                            Niveles
+
+                           
+                                <li class="text-center">
+                                    Niveles
+                                    <ul class="ul-third">
+                                        <li class="dropdown-item li__subcategorias">Todos</li>
+                                        <li class="dropdown-item li__subcategorias">Fácil</li>
+                                        <li class="dropdown-item li__subcategorias">Intemedio</li>
+                                        <li class="dropdown-item li__subcategorias">Difícil</li>
+                                    </ul>
+                                </li> -->
+
+
+
+
+
+
+                    </ul>
+                    <!-- li nav-item dropdown -->
+                    </li>
+
                     <a class="nav-link active" href="index.php?pag=beneficios">Beneficios de la magia</a>
                     <a class="nav-link active" href="index.php?pag=truco">¡Probá éste truco!</a>
                     <a class="nav-link active" href="index.php?pag=contacto">Contacto</a>
                     <a class="nav-link active" href="index.php?pag=acerca">Acerca</a>
                 </div>
             </div>
-
 
         </div>
     </nav>

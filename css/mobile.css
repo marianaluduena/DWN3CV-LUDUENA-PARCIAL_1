@@ -197,6 +197,30 @@ div>.container-fluid{
     justify-content: space-between;
 }
 
+.navbar ul{
+    list-style: none;
+}
+/*
+.navbar ul li ul{
+   position: absolute;
+   left: 0;
+    width: 200px;
+    display: none;
+}
+
+.navbar li ul li{
+    width: 100%;
+}
+.navbar li ul li ul{
+    left: 200px;
+    top: 0;
+}
+
+.navbar li:focus-within > ul,
+ul li:hover >ul{
+    display: initial;
+}*/
+
 /*.........SECCIÓN: NOSOTROS.......*/
 
 .card__fondo__transparente {
@@ -492,6 +516,13 @@ form>button {
 
 .btn__small{
     background-color: rgb(247, 175, 21);
+}
+
+/*......................PÁGINA 404................*/
+
+.img__fondo__404{
+background-image: url("../img/varios/fondo__404.jpg");
+background-size:cover ;
 }
 
 
