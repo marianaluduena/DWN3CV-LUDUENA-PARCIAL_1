@@ -8,7 +8,7 @@
 
 $idProducto = $_GET["id"] ?? FALSE;
 
-$
+
 
 $producto = traerProductoPorId($idProducto);
 
