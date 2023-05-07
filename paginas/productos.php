@@ -64,17 +64,12 @@ $tituloNivel = ucwords($nivelElegido);
                                 <img src="./img/productos/<?= $efecto->img ?>" class="card-img-top pastilla__producto" alt="<?= $efecto->nombre ?>">
 
                                 <div class="card-body">
-                                    <h3 class="titulo__producto__card"> Descripción</h3>
-
-                                    <p class="card-text text-md-center">
-                                        <?= $efecto->resumirDescProd() ?>
-                                    </p>
-
+                                    <!--
                                     <h3 class="titulo__producto__card">Nivel</h3>
 
-                                    <p class="card-text text-md-center">
-                                        <?= $efecto->traerNivelYFormatear() ?>
-                                    </p>
+                                    <p class="card-text text-md-center"> 
+                                       //< ?= //$efecto->traerNivelYFormatear()?>
+                                    </p>-->
 
                                     <span class="precio">$ <?= $efecto->traerPrecioYFormatear() ?></span>
 
@@ -94,7 +89,9 @@ $tituloNivel = ucwords($nivelElegido);
         <?php } ?>
     </section>
 <?php } else { ?>
+
     <!-- Mostrar producto por nivel -->
+
     <section class="row">
 
         <div class="container">

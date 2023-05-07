@@ -81,7 +81,7 @@ $catalogo = $objetoEfecto->mostrarLosMasVendidos();
 
 <!-- Llenar sección con un resumen de toda la web, banners, links a los productos, etc -->
 
-<section class="row p-slider">
+<section class="row p-slider justify-content-center">
 
     <!-- Slider de productos más vendidos -->
 
@@ -89,18 +89,19 @@ $catalogo = $objetoEfecto->mostrarLosMasVendidos();
         <h3 class="text-center py-3 my-2 h3__especial">Lo más vendidos</h3>
     </div>
 
-    <?php foreach ($catalogo as $producto) { ?>
+    <!-- 2do intento de slider/ cards de más vendidos -->
 
-        <div class="card-group productos__mas__vendidos__slider">
-            <div class="card">
+    <div class="galeria__mas__vendidos d-flex flex-wrap">
+        <?php foreach ($catalogo as $producto) { ?>
+            <div class="content">
                 <img class="img-fluid" src="./img/productos/<?= $producto->img ?>" alt="<?= $producto->nombre ?>" />
-                <div class="card-body">
-                    <h5 class="card-title text-center"><?= $producto->nombre ?></h5>
+                <div class="card-body body__mas__vendidos py-3">
+                    <h4 class="card-title text-center px-3 py-2"><?= $producto->nombre ?></h4>
                     <p class="card-text"><?= $producto->resumirDescProd() ?></p>
                     <button class="btn btn-primary btn__small d-flex m-auto">Ver más</button>
                 </div>
             </div>
-        </div>
-    <?php } ?>
+        <?php } ?>
+    </div>
 
 </section>

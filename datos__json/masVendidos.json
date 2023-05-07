@@ -1,17 +1,5 @@
 [
     {
-        "id": 1,
-        "nombre": "Cartas",
-        "rama": "cartomagia",
-        "nivel": "todos",
-        "descripcion": "Las cartas Bicycle est\u00e1ndar son un cl\u00e1sico en el mundo de la magia y no pueden faltarte en su kit de mago. Su plastificado de alta calidad las hacen resistentes, duraderas y f\u00e1ciles de manipular. \u00a1Son ideales incluso para cardistry!",
-        "creador": "Varios",
-        "marca": "bicycle",
-        "formato": "fisico",
-        "img": "cartas.png",
-        "precio": 950
-    }, 
-    {
         "id": 2,
         "nombre": "Anillos de poder",
         "rama": "manipulacion",
@@ -36,30 +24,6 @@
         "precio": 15199
     }, 
     {
-        "id": 5,
-        "nombre": "Aros chinos",
-        "rama": "manipulacion",
-        "nivel": "intermedio",
-        "descripcion": " Ya sea en su forma m\u00e1s peque\u00f1a de 10 cm, mediana de 20 cm o en su m\u00e1ximo tama\u00f1o de 30 cm, los aros chinos nunca fallan en crear un efecto impactante en tu p\u00fablico. Son de acero inoxidable, ligeros y vienen en packs de 3, 4 o 6 aros seg\u00fan el tama\u00f1o que tengan. \u00a1Entrelaz\u00e1 los aros chinos entre s\u00ed y soltalos de una forma impactante!",
-        "creador": "Ching Ling Foo",
-        "marca": "theori11",
-        "formato": "fisico",
-        "img": "aros__chinos.png",
-        "precio": 3500
-    }, 
-    {
-        "id": 6,
-        "nombre": "Cartas Avengers",
-        "rama": "cartomagia",
-        "nivel": "todos",
-        "descripcion": "Para todos los fans de los superh\u00e9roes (y villanos) de Marvel Comics presentamos \u00e9ste original mazo tem\u00e1tico para darle un toque m\u00e1s personal y divertido a tu magia. Iron Man, Black Widow, Thor, Hack eye y Spiderman entre otros estar\u00e1n presentes en cada uno de tus efectos. Cre\u00e1 momentos \u00fanicos e inolvidables con tu mazo personalizado de Avengers.",
-        "creador": "Theory11",
-        "marca": "theory11",
-        "formato": "fisico",
-        "img": "avengers__cartas.png",
-        "precio": 5050
-    }, 
-    {
         "id": 12,
         "nombre": "Cartas El Se\u00f1or de los Anillos",
         "rama": "cartomagia",
@@ -70,31 +34,7 @@
         "formato": "fisico",
         "img": "lotr__cartas.jpg",
         "precio": 5050
-    }, 
-    {
-        "id": 15,
-        "nombre": "Carta esposas",
-        "rama": "escapismo",
-        "nivel": "facil",
-        "descripcion": "Realiz\u00e1 un escape original y muy visual usando s\u00f3lo una carta y tus pulgares. El truco consiste en una carta con dos agujeros, y el resto corre por tu cuenta para la presentaci\u00f3n y finalmente soltarte de una simple carta.",
-        "creador": "Julio Ribera",
-        "marca": "magia__y__cardistry",
-        "formato": "fisico",
-        "img": "carta__esposas.jpg",
-        "precio": 2050
-    }, 
-    {
-        "id": 17,
-        "nombre": "Cartas Star Wars",
-        "rama": "cartomagia",
-        "nivel": "todos",
-        "descripcion": "Llev\u00e1 tu magia a una galaxia muy, muy, lejana con las cartas tem\u00e1ticas de Star Wars y ambient\u00e1 tus historias con los Jedi, los Sith y el Imperio. \u00a1Vas a ver que todos van a sentirse dentro de una pel\u00edcula de Star Wars y van a interesarse m\u00e1s! No te dejes arrastrar al Lado Oscuro de la Magia, y que la Magia te acompa\u00f1e",
-        "creador": "Theory11",
-        "marca": "theory11",
-        "formato": "fisico",
-        "img": "star__wars__cartas.webp",
-        "precio": 5050
-    }, 
+    },  
     {
         "id": 18,
         "nombre": "Loops m\u00e1gicos",
