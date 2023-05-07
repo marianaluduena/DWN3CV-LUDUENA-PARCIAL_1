@@ -12,7 +12,7 @@ pre {
     background-color: whitesmoke;
 }
 
-b{
+b {
     color: whitesmoke;
     background-color: #0a4665;
 }
@@ -144,29 +144,29 @@ nav .navbar-nav {
     margin: 0 auto;
 }
 
-.navbar-nav>.nav-link.active{
+.navbar-nav>.nav-link.active {
     color: whitesmoke;
     font-size: 1.1rem;
     text-shadow: 1px 1px 1px black;
 }
 
-.dropdown-menu.show{
+.dropdown-menu.show {
     background-color: rgb(233 161 6);
     color: whitesmoke;
     text-shadow: 1px 1px 1px black;
 }
 
-.dropdown-item{
-    color:whitesmoke;
-   
+.dropdown-item {
+    color: whitesmoke;
+
 }
 
-.dropdown-item:hover{
+.dropdown-item:hover {
     color: rgb(247, 175, 21);
-    background-color:#0a4665;
+    background-color: #0a4665;
 }
 
-li.nav-item.dropdown>a.nav-link.dropdown-toggle{
+li.nav-item.dropdown>a.nav-link.dropdown-toggle {
     color: whitesmoke;
     font-size: 1.1rem;
     text-shadow: 1px 1px 1px black;
@@ -193,13 +193,14 @@ li.nav-item.dropdown>a.nav-link.dropdown-toggle{
     height: 4.5rem;
 }
 
-div>.container-fluid{
+div>.container-fluid {
     justify-content: space-between;
 }
 
-.navbar ul{
+.navbar ul {
     list-style: none;
 }
+
 /*
 .navbar ul li ul{
    position: absolute;
@@ -220,6 +221,15 @@ div>.container-fluid{
 ul li:hover >ul{
     display: initial;
 }*/
+
+
+/*...............SECCIÓN: HOME..............*/
+
+.h3__especial {
+    width: 290px;
+    font-size: 1.5rem;
+}
+
 
 /*.........SECCIÓN: NOSOTROS.......*/
 
@@ -270,7 +280,7 @@ ul li:hover >ul{
     --bs-card-bg: #2f7587;
 }
 
-.titulo__producto__card{
+.titulo__producto__card {
 
     background-color: rgb(247 175 21 / 80%);
     color: whitesmoke;
@@ -285,7 +295,7 @@ ul li:hover >ul{
     background-color: black;
 }
 
-.card-body > p.card-text{
+.card-body>p.card-text {
     background-color: #0a4665;
     border-radius: 5px;
     margin: 1rem auto;
@@ -360,9 +370,9 @@ del {
     border-radius: 8px;
 }
 
-.btn-primary{
-    --bs--btn-hover-bg: rgb(247 175 21 / 86%); 
-    --bs-btn-active-bg: rgb(247 175 21 / 86%); 
+.btn-primary {
+    --bs--btn-hover-bg: rgb(247 175 21 / 86%);
+    --bs-btn-active-bg: rgb(247 175 21 / 86%);
 }
 
 .btn__agregar__al__carrito {
@@ -514,15 +524,15 @@ form>button {
 
 }
 
-.btn__small{
+.btn__small {
     background-color: rgb(247, 175, 21);
 }
 
 /*......................PÁGINA 404................*/
 
-.img__fondo__404{
-background-image: url("../img/varios/fondo__404.jpg");
-background-size:cover ;
+.img__fondo__404 {
+    background-image: url("../img/varios/fondo__404.jpg");
+    background-size: cover;
 }
 
 
@@ -568,22 +578,22 @@ ul.skills__lista>li {
     font-family: "Playfair", Arial, Helvetica, sans-serif;
 }
 
-.list-unstyled li{
+.list-unstyled li {
 
     font-family: "Lora", Arial, Helvetica, sans-serif;
     margin: 0.5rem auto;
 }
 
-#newsletter{
+#newsletter {
     display: flex;
 }
 
-#input__newsletter{
+#input__newsletter {
 
     width: 100%;
 }
 
-#btn__newsletter{
+#btn__newsletter {
     display: flex;
     justify-content: center;
 }

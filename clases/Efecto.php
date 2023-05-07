@@ -51,6 +51,36 @@ class Efecto
         return $catalogo;
     }
 
+    /** Devuelve el catálogo de los productos más vendidos
+     * @return array devuelve un array de objetos Efecto
+     */
+
+    public function mostrarLosMasVendidos(): array
+    {
+        $catalogoMasVendidos = [];
+        $datosJsonMasVendidos = file_get_contents("datos__json/masVendidos.json");
+        $datosJsonMasVendidosDecode = json_decode($datosJsonMasVendidos);
+
+        foreach ($datosJsonMasVendidosDecode as $value) {
+
+            $efecto = new self();
+
+            $efecto->id = $value->id;
+            $efecto->nombre = $value->nombre;
+            $efecto->rama = $value->rama;
+            $efecto->nivel = $value->nivel;
+            $efecto->descripcion = $value->descripcion;
+            $efecto->creador = $value->creador;
+            $efecto->marca = $value->marca;
+            $efecto->formato = $value->formato;
+            $efecto->img = $value->img;
+            $efecto->precio = $value->precio;
+
+            $catalogoMasVendidos[] = $efecto;
+        }
+        return $catalogoMasVendidos;
+    }
+
     /** Devuelve el catálogo completo de productos que pertenecen a una determinada rama
      * @param string $rama será un string con el nombre de la rama a buscar 
      * @return Efecto[] será un array que contiene las instancias del objeto Efecto

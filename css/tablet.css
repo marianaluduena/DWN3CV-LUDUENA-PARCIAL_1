@@ -65,6 +65,13 @@ li.nav-item.dropdown>a.nav-link.dropdown-toggle{
 }
 
 
+/*...............SECCIÓN: HOME..............*/
+
+.h3__especial {
+    width: 700px;
+    font-size: 1.8rem;
+}
+
 /*...............SECCIÓN: NOSOTROS............*/
 
 .frase__container {

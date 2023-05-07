@@ -1,8 +1,15 @@
+<?php
+
+$objetoEfecto = new Efecto();
+$catalogo = $objetoEfecto->mostrarLosMasVendidos();
+
+?>
+
 <!-- Carrousel-->
 
-<div id="carouselExampleFade" class="carousel slide carousel-fade d-none d-lg-block" data-bs-ride="carousel">
+<div id="carouselExampleFade" class="carousel slide carousel-fade d-none d-md-block" data-bs-ride="carousel">
 
-    <div id="carouselExampleIndicators" class="carousel slide d-none d-lg-block" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -56,7 +63,7 @@
                         Conocé más
                     </p>
                     <!-- Link a los productos -->
-                   <a href="index.php?pag=productos&rama=todos"><button class="btn btn-primary form__btn">Ver productos</button></a>
+                    <a href="index.php?pag=productos&rama=todos"><button class="btn btn-primary form__btn">Ver productos</button></a>
                 </div>
             </div>
 
@@ -73,10 +80,26 @@
     </div>
 </div>
 
+<!-- Llenar sección con un resumen de toda la web, banners, links a los productos, etc -->
 
+<section class="row p-slider">
 
-<section class="row">
+    <!-- Slider de productos más vendidos -->
+    <div>
+        <h3 class="text-center py-3 my-2 h3__especial">Lo más vendidos</h3>
+    </div>
 
-    <!-- Llenar sección con un resumen de toda la web, banners, links a los productos, etc -->
-
+    <div class="card-group productos__mas__vendidos__slider">
+        <div class="card">
+            <?php foreach ($catalogo as $producto) { ?>
+                <img class="img-fluid" src="./img/productos/<?= $producto->img ?>" alt="<?=$producto->nombre ?>"/>
+        </div>
+    <?php } ?>
+    <div class="card-body">
+        <h5 class="card-title"><?=$producto->nombre ?></h5>
+        <p class="card-text">This is a wnatural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+    </div>
+    </div>
 </section>

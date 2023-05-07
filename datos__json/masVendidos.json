@@ -1,0 +1,111 @@
+[
+    {
+        "id": 1,
+        "nombre": "Cartas",
+        "rama": "cartomagia",
+        "nivel": "todos",
+        "descripcion": "Las cartas Bicycle est\u00e1ndar son un cl\u00e1sico en el mundo de la magia y no pueden faltarte en su kit de mago. Su plastificado de alta calidad las hacen resistentes, duraderas y f\u00e1ciles de manipular. \u00a1Son ideales incluso para cardistry!",
+        "creador": "Varios",
+        "marca": "bicycle",
+        "formato": "fisico",
+        "img": "cartas.png",
+        "precio": 950
+    }, 
+    {
+        "id": 2,
+        "nombre": "Anillos de poder",
+        "rama": "manipulacion",
+        "nivel": "dificil",
+        "descripcion": "Pon\u00e9s un anillo en tu dedo \u00edndice y un segundo despu\u00e9s SALTA a su dedo pulgar. Pero \u00e9se es s\u00f3lo el inicio: pon\u00e9s luego el anillo en tu dedo medio y (no dejes que nadie parpade\u00e9 o se lo perder\u00e1) m\u00e1gicamnete tu anillo se TELETRANSPORTA a tu dedo anular DE LA OTRA MANO. Con un simple pase m\u00e1gico tu anillo finalmente se derrite y se solidifica en la palma de tu mano. \u00bfLa mejor parte? Es muy f\u00e1cil de aprender. Hay 5 modelos disponibles para que elijas y todas las medidas disponibles. 5 anillos de poder, 1 anillo para sorprenderlos a todos.",
+        "creador": "Callen Morelli",
+        "marca": "theory11",
+        "formato": "fisico",
+        "img": "anillos__magneticos.jpg",
+        "precio": 8290
+    }, 
+    {
+        "id": 3,
+        "nombre": "Cuchara m\u00e1gica",
+        "rama": "mentalismo",
+        "nivel": "facil",
+        "descripcion": "Us\u00e1 una cuchara de caf\u00e9 o t\u00e9 prestada completamente normal sin ning\u00fan trucaje (que puede estar incluso firmada) y hac\u00e9 que el metal de esa misma cuchara se vuelva l\u00edquido visualmente entre las yemas de tus dedos mientras se dobla lentamente deform\u00e1ndose y cambiando completamente de forma. Finalmente, \u00a1vuelve a restaurarse en su condici\u00f3n original! Sin cambios, ni gaffs, la MISMA cuchara se devuelve al espectador para que la guarde como un recuerdo asombroso. Muy visual, muy f\u00e1cil, de hacer, pod\u00e9s hacer \u00e9ste efecto estando rodeado, el reseteo es instant\u00e1neo y lo mejor: \u00a1pod\u00e9s usar una cuchara prestada!",
+        "creador": "Jack Wilder",
+        "marca": "magia__y__cardistry",
+        "formato": "fisico",
+        "img": "cuchara__doblada.jpg",
+        "precio": 15199
+    }, 
+    {
+        "id": 5,
+        "nombre": "Aros chinos",
+        "rama": "manipulacion",
+        "nivel": "intermedio",
+        "descripcion": " Ya sea en su forma m\u00e1s peque\u00f1a de 10 cm, mediana de 20 cm o en su m\u00e1ximo tama\u00f1o de 30 cm, los aros chinos nunca fallan en crear un efecto impactante en tu p\u00fablico. Son de acero inoxidable, ligeros y vienen en packs de 3, 4 o 6 aros seg\u00fan el tama\u00f1o que tengan. \u00a1Entrelaz\u00e1 los aros chinos entre s\u00ed y soltalos de una forma impactante!",
+        "creador": "Ching Ling Foo",
+        "marca": "theori11",
+        "formato": "fisico",
+        "img": "aros__chinos.png",
+        "precio": 3500
+    }, 
+    {
+        "id": 6,
+        "nombre": "Cartas Avengers",
+        "rama": "cartomagia",
+        "nivel": "todos",
+        "descripcion": "Para todos los fans de los superh\u00e9roes (y villanos) de Marvel Comics presentamos \u00e9ste original mazo tem\u00e1tico para darle un toque m\u00e1s personal y divertido a tu magia. Iron Man, Black Widow, Thor, Hack eye y Spiderman entre otros estar\u00e1n presentes en cada uno de tus efectos. Cre\u00e1 momentos \u00fanicos e inolvidables con tu mazo personalizado de Avengers.",
+        "creador": "Theory11",
+        "marca": "theory11",
+        "formato": "fisico",
+        "img": "avengers__cartas.png",
+        "precio": 5050
+    }, 
+    {
+        "id": 12,
+        "nombre": "Cartas El Se\u00f1or de los Anillos",
+        "rama": "cartomagia",
+        "nivel": "todos",
+        "descripcion": "Uno de los mazos de cartas m\u00e1s pedidos de nuestra tienda. La Tierra Media es el lugar perfecto para ambientar con alg\u00fan relato fant\u00e1stico, ya sea de la saga o inventado por vos, todos los efectos de magia que se te ocurrran. \u00a1El l\u00edmite es tu imaginaci\u00f3n!",
+        "creador": "Theory11",
+        "marca": "theory11",
+        "formato": "fisico",
+        "img": "lotr__cartas.jpg",
+        "precio": 5050
+    }, 
+    {
+        "id": 15,
+        "nombre": "Carta esposas",
+        "rama": "escapismo",
+        "nivel": "facil",
+        "descripcion": "Realiz\u00e1 un escape original y muy visual usando s\u00f3lo una carta y tus pulgares. El truco consiste en una carta con dos agujeros, y el resto corre por tu cuenta para la presentaci\u00f3n y finalmente soltarte de una simple carta.",
+        "creador": "Julio Ribera",
+        "marca": "magia__y__cardistry",
+        "formato": "fisico",
+        "img": "carta__esposas.jpg",
+        "precio": 2050
+    }, 
+    {
+        "id": 17,
+        "nombre": "Cartas Star Wars",
+        "rama": "cartomagia",
+        "nivel": "todos",
+        "descripcion": "Llev\u00e1 tu magia a una galaxia muy, muy, lejana con las cartas tem\u00e1ticas de Star Wars y ambient\u00e1 tus historias con los Jedi, los Sith y el Imperio. \u00a1Vas a ver que todos van a sentirse dentro de una pel\u00edcula de Star Wars y van a interesarse m\u00e1s! No te dejes arrastrar al Lado Oscuro de la Magia, y que la Magia te acompa\u00f1e",
+        "creador": "Theory11",
+        "marca": "theory11",
+        "formato": "fisico",
+        "img": "star__wars__cartas.webp",
+        "precio": 5050
+    }, 
+    {
+        "id": 18,
+        "nombre": "Loops m\u00e1gicos",
+        "rama": "mentalismo",
+        "nivel": "intermedio",
+        "descripcion": "Imaginate tener la capacidad de levitar cualquier objeto \u00a1con \u00e9stos loops m\u00e1gicos eso es posible! Cada pack viene con 8 loops invisibles lo suficientemente fuertes para mover objetos pesados \u200b\u200bcomo cubiertos, anteojos de sol, billetes\u2026incluso pod\u00e9s hacer flotar un anillo prestado! Y lo mejor de todo es que la preparaci\u00f3n solo te llevar\u00e1 unos segundos. El protector de loops los proteger\u00e1 en todo momento de cualquier da\u00f1o o presi\u00f3n. Ya no ten\u00e9s que preocuparte por la disminuci\u00f3n de la fuerza de los loops debido a los exclusivos protectores patentados que los seguros seguros bajo cualquier condici\u00f3n.",
+        "creador": "Yigal Mesika",
+        "marca": "magia__y__cardistry",
+        "formato": "fisico",
+        "img": "loop__invisible.jpg",
+        "precio": 4520
+    } 
+    
+]

@@ -62,6 +62,12 @@ h1 {
     width: 50%;
 }
 
+
+.h3__especial {
+    width: 700px;
+    font-size: 2rem;
+}
+
 /*...............SECCIÓN: PRODUCTOS ............*/
 
 a.card-link.btn__comprar:hover{
