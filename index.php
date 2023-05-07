@@ -20,6 +20,9 @@ $pagsValidas = [
     "productos" => [
         "titulo" => "Todos nuestros productos",
     ],
+    "productos__nivel" => [
+        "titulo" => "Productos por nivel",
+    ],
     "producto" => [
         "titulo" => "Detalle de producto",
     ],
@@ -145,30 +148,32 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
 
                             <!--CÓDIGO ORIGINAL -->
 
-                            <ul class="ul-second text-center">
-                                <li class="niveles li__subcategorias">
-                                    Niveles
+                            <ul class="ul-second">
+                                <li class="niveles li__subcategorias text-center">
+                                    Categorías
                                     <ul class="ul-third">
-                                        <li class="li__subcategorias">Todos</li>
-                                        <li class="li__subcategorias">Fácil</li>
-                                        <li class="li__subcategorias">Intemedio</li>
-                                        <li class="li__subcategorias">Difícil</li>
+                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=cartomagia">Cartomagia</a></li>
+                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=manipulacion">Manipulación</a></li>
+                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=mentalismo">Mentalismo</a></li>
+                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=magia__de__escenario">Escenario</a></li>
+                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=escapismo">Escapismo</a></li>
                                     </ul>
                                 </li>
                             </ul>
 
-                            <ul class="ul-second text-center">
-                                <li class="niveles li__subcategorias">
-                                    Categorías
-                                <li><a class="dropdown-item" href="index.php?pag=productos&rama=cartomagia">Cartomagia</a></li>
-                                <li><a class="dropdown-item" href="index.php?pag=productos&rama=manipulacion">Manipulación</a></li>
-                                <li><a class="dropdown-item" href="index.php?pag=productos&rama=mentalismo">Mentalismo</a></li>
-                                <li><a class="dropdown-item" href="index.php?pag=productos&rama=magia__de__escenario">Escenario</a></li>
-                                <li><a class="dropdown-item" href="index.php?pag=productos&rama=escapismo">Escapismo</a></li>
-                    </li>
-                    </ul>
+                            <ul class="ul-second">
+                                <li class="niveles li__subcategorias text-center">
+                                    Niveles
+                                    <ul class="ul-third">
+                                        <li class="li__subcategorias"><a class="dropdown-item" href="index.php?pag=productos&nivel=todos">Todos</a></li>
+                                        <li class="li__subcategorias"><a class="dropdown-item" href="index.php?pag=productos&nivel=facil">Fácil</a></li>
+                                        <li class="li__subcategorias"><a class="dropdown-item" href="index.php?pag=productos&nivel=intermedio">Intemedio</a></li>
+                                        <li class="li__subcategorias"><a class="dropdown-item" href="index.php?pag=productos&nivel=dificil">Difícil</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
 
-                    <!-- CÓDIGO PRUEBA DE DESPLEGAR LOS MENÚS: BORRAR SI NO FUNCIONA
+                            <!-- CÓDIGO PRUEBA DE DESPLEGAR LOS MENÚS: BORRAR SI NO FUNCIONA
                                 <li class="text-center">
                                     Categorías
                                     <ul class="ul-third">
@@ -199,8 +204,8 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
 
 
 
-                    </ul>
-                    <!-- li nav-item dropdown -->
+                        </ul>
+                        <!-- li nav-item dropdown -->
                     </li>
 
                     <a class="nav-link active" href="index.php?pag=beneficios">Beneficios de la magia</a>

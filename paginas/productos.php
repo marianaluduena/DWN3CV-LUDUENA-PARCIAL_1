@@ -17,7 +17,8 @@ $catalogo = $objetoEfecto->devolverProductoPorRama($ramaElegida);
 
 /* 
 Función ucwords convertirá la 1er letra de todos los nombres 
-de las ramas de magia a mayúsculas
+de las ramas de magia a mayúsculas y str__replace reemplazará
+todos los __ por un espacio
 */
 
 $titulo = ucwords(str_replace("__", " ", $ramaElegida));
@@ -33,10 +34,7 @@ $titulo = ucwords(str_replace("__", " ", $ramaElegida));
     <!-- Verificar si el array de categoría no está vacío -->
 
     <?php if (!empty($catalogo)) { ?>
-        <?php foreach ($catalogo as $efecto)
-        /* echo "<pre>";
-        print_r($efecto);
-        echo "</pre>";*/ { ?>
+        <?php foreach ($catalogo as $efecto) { ?>
 
             <div class="col-12 col-md-6 col-lg-4 ">
                 <div class="row">
@@ -61,7 +59,7 @@ $titulo = ucwords(str_replace("__", " ", $ramaElegida));
                                 <h3 class="titulo__producto__card">Nivel</h3>
 
                                 <p class="card-text text-md-center">
-                                    <?= $efecto->nivel ?>
+                                    <?= $efecto->traerNivelYFormatear() ?>
                                 </p>
 
                                 <span class="precio">$ <?= $efecto ->traerPrecioYFormatear() ?></span>

@@ -67,13 +67,40 @@ class Efecto
 
         if ($rama == "todos") return $catalogo;
 
-        // Si el usuario eligió una rama específica, devolver los productos de esa rmama
+        // Si el usuario eligió una rama específica, devolver los productos de esa rama
 
         $productos = [];
 
         foreach ($catalogo as $efectoProducto) {
 
             if (($efectoProducto->rama == $rama)) {
+
+                $productos[] = $efectoProducto;
+            }
+        }
+        return $productos;
+    }
+
+    // En caso de que el usuario haya elegido traer los productos por nivel de dificultad...
+
+    public function devolverProductosPorNivel(string $nivel): array
+    {
+
+        // Traigo los objetos del catálogo de Json
+
+        $catalogo = $this->mostrarCatalogoCompleto();
+
+        // Si el usuario eligió el nivel "todos", devolver todos
+
+        if ($nivel == "todos") return $catalogo;
+
+        // Si el usuario eligió un nivel específico, devolver todos los productos de ese nivel
+
+        $productos = [];
+
+        foreach ($catalogo as $efectoProducto) {
+
+            if ($efectoProducto->nivel == $nivel) {
 
                 $productos[] = $efectoProducto;
             }
@@ -174,11 +201,12 @@ class Efecto
 
     /**
      * Función que devuelve el valor único del nivel del producto
+     * @ucwords ($this->nivel) convertirá a mayúsculas la 1er letra del string
      */
 
-    public function traerNivel()
+    public function traerNivelYFormatear()
     {
-        return $this->nivel;
+        return ucwords($this->nivel);
     }
 
     /**
@@ -201,20 +229,22 @@ class Efecto
 
     /**
      * Función que devuelve el valor único de la marca del producto
+     * @ucwords($this->marca)convertirá a mayúsculas la 1er letra del string
      */
 
-    public function traerMarca()
+    public function traerMarcaYFormatear()
     {
-        return $this->marca;
+        return ucwords($this->marca);
     }
 
     /**
      * Función que devuelve el valor único del formato del producto
+     * @ucwords($this->formato)convertirá a mayúsculas la 1er letra del string
      */
 
-    public function traerFormato()
+    public function traerFormatoYFormatear()
     {
-        return $this->formato;
+        return ucwords($this->formato);
     }
 
     /**
