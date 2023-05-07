@@ -90,17 +90,13 @@ class Efecto
 
         $catalogo = $this->mostrarCatalogoCompleto();
 
-        // Si el usuario eligió el nivel "todos", devolver todos
-
-        if ($nivel == "todos") return $catalogo;
-
         // Si el usuario eligió un nivel específico, devolver todos los productos de ese nivel
 
         $productos = [];
 
         foreach ($catalogo as $efectoProducto) {
 
-            if ($efectoProducto->nivel == $nivel) {
+            if (($efectoProducto->nivel == $nivel)) {
 
                 $productos[] = $efectoProducto;
             }

@@ -20,9 +20,6 @@ $pagsValidas = [
     "productos" => [
         "titulo" => "Todos nuestros productos",
     ],
-    "productos__nivel" => [
-        "titulo" => "Productos por nivel",
-    ],
     "producto" => [
         "titulo" => "Detalle de producto",
     ],
@@ -144,14 +141,13 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
 
                         <ul class="dropdown-menu">
 
-                            <li><a class="dropdown-item" href="index.php?pag=productos&rama=todos">Todos</a> </li>
-
                             <!--CÓDIGO ORIGINAL -->
 
                             <ul class="ul-second">
                                 <li class="niveles li__subcategorias text-center">
                                     Categorías
                                     <ul class="ul-third">
+                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=todos">Todos</a> </li>
                                         <li><a class="dropdown-item" href="index.php?pag=productos&rama=cartomagia">Cartomagia</a></li>
                                         <li><a class="dropdown-item" href="index.php?pag=productos&rama=manipulacion">Manipulación</a></li>
                                         <li><a class="dropdown-item" href="index.php?pag=productos&rama=mentalismo">Mentalismo</a></li>
@@ -165,10 +161,10 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
                                 <li class="niveles li__subcategorias text-center">
                                     Niveles
                                     <ul class="ul-third">
-                                        <li class="li__subcategorias"><a class="dropdown-item" href="index.php?pag=productos&nivel=todos">Todos</a></li>
-                                        <li class="li__subcategorias"><a class="dropdown-item" href="index.php?pag=productos&nivel=facil">Fácil</a></li>
-                                        <li class="li__subcategorias"><a class="dropdown-item" href="index.php?pag=productos&nivel=intermedio">Intemedio</a></li>
-                                        <li class="li__subcategorias"><a class="dropdown-item" href="index.php?pag=productos&nivel=dificil">Difícil</a></li>
+                                        <li><a class="dropdown-item" href="index.php?pag=productos&nivel=todos">Todos</a></li>
+                                        <li><a class="dropdown-item" href="index.php?pag=productos&nivel=facil">Fácil</a></li>
+                                        <li><a class="dropdown-item" href="index.php?pag=productos&nivel=intermedio">Intemedio</a></li>
+                                        <li><a class="dropdown-item" href="index.php?pag=productos&nivel=dificil">Difícil</a></li>
                                     </ul>
                                 </li>
                             </ul>
