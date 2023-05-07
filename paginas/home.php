@@ -2,7 +2,6 @@
 
 $objetoEfecto = new Efecto();
 $catalogo = $objetoEfecto->mostrarLosMasVendidos();
-
 ?>
 
 <!-- Carrousel-->
@@ -85,21 +84,23 @@ $catalogo = $objetoEfecto->mostrarLosMasVendidos();
 <section class="row p-slider">
 
     <!-- Slider de productos más vendidos -->
+
     <div>
         <h3 class="text-center py-3 my-2 h3__especial">Lo más vendidos</h3>
     </div>
 
-    <div class="card-group productos__mas__vendidos__slider">
-        <div class="card">
-            <?php foreach ($catalogo as $producto) { ?>
-                <img class="img-fluid" src="./img/productos/<?= $producto->img ?>" alt="<?=$producto->nombre ?>"/>
+    <?php foreach ($catalogo as $producto) { ?>
+
+        <div class="card-group productos__mas__vendidos__slider">
+            <div class="card">
+                <img class="img-fluid" src="./img/productos/<?= $producto->img ?>" alt="<?= $producto->nombre ?>" />
+                <div class="card-body">
+                    <h5 class="card-title text-center"><?= $producto->nombre ?></h5>
+                    <p class="card-text"><?= $producto->resumirDescProd() ?></p>
+                    <button class="btn btn-primary btn__small d-flex m-auto">Ver más</button>
+                </div>
+            </div>
         </div>
     <?php } ?>
-    <div class="card-body">
-        <h5 class="card-title"><?=$producto->nombre ?></h5>
-        <p class="card-text">This is a wnatural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-    </div>
-    </div>
-    </div>
+
 </section>

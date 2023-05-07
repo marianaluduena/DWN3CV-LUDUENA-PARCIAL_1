@@ -230,6 +230,12 @@ ul li:hover >ul{
     font-size: 1.5rem;
 }
 
+.productos__mas__vendidos__slider{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 15px;
+}
 
 /*.........SECCIÓN: NOSOTROS.......*/
 
