@@ -42,7 +42,7 @@ $tituloNivel = ucwords($nivelElegido);
     <section class="row">
 
         <div class="container">
-            <h2 class="text-md-center my-3 my-md-5 py-3">Mirá todo nuestro catálogo de: <?= $tituloRama ?></h2>
+            <h2 class="titulo__especial text-md-center my-3 my-md-5 py-3">Mirá todo nuestro catálogo de: <?= $tituloRama ?></h2>
         </div>
 
         <!-- Verificar si el array de categoría no está vacío -->
@@ -101,7 +101,7 @@ $tituloNivel = ucwords($nivelElegido);
     <section class="row">
 
         <div class="container">
-            <h2 class="text-md-center my-3 my-md-5 py-3">Mirá todos nuestros productos de nivel: <?= $tituloNivel ?></h2>
+            <h2 class="titulo__especial text-md-center my-3 my-md-5 py-3">Mirá todos nuestros productos de nivel: <?= $tituloNivel ?></h2>
         </div>
 
         <!-- Verificar si el array de categoría no está vacío -->

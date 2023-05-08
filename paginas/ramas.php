@@ -8,7 +8,7 @@
 <section class="row">
 
 <div class="container container__solo__texto">
-    <h2 class="my-4 my-md-5 text-md-center py-3" id="categorias">Ramas de la magia</h2>
+    <h2 class="titulo__especial my-4 my-md-5 text-md-center py-3" id="categorias">Ramas de la magia</h2>
 
     <div class="container__texto__fondo">
         <p class="card-text">

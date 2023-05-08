@@ -26,7 +26,7 @@ $producto = $objetoEfecto->traerProductoPorId($idProducto);
 
             <div class="producto__caracteristicas container__texto__fondo">
 
-                <h2 class="text-sm-start text-md-center text-lg-start"><?= $producto->nombre ?></h2>
+                <h2 class="titulo__especial text-sm-start text-md-center text-lg-start"><?= $producto->nombre ?></h2>
 
                 <p class="card-text text-md-center"><?= $producto->descripcion ?></p>
 

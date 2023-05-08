@@ -19,16 +19,22 @@ b {
 
 body {
     background-image: url("../img/fondos/blue__smoke.jpg");
+    background-color: #2f7587;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
 header,
-main,
-footer {
+main {
     background-color: #16161687;
     max-width: 1680px;
+}
+
+footer {
+    background-color: #161616bf;
+    color: whitesmoke;
+    font-family: "Playfair", Arial, Helvetica, sans-serif;
 }
 
 h1,
@@ -69,7 +75,10 @@ h2,
 h3 {
     background-color: #306775bd;
     padding: 0.5rem;
+}
 
+.titulo__especial {
+    width: 100%;
 }
 
 h2,
@@ -230,28 +239,28 @@ ul li:hover >ul{
     font-size: 1.5rem;
 }
 
-.galeria__mas__vendidos{
+.galeria__mas__vendidos {
     width: 100%;
     justify-content: center;
     align-items: center;
     margin: 1rem 0;
 }
 
-.content{
+.content {
     width: 100%;
     margin: 0.5rem;
     cursor: pointer;
     padding-top: 0.5rem;
-    box-shadow: 0 14px 28px rgb(0,0,0,0.25);
+    box-shadow: 0 14px 28px rgb(0, 0, 0, 0.25);
     transition: .4s;
     border-radius: 5px;
 }
 
-.content:hover{
+.content:hover {
     transform: translate(0px, -8px);
 }
 
-.body__mas__vendidos{
+.body__mas__vendidos {
     background-color: #306775bd;
 }
 
@@ -596,39 +605,4 @@ ul.skills__lista>li {
     font-size: 1.1rem;
     border-color: rgb(247, 175, 21);
     border-style: dotted;
-}
-
-.footer__empresa {
-    background-color: #16161687;
-    color: whitesmoke;
-    font-family: "Playfair", Arial, Helvetica, sans-serif;
-}
-
-.list-unstyled li {
-
-    font-family: "Lora", Arial, Helvetica, sans-serif;
-    margin: 0.5rem auto;
-}
-
-#newsletter {
-    display: flex;
-}
-
-#input__newsletter {
-
-    width: 100%;
-}
-
-#btn__newsletter {
-    display: flex;
-    justify-content: center;
-}
-
-#footer__logo {
-    display: flex;
-    background-color: #306775bd;
-}
-
-#footer__titulo__empresa {
-    background-color: #306775bd;
 }

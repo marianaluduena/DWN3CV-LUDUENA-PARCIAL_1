@@ -228,68 +228,111 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
 
 
         ?>
-
     </main>
 
-    <footer class="container">
 
-        <!-- Footer del sitio de la empresa-->
-
-        <div class="container footer__empresa">
-            <div class="row">
-
-                <div class="col-md-4">
-                    <h3>Newsletter</h3>
-
+    <footer class="pt-5 pb-4 text-md-left container footer__empresa">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3 col-lg-3 mx-auto mt-3">
+                    <h3 class="md-4 font-weight-bold">El baúl mágico</h3>
                     <hr />
-                    <div class="container">
-                        <label for="newsletter" id="newsletter" name="newsletter">
-                            <input class="form-control d-lg-none" id="input__newsletter__sm__y__md" type="email" placeholder="Ingresá tu mail" required />
+                    <label for="newsletter" id="newsletter" name="newsletter">
+                        <input class="form-control d-lg-none" id="input__newsletter__sm__y__md" type="email" placeholder="Ingresá tu mail" required />
 
-                            <!-- Input sólo versión lg-->
+                        <!--  Input sólo versión lg -->
 
-                            <input class="form-control d-none d-lg-block" id="input__newsletter" type="email" placeholder="Ingresá tu mail y recibí beneficios!" required />
+                        <input class="form-control d-none d-lg-block" id="input__newsletter" type="email" placeholder="Ingresá tu mail y recibí beneficios!" required />
 
-                        </label>
-                        <button type="submit" class="btn btn-primary form__btn" id="btn__newsletter">Enviar</button>
-                    </div>
+                    </label>
+                    <button type="submit" class="btn btn-primary form__btn" id="btn__newsletter">Enviar</button>
                 </div>
 
-                <div class="col-md-4">
-                    <h3>Nosotros</h3>
-
+                <div class="col-md-2 col-lg-2 mx-auto mt-3">
+                    <h3 class="md-4 font-weight-bold">Productos</h3>
                     <hr />
                     <ul class="list-unstyled">
-                        <a href="#nosotros">
+                        <a href="index.php?pag=productos&rama=todos">
+                            <li>Todos</li>
+                        </a>
+                        <a href="index.php?pag=productos&rama=cartomagia">
+                            <li>Cartomagia</li>
+                        </a>
+                        <a href="index.php?pag=productos&rama=manipulacion">
+                            <li>Manipulación</li>
+                        </a>
+                        <a href="index.php?pag=productos&rama=mentalismo">
+                            <li>Mentalismo</li>
+                        </a>
+                        <a href="index.php?pag=productos&rama=magia__de__escenario">
+                            <li>Magia de escenario</li>
+                        </a>
+                        <a href="index.php?pag=productos&rama=escapismo">
+                            <li>Escapismo</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-lg-2 mx-auto mt-3">
+                    <h3 class="md-4 font-weight-bold">Nosotros</h3>
+                    <hr />
+                    <ul class="list-unstyled">
+                        <a href="index.php?pag=nosotros">
                             <li>Historia</li>
                         </a>
-
                         <a href="index.php?pag=productos&rama=todos">
                             <li>Productos</li>
                         </a>
-
+                        <a href="index.php?pag=contacto">
+                            <li>Contacto</li>
+                        </a>
+                        <a href="index.php?pag=acerca">
                         <li>Acerca de</li>
-                        <li>Blog</li>
+                        </a>
                     </ul>
                 </div>
 
-                <div class="col-md-4">
-                    <div id="footer__logo">
-                        <a href="./index.html"><img src="./img/varios/logo.png" alt="Cofre mágico abriéndose" width="70" height="50" /></a>
-                        <h2 class="text-end" id="footer__titulo__empresa">El baúl mágico</h2>
-                    </div>
-
+                <div class="col-md-3 col-lg-3 mx-auto mt-3">
+                    <h3 class="md-4 font-weight-bold">Contacto</h3>
                     <hr />
                     <ul class="list-unstyled">
-                        <li>Av. Siempreviva 456, CABA</li>
-                        <li>Días y horarios de atención: Lun a Vie: de 10 a 17 hs y Sáb: 10 a 13.30 hs.</li>
-                        <li>Tel.: +54 1122-3344</li>
-                        <li>E-mail: www.elbaulmagico@info.com.ar</li>
-
+                        <li>🏠 Av. Siempreviva 456, CABA</li>
+                        <li>⏲️ Días y horarios de atención: Lun a Vie: de 10 a 17 hs y Sáb: 10 a 13.30 hs.</li>
+                        <li>📞 Tel.: +54 1122-3344</li>
+                        <li>📧 E-mail: www.elbaulmagico@info.com.ar</li>
                     </ul>
                 </div>
+
+                <hr class="mb-4" />
+                <div class="row align-items-center">
+                    <div class="col-md-7 col-lg-8">
+                        <p class="text-center">
+                            Copyright 2023 Mariana Ludueña
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-5 col-lg-4">
+                        <div class="text-center text-md-right">
+                            <ul class="list-unstyled list-inline">
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn-floating btn-sm text-white">Instagram</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn-floating btn-sm text-white">Twitter</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn-floating btn-sm text-white">Facebook</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn-floating btn-sm text-white">Youtube</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <!-- Fin container del footer de la web-->
         </div>
     </footer>
 

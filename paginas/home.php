@@ -86,7 +86,7 @@ $catalogo = $objetoEfecto->mostrarLosMasVendidos();
     <!-- Slider de productos más vendidos -->
 
     <div>
-        <h3 class="text-center py-3 my-2 h3__especial">Lo más vendidos</h3>
+        <h3 class="titulo__especial text-center py-3 my-2 h3__especial">Lo más vendidos</h3>
     </div>
 
     <!-- 2do intento de slider/ cards de más vendidos -->

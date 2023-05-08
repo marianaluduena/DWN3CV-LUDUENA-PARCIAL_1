@@ -2,7 +2,7 @@
 ?>
 <section class="row">
 
-    <h2 class="my-3 my-md-5 text-md-center py-3 px-2">Acerca de mí</h2>
+    <h2 class="titulo__especial my-3 my-md-5 text-md-center py-3 px-2">Acerca de mí</h2>
     <div class="row g-0 row__footer">
 
         <div class="col-md-5 m-md-auto col-lg-4 my-3">

@@ -5,7 +5,7 @@
     <section class="row">
 
         <div class="container container__solo__texto">
-            <h2 id="beneficios" class="my-3 my-md-5 text-center py-3 px-1">¿Por qué aprender magia?</h2>
+            <h2 id="beneficios" class="titulo__especial my-3 my-md-5 text-center py-3 px-1">¿Por qué aprender magia?</h2>
 
             <div class="row">
                 <div class="col-12 p-3">
@@ -126,7 +126,7 @@
             <div>
 
                 <div class="container container__solo__texto d-none d-md-block my-md-4 my-lg-5">
-                    <h3 class="my-4 my-md-5 text-md-center py-3 subtitulo__principal">Y algo más...</h3>
+                    <h3 class="titulo__especial my-4 my-md-5 text-md-center py-3 subtitulo__principal">Y algo más...</h3>
 
                     <div class="container__texto__fondo">
                         <p class="card-text">

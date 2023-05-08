@@ -19,7 +19,10 @@ p {
 h2,
 h3 {
     margin: 0 auto;
+}
 
+.titulo__especial {
+    width: 90%;
 }
 
 h2 {
@@ -29,7 +32,6 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
-
 }
 
 h4 {
@@ -43,7 +45,6 @@ nav {
     justify-content: center;
     
 }
-
 
 nav .navbar-nav {
     display: flex;
@@ -120,7 +121,7 @@ span {
     margin: 1rem auto;
 }
 
-/*...............PÁGINA APARTE PRODUCTOS: PRODUCTO INDIVIDUA............*/
+/*...............PÁGINA APARTE PRODUCTOS: PRODUCTO INDIVIDUAL............*/
 
 .producto__caracteristicas {
     margin: 1rem;
