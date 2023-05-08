@@ -68,6 +68,10 @@ h1 {
     font-size: 2rem;
 }
 
+.content{
+    width: 20%;
+}
+
 /*...............SECCIÓN: PRODUCTOS ............*/
 
 a.card-link.btn__comprar:hover{

@@ -91,14 +91,14 @@ $catalogo = $objetoEfecto->mostrarLosMasVendidos();
 
     <!-- 2do intento de slider/ cards de más vendidos -->
 
-    <div class="galeria__mas__vendidos d-flex flex-wrap">
+    <div class="galeria__mas__vendidos d-block d-md-flex flex-wrap">
         <?php foreach ($catalogo as $producto) { ?>
             <div class="content">
                 <img class="img-fluid" src="./img/productos/<?= $producto->img ?>" alt="<?= $producto->nombre ?>" />
                 <div class="card-body body__mas__vendidos py-3">
                     <h4 class="card-title text-center px-3 py-2"><?= $producto->nombre ?></h4>
                     <p class="card-text"><?= $producto->resumirDescProd() ?></p>
-                    <button class="btn btn-primary btn__small d-flex m-auto">Ver más</button>
+                   <a href="index.php?pag=producto&id=<?=$producto->id ?>"><button class="btn btn-primary btn__comprar d-flex text-center m-auto">Ver más</button></a>
                 </div>
             </div>
         <?php } ?>

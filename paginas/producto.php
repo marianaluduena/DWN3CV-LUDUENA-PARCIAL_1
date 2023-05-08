@@ -1,16 +1,14 @@
 <?php
 
-/*
-Ésta sección sólo traerá el producto que el usuario eligió.
-*/
+// Ésta sección sólo traerá el producto que el usuario eligió.
 
 // La superglobal irá a buscar el id del producto solicitado en el catálogo, sino devolver false
 
 $idProducto = $_GET["id"] ?? FALSE;
 
+$objetoEfecto = new Efecto();
 
-
-$producto = traerProductoPorId($idProducto);
+$producto = $objetoEfecto->traerProductoPorId($idProducto);
 
 ?>
 
@@ -19,45 +17,53 @@ $producto = traerProductoPorId($idProducto);
     <!-- Verificar si el array de producto no está vacío -->
 
     <?php if (!empty($producto)) { ?>
-       
-            <div class="col-12 col-md-6 col-lg-4 ">
-                <div class="row">
 
-                    <div class="col-12 text-center ">
-                        <h3 class="my-3 py-3"><?= $producto->nombre ?></h3>
+        <div class="producto__main__container">
+
+            <div class="img__container__producto__por__id">
+                <img class="img-fluid" src="./img/productos/<?= $producto->img ?>" alt="<?= $producto->nombre ?>" />
+            </div>
+
+            <div class="producto__caracteristicas container__texto__fondo">
+
+                <h2 class="text-sm-start text-md-center text-lg-start"><?= $producto->nombre ?></h2>
+
+                <p class="card-text text-md-center"><?= $producto->descripcion ?></p>
+
+                <div class="d-flex precio__cant__carrito__container">
+                    <h3 id="heading__sin__bg__color">$ <?= $producto->traerPrecioYFormatear() ?></h3>
+                    <div class="cantidad__container">
+                        <button type="button" class="btn btn-primary btn-lg d-none d-md-block btn__cantidad">-</button>
+                        <h4 class="d-none d-md-block text-center cantidad__numero">0</h4>
+                        <button type="button" class="btn btn-primary btn-lg d-none d-md-block btn__cantidad">+</button>
                     </div>
-
-                    <div class="col-12 p-3">
-
-                        <div class="card">
-
-                            <img src="./img/productos/<?= $producto->img ?>" class="card-img-top pastilla__producto" alt="<?= $producto->nombre ?>">
-
-                            <div class="card-body">
-                                <h3 class="titulo__producto__card"> Descripción</h3>
-
-                                <p class="card-text text-md-center">
-                                    <?= $producto->resumirDescProd() ?>
-                                </p>
-
-                                <h3 class="titulo__producto__card">Nivel</h3>
-
-                                <p class="card-text text-md-center">
-                                    <?= $producto->nivel ?>
-                                </p>
-
-                                <span class="precio">$ <?= $producto ->traerPrecioYFormatear() ?></span>
-
-                               <a href="#" class="card-link btn__comprar">Comprar</a>
-                            </div>
-                        </div>
+                    <div class="d-flex">
+                        <button class="btn btn-primary d-none d-md-block btn__agregar__al__carrito" type="button">🛒 Añadir al carrito</button>
                     </div>
                 </div>
+
+                <div class="btn__precio__producto__individual__container">
+
+                    <!-- Btns sólo para versión móvil-->
+
+                    <div class="d-grid gap-2 col-6 mx-auto d-md-none">
+                        <div class="cantidad__container">
+                            <button type="button" class="btn btn-primary btn-lg d-md-block btn__cantidad">-</button>
+                            <h4 class="text-center cantidad__numero">0</h4>
+                            <button class="btn btn-primary btn-lg d-md-block btn__cantidad">+</button>
+                        </div>
+                        <button class="btn btn-primary btn__agregar__al__carrito" type="button">🛒 Añadir al carrito</button>
+                    </div>
+
+                    <!-- Fin btns para versión móvil-->
+                </div>
             </div>
-            </div>
+        </div>
 
         <!-- Si el array del catálogo está vacío-->
     <?php } else { ?>
         <div class="col-12 text-danger text-center h3">No encontramos el producto buscado</div>
     <?php } ?>
+    
+
 </section>

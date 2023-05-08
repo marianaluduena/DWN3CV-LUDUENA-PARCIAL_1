@@ -16,7 +16,7 @@
     "nombre": "Anillos de poder",
     "rama": "manipulacion",
     "nivel": "dificil",
-    "descripcion": "Pon\u00e9s un anillo en tu dedo \u00edndice y un segundo despu\u00e9s SALTA a su dedo pulgar. Pero \u00e9se es s\u00f3lo el inicio: pon\u00e9s luego el anillo en tu dedo medio y (no dejes que nadie parpade\u00e9 o se lo perder\u00e1) m\u00e1gicamnete tu anillo se TELETRANSPORTA a tu dedo anular DE LA OTRA MANO. Con un simple pase m\u00e1gico tu anillo finalmente se derrite y se solidifica en la palma de tu mano. \u00bfLa mejor parte? Es muy f\u00e1cil de aprender. Hay 5 modelos disponibles para que elijas y todas las medidas disponibles. 5 anillos de poder, 1 anillo para sorprenderlos a todos.",
+    "descripcion": "Pon\u00e9s un anillo en tu dedo \u00edndice y un segundo despu\u00e9s SALTA a tu dedo pulgar. Pero \u00e9se es s\u00f3lo el inicio: pon\u00e9s luego el anillo en tu dedo medio y (no dejes que nadie parpade\u00e9 o se lo perder\u00e1) m\u00e1gicamnete tu anillo se TELETRANSPORTA a tu dedo anular DE LA OTRA MANO. Con un simple pase m\u00e1gico tu anillo finalmente se derrite y se solidifica en la palma de tu mano. \u00bfLa mejor parte? Es muy f\u00e1cil de aprender. Hay 5 modelos disponibles para que elijas y todas las medidas disponibles. 5 anillos de poder, 1 anillo para sorprenderlos a todos.",
     "creador": "Callen Morelli",
     "marca": "theory11",
     "formato": "fisico",
@@ -153,7 +153,7 @@
     "marca": "magia__y__cardistry",
     "formato": "fisico",
     "img": "cubiletes__profesionales__laton.jpg",
-    "precio": 10.299
+    "precio": 10299
 }, 
 {
     "id": 14,

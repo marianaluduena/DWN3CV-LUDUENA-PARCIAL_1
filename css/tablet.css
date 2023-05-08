@@ -72,6 +72,10 @@ li.nav-item.dropdown>a.nav-link.dropdown-toggle{
     font-size: 1.8rem;
 }
 
+.content{
+    width: 40%;
+}
+
 /*...............SECCIÓN: NOSOTROS............*/
 
 .frase__container {
@@ -116,10 +120,17 @@ span {
     margin: 1rem auto;
 }
 
-/*...............PÁGINA APARTE PRODUCTOS: ESPOSAS DE ESCAPISMO............*/
+/*...............PÁGINA APARTE PRODUCTOS: PRODUCTO INDIVIDUA............*/
 
 .producto__caracteristicas {
     margin: 1rem;
+}
+
+.precio__cant__carrito__container{
+    justify-content: space-around;
+}
+#heading__sin__bg__color{
+    margin: 0;
 }
 
 /*...............SECCIÓN: ¿POR QUÈ APRENDER MAGIA? ............*/
