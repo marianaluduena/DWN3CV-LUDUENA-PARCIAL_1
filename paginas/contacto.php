@@ -84,6 +84,14 @@
                         <label for="nroTel" class="form-label">Teléfono *</label>
                         <input type="number" class="form-control" id="nroTel" name="nroTel" aria-describedby="telefono" placeholder="Número de teléfono" required>
                     </div>
+                    <div class="col-md-6">
+                        <label for="direccion" class="form-label">Dirección *</label>
+                        <input type="direccion" class="form-control" id="direccion" name="direccion" aria-describedby="direccion" placeholder="Dirección" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="provincia" class="form-label">Provincia *</label>
+                        <input type="provincia" class="form-control" id="provincia" name="provincia" aria-describedby="provincia" placeholder="Provincia" required>
+                    </div>
                     <div class="col-md-4">
                         <label for="inputState" class="form-label">Año de nacimiento</label>
                         <select class="form-select" id="anio__nacimiento" name="anio__nacimiento" required>
@@ -100,7 +108,7 @@
                     </div>
 
                     <div class="col-md-4">
-                        <label for="inputState" class="form-label">¿Cuál es tu rama de magia favorita?</label>
+                        <label for="magiaFav" class="form-label">¿Cuál es tu rama de magia favorita?</label>
                         <select class="form-select" name="magiaFav" id="magiaFav">
 
                             <option value="1">Manipulación</option>

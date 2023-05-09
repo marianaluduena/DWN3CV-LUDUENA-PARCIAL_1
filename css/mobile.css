@@ -31,8 +31,11 @@ main {
     max-width: 1680px;
 }
 
-footer {
+form, footer{
     background-color: #161616bf;
+}
+
+footer {
     color: whitesmoke;
     font-family: "Playfair", Arial, Helvetica, sans-serif;
 }
