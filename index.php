@@ -214,12 +214,14 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
         </div>
     </nav>
 
-    <header class="container d-flex justify-content-center">
-        <h1 class="text-warning text-center d-none d-md-block">El baúl mágico</h1>
-    </header>
+   
 
     <main class="container">
 
+    <header class="container d-flex justify-content-center">
+        <h1 class="text-warning text-center d-none d-md-block">El baúl mágico</h1>
+    </header>
+    
         <?php
 
         // Función que verifica que un archivo existe
@@ -287,7 +289,7 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
                             <li>Contacto</li>
                         </a>
                         <a href="index.php?pag=acerca">
-                        <li>Acerca de</li>
+                            <li>Acerca de</li>
                         </a>
                     </ul>
                 </div>

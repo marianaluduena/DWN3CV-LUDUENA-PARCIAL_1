@@ -25,11 +25,8 @@ $producto = $objetoEfecto->traerProductoPorId($idProducto);
             </div>
 
             <div class="producto__caracteristicas container__texto__fondo">
-
                 <h2 class="titulo__especial text-sm-start text-md-center text-lg-start"><?= $producto->nombre ?></h2>
-
                 <p class="card-text text-md-center"><?= $producto->descripcion ?></p>
-
                 <div class="d-flex precio__cant__carrito__container">
                     <h3 id="heading__sin__bg__color">$ <?= $producto->traerPrecioYFormatear() ?></h3>
                     <div class="cantidad__container">
@@ -58,12 +55,11 @@ $producto = $objetoEfecto->traerProductoPorId($idProducto);
                     <!-- Fin btns para versión móvil-->
                 </div>
             </div>
+
         </div>
 
         <!-- Si el array del catálogo está vacío-->
     <?php } else { ?>
         <div class="col-12 text-danger text-center h3">No encontramos el producto buscado</div>
     <?php } ?>
-    
-
 </section>

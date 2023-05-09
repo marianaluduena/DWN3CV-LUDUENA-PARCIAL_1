@@ -138,9 +138,10 @@ class Efecto
 
     /** Función que devuelve todos los datos de un producto específico
      * @param int $idProducto es el Id del producto requerido
+     * @return ?Efecto devuelve el objeto Efecto o devuelve null si no encuentra el ID
      */
 
-    public function traerProductoPorId(int $idProducto): Efecto
+    public function traerProductoPorId(int $idProducto): ?Efecto
     {
 
         // 1ero traer todo el catálogo completo
@@ -149,7 +150,7 @@ class Efecto
         foreach ($catalogo as $efectoProducto) {
 
             // si el id encontrado se cumple, devuelve
-            if ($efectoProducto->id == $idProducto) {
+            if ($efectoProducto->id == $idProducto){
 
                 return $efectoProducto;
             }
