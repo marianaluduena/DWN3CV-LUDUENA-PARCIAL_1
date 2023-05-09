@@ -4,16 +4,16 @@
 
 class Efecto
 {
-    public $id;
-    public $nombre;
-    public $rama;
-    public $nivel;
-    public $descripcion;
-    public $creador;
-    public $marca;
-    public $formato;
-    public $img;
-    public $precio;
+    private $id;
+    private $nombre;
+    private $rama;
+    private $nivel;
+    private $descripcion;
+    private $creador;
+    private $marca;
+    private $formato;
+    private $img;
+    private $precio;
 
     /** Devuelve todo el catálogo (generando copias de sí mismo de todos sus productos)
      * @return array devuelve un array de objetos Efecto
@@ -174,7 +174,7 @@ class Efecto
 
     /**
      *  Función que resume la descripción de los productos y que queden todos a la misma altura
-     * @param int $cantPalabras es la cant deseada de palabras a extraer
+     * @param int $cantPalabras es la cant deseada de palabras a extraer (es opcional)
      * @return string es la cant máxima de palabras que se mostrará con un elipsis (...) 
      */
 

@@ -21,12 +21,12 @@ $producto = $objetoEfecto->traerProductoPorId($idProducto);
         <div class="producto__main__container">
 
             <div class="img__container__producto__por__id">
-                <img class="img-fluid" src="./img/productos/<?= $producto->img ?>" alt="<?= $producto->nombre ?>" />
+                <img class="img-fluid" src="./img/productos/<?= $producto->traerImg() ?>" alt="<?= $producto->traerNombre() ?>" />
             </div>
 
             <div class="producto__caracteristicas container__texto__fondo">
-                <h2 class="titulo__especial text-sm-start text-md-center text-lg-start"><?= $producto->nombre ?></h2>
-                <p class="card-text text-md-center"><?= $producto->descripcion ?></p>
+                <h2 class="titulo__especial text-sm-start text-md-center text-lg-start"><?= $producto->traerNombre() ?></h2>
+                <p class="card-text text-md-center"><?= $producto->traerDescripcion() ?></p>
                 <div class="d-flex precio__cant__carrito__container">
                     <h3 id="heading__sin__bg__color">$ <?= $producto->traerPrecioYFormatear() ?></h3>
                     <div class="cantidad__container">

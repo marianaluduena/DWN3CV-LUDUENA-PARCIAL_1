@@ -54,14 +54,14 @@ $tituloNivel = ucwords($nivelElegido);
                     <div class="row">
 
                         <div class="col-12 text-center ">
-                            <h3 class="my-3 py-3"><?= $efecto->nombre ?></h3>
+                            <h3 class="my-3 py-3"><?= $efecto->traerNombre() ?></h3>
                         </div>
 
                         <div class="col-12 p-3">
 
                             <div class="card">
 
-                                <img src="./img/productos/<?= $efecto->img ?>" class="card-img-top pastilla__producto" alt="<?= $efecto->nombre ?>">
+                                <img src="./img/productos/<?= $efecto->traerImg() ?>" class="card-img-top pastilla__producto" alt="<?= $efecto->traerNombre() ?>">
 
                                 <div class="card-body">
 
@@ -79,7 +79,7 @@ $tituloNivel = ucwords($nivelElegido);
 
                                     <span class="precio">$ <?= $efecto->traerPrecioYFormatear() ?></span>
 
-                                    <a href="index.php?pag=producto&id=<?= $efecto->id ?>" class="card-link btn__comprar">Ver más</a>
+                                    <a href="index.php?pag=producto&id=<?= $efecto->traerId() ?>" class="card-link btn__comprar">Ver más</a>
                                 </div>
                             </div>
                         </div>
@@ -113,14 +113,14 @@ $tituloNivel = ucwords($nivelElegido);
                     <div class="row">
 
                         <div class="col-12 text-center ">
-                            <h3 class="my-3 py-3"><?= $truco->nombre ?></h3>
+                            <h3 class="my-3 py-3"><?= $truco->traerNombre() ?></h3>
                         </div>
 
                         <div class="col-12 p-3">
 
                             <div class="card">
 
-                                <img src="./img/productos/<?= $truco->img ?>" class="card-img-top pastilla__producto" alt="<?= $truco->nombre ?>">
+                                <img src="./img/productos/<?= $truco->traerImg() ?>" class="card-img-top pastilla__producto" alt="<?= $truco->traerNombre() ?>">
 
                                 <div class="card-body">
                                     <h3 class="titulo__producto__card"> Descripción</h3>
@@ -137,7 +137,7 @@ $tituloNivel = ucwords($nivelElegido);
 
                                     <span class="precio">$ <?= $truco->traerPrecioYFormatear() ?></span>
 
-                                    <a href="index.php?pag=producto&id=<?= $truco->id ?>" class="card-link btn__comprar">Ver más</a>
+                                    <a href="index.php?pag=producto&id=<?= $truco->traerId() ?>" class="card-link btn__comprar">Ver más</a>
                                 </div>
                             </div>
                         </div>

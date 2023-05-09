@@ -98,11 +98,11 @@ $catalogo = $objetoEfecto->mostrarLosMasVendidos();
     <div class="galeria__mas__vendidos d-block d-md-flex flex-wrap">
         <?php foreach ($catalogo as $producto) { ?>
             <div class="content">
-                <img class="img-fluid" src="./img/productos/<?= $producto->img ?>" alt="<?= $producto->nombre ?>" />
+                <img class="img-fluid" src="./img/productos/<?= $producto->traerImg() ?>" alt="<?= $producto->traerNombre() ?>" />
                 <div class="card-body body__mas__vendidos py-3">
-                    <h4 class="card-title text-center px-3 py-2"><?= $producto->nombre ?></h4>
+                    <h4 class="card-title text-center px-3 py-2"><?= $producto->traerNombre() ?></h4>
                     <p class="card-text"><?= $producto->resumirDescProd() ?></p>
-                    <a href="index.php?pag=producto&id=<?= $producto->id ?>"><button class="btn btn-primary btn__comprar d-flex text-center m-auto">Ver más</button></a>
+                    <a href="index.php?pag=producto&id=<?= $producto->traerId() ?>"><button class="btn btn-primary btn__comprar d-flex text-center m-auto">Ver más</button></a>
                 </div>
             </div>
         <?php } ?>
