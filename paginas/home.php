@@ -79,6 +79,10 @@ $catalogo = $objetoEfecto->mostrarLosMasVendidos();
     </div>
 </div>
 
+<section>
+    <!-- Envíos, medios de pago y contacto en un sólo div-->
+</section>
+
 <!-- Llenar sección con un resumen de toda la web, banners, links a los productos, etc -->
 
 <section class="row p-slider justify-content-center">
@@ -98,7 +102,7 @@ $catalogo = $objetoEfecto->mostrarLosMasVendidos();
                 <div class="card-body body__mas__vendidos py-3">
                     <h4 class="card-title text-center px-3 py-2"><?= $producto->nombre ?></h4>
                     <p class="card-text"><?= $producto->resumirDescProd() ?></p>
-                   <a href="index.php?pag=producto&id=<?=$producto->id ?>"><button class="btn btn-primary btn__comprar d-flex text-center m-auto">Ver más</button></a>
+                    <a href="index.php?pag=producto&id=<?= $producto->id ?>"><button class="btn btn-primary btn__comprar d-flex text-center m-auto">Ver más</button></a>
                 </div>
             </div>
         <?php } ?>

@@ -69,31 +69,23 @@
             <div class="col-lg-10 col-md-12">
                 <form class="row g-3 form justify-content-center" method="POST" action="ultraSecreto/enviar__datos.php">
                     <div class="col-md-6">
-                        <label for="nombre" class="form-label">Nombre *</label>
+                        <label for="nombre" class="form-label datos">Nombre *</label>
                         <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="nombre" placeholder="Ingresá tu nombre" required>
                     </div>
                     <div class="col-md-6">
-                        <label for="apellido" class="form-label">Apellido *</label>
+                        <label for="apellido" class="form-label datos">Apellido *</label>
                         <input type="text" class="form-control" id="apellido" name="apellido" aria-describedby="apellido" placeholder="Ingresá tu apellido" required>
                     </div>
                     <div class="col-md-6">
-                        <label for="email" class="form-label">Email *</label>
+                        <label for="email" class="form-label datos">Email *</label>
                         <input type="email" class="form-control" id="email" name="email" aria-describedby="email" placeholder="Ingresá tu email" required>
                     </div>
                     <div class="col-md-6">
-                        <label for="nroTel" class="form-label">Teléfono *</label>
+                        <label for="nroTel" class="form-label datos">Teléfono *</label>
                         <input type="number" class="form-control" id="nroTel" name="nroTel" aria-describedby="telefono" placeholder="Número de teléfono" required>
                     </div>
-                    <div class="col-md-6">
-                        <label for="direccion" class="form-label">Dirección *</label>
-                        <input type="direccion" class="form-control" id="direccion" name="direccion" aria-describedby="direccion" placeholder="Dirección" required>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="provincia" class="form-label">Provincia *</label>
-                        <input type="provincia" class="form-control" id="provincia" name="provincia" aria-describedby="provincia" placeholder="Provincia" required>
-                    </div>
                     <div class="col-md-4">
-                        <label for="inputState" class="form-label">Año de nacimiento</label>
+                        <label for="inputState" class="form-label datos">Año de nacimiento</label>
                         <select class="form-select" id="anio__nacimiento" name="anio__nacimiento" required>
                             <option value=""> Año de nacimiento: * </option>
 
@@ -108,7 +100,7 @@
                     </div>
 
                     <div class="col-md-4">
-                        <label for="magiaFav" class="form-label">¿Cuál es tu rama de magia favorita?</label>
+                        <label for="magiaFav" class="form-label datos">¿Cuál es tu rama de magia favorita?</label>
                         <select class="form-select" name="magiaFav" id="magiaFav">
 
                             <option value="1">Manipulación</option>
@@ -119,10 +111,10 @@
                         </select>
                     </div>
 
-                    <label for="comentarios" class="form-label"> </label>
+                    <label for="comentarios" class="form-label text-center datos">Dudas, comentarios... quejas! </label>
 
                     <div class="container__form__textarea d-flex justify-content-center">
-                        <textarea id="comentarios" name="comentarios" placeholder="Escribí aquí tu consulta o comentario *" rows="3" required></textarea>
+                        <textarea class="form-control" id="comentarios" name="comentarios" placeholder="Escribí aquí tu consulta o comentario *" rows="3" required></textarea>
                     </div>
 
                     <div class="col-12">

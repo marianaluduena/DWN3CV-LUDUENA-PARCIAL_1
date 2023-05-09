@@ -540,6 +540,11 @@ form>select {
 }
 */
 
+.datos {
+    background-color: #306775bd;
+    text-shadow: 2px 2px 2px #212120;
+}
+
 .form__btn {
     width: 80%;
     margin: 1.5rem auto;

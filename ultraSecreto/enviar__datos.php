@@ -6,8 +6,6 @@ $nombre = $_POST["nombre"];
 $apellido = $_POST["apellido"];
 $mail = $_POST["email"];
 $telefono = $_POST["nroTel"];
-$direccion = $_POST["direccion"];
-$provincia = $_POST["provincia"];
 $anioNac = $_POST["anio__nacimiento"];
 $magiaFavorita = $_POST["magiaFav"];
 $comentarios = $_POST["comentarios"];
@@ -29,8 +27,6 @@ echo "</pre>";
 echo "<p> Nombre completo: ". $nombre . " ". $apellido."</p>";
 echo "<p> Mail:  ". $mail. "</p>";
 echo "<p> Número de teléfono:  ". $telefono. "</p>";
-echo "<p> Domicilio:  ". $direccion. "</p>";
-echo "<p> Provincia:  ". $provincia. "</p>";
 echo "<p> Año de nacimiento:  ". $anioNac. "</p>";
 
 
