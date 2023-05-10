@@ -29,10 +29,23 @@ $producto = $objetoEfecto->traerProductoPorId($idProducto);
 
                 <div>
                     <h3 class="titulo__sin__bg text-sm-start text-md-center text-lg-start">Descripción</h3>
+
+                    <p class="card-text text-md-center">
+                        <?= $producto->traerDescripcion() ?>
+                    </p>
+
+                    <h3 class="titulo__sin__bg text-sm-start text-md-center text-lg-start">Marca</h3>
+
+                    <p class="card-text text-md-center">
+                        <?= $producto->traerMarcaYFormatear() ?>
+                    </p>
+
+                    <h3 class="titulo__sin__bg text-sm-start text-md-center text-lg-start">Creador</h3>
+
+                    <p class="card-text text-md-center">
+                        <?= $producto->traerNombreCreador() ?>
+                    </p>
                 </div>
-                <p class="card-text text-md-center">
-                    <?= $producto->traerDescripcion() ?>
-                </p>
 
                 <div>
                     <h3 id="heading__sin__bg__color">$ <?= $producto->traerPrecioYFormatear() ?></h3>

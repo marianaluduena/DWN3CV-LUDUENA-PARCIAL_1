@@ -261,7 +261,7 @@ class Efecto
 
     public function traerMarcaYFormatear()
     {
-        return ucwords($this->marca);
+        return ucwords(str_replace("_", " ",$this->marca));
     }
 
     /**

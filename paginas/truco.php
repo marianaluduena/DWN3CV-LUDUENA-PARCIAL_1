@@ -82,16 +82,15 @@
 
             <div class="container overflow-hidden">
 
-                <div class="col-12 col-md-8 col-lg-6 justify-content-center m-auto">
-                    <div class="p-3">
-                        <h3><strong>1</strong> Elegí una carta</h3>
-                    </div>
-                    <div>
-                        <img class="img-fluid card-img-top card-img-bottom" src="./img/truco/cartas__truco.png" alt="Seis cartas de póker extendidas" />
-                    </div>
-                </div>
-
                 <div class="row gx-5">
+                    <div class="col">
+                        <div class="p-3">
+                            <h3><strong>1</strong> Elegí una carta</h3>
+                        </div>
+                        <div>
+                            <img class="img-fluid card-img-top card-img-bottom" src="./img/truco/cartas__truco.png" alt="Seis cartas de póker extendidas" />
+                        </div>
+                    </div>
                     <div class="col">
                         <div class="p-3">
                             <h3><strong>2</strong> Memorizala</h3>
@@ -148,45 +147,38 @@
 
                 <div class="container__texto__fondo">
                     <p class="card-text">
-                        Éste cuadro (no es necesario leerlo para entender el punto) nos muestra que el cerebro
+                        Éste cuadro es sobre los <strong>sesgos cognitivos</strong> de nuestro cerebro. Nos muestra que éste
                         tiene muchas formas diferentes para desenvolverse en un mundo peligroso en el cual
-                        <strong>nuestros ancestros debían procesar rápido mucha información del entorno que los
-                            rodeaba y actuar con rapidez</strong> (es decir, decidir si huir de un animal, o
+                        nuestros ancestros debían procesar rápido mucha información del entorno que los
+                        rodeaba y actuar con rapidez (es decir, decidir si huir de un animal, o
                         luchar
                         contra él y comérselo).
                     </p>
                     <p class="card-text">
                         El cuadro clasifica los <strong>sesgos cognitivos</strong> en cuatro grandes problemas
                         que
-                        los cerebros de nuestros antepasados debían resolver: <strong>enfocarse en los detalles
-                            importantes</strong> al estar rodeados de mucha información ,<strong> saber cuáles
-                            de
-                            esos
-                            detalles recordar</strong> para futuras situaciones, <strong> encontrar el
-                            significado
-                            en esos recuerdos</strong>, y
-                        <strong>actuar rápido</strong> cuando la ocasión lo requiriera.
+                        los cerebros de nuestros antepasados debían resolver: enfocarse en los detalles
+                        importantes al estar rodeados de mucha información ,saber cuáles
+                        de
+                        esos
+                        detalles recordar para futuras situaciones, encontrar el
+                        significado
+                        en esos recuerdos, y
+                        actuar rápido cuando la ocasión lo requiriera.
                     </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row g-0 ps-1">
-            <div class="col-md-12 col-lg-8 ps-md-3 pe-lg-5">
-                <div class="container__texto__fondo">
                     <p class="card-text">
-                        Para resolver esos problemas siempre presentes el cerebro debe <strong>ceder ciertas
-                            cosas</strong>
+                        Para resolver esos problemas siempre presentes el cerebro debe ceder ciertas
+                        cosas
                         para
-                        <strong>priorizar otras</strong>. Por ejemplo, actuar rápido necesariamente sacrifica
+                        priorizar otras. Por ejemplo, actuar rápido necesariamente sacrifica
                         algo
                         de precisión, ya que la necesidad de una acción rápida no da tiempo para reflexionar
                         sobre
                         toda la información
                         que se nos presenta. Por lo tanto, nuestros cerebros tienen un <strong> sesgo
                             cognitivo</strong> para
-                        <strong>
-                            simplificar</strong> situaciones complejas que nos permitan actuar con rapidez.
+                        simplificar situaciones complejas que nos permitan actuar con rapidez.
+
                         Veamos
                         un ejemplo:
                     </p>
@@ -194,9 +186,6 @@
                         Teniendo ésta frase en inglés, contá todas las letras <strong> F</strong>:
                     </p>
                 </div>
-            </div>
-            <div class="col-md-10 m-md-auto col-lg-4 my-3">
-                <img class="img-fluid container__texto__fondo" src="./img/truco/prioridades.jpg" alt="Lista de prioridades" />
             </div>
         </div>
 
@@ -242,7 +231,7 @@
             <div class="col-md-12 col-lg-8 ps-md-3 pe-lg-5">
 
                 <h2 class="my-4 my-md-5 card-title text-md-center text-warning py-3">
-                    Enfocar y descartar</h2>
+                    ¿Por qué la magia funciona?</h2>
 
                 <div class="container__texto__fondo">
                     <p class="card-text">
@@ -347,7 +336,7 @@
         </div>
 
         <div class="col-md-10 m-md-auto col-lg-4 my-3">
-            <img class="img-fluid" src="./img/truco/cartas__truco.png" alt="Seis cartas de póker extendidas" />
+            <img class="img-fluid" src="./img/truco/cartas__truco__dos.png" alt="Cartas de póker extendidas" />
         </div>
 
         <p class="card-text">

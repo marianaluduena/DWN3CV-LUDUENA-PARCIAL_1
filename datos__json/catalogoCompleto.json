@@ -68,7 +68,7 @@
     "creador": "Theory11",
     "marca": "theory11",
     "formato": "fisico",
-    "img": "avengers__cartas.png",
+    "img": "cartas__avengers.jpg",
     "precio": 5050
 }, 
 {
@@ -80,7 +80,7 @@
     "creador": "Harry Houdini",
     "marca": "theory11",
     "formato": "fisico",
-    "img": "esposas.png",
+    "img": "esposas.jpg",
     "precio": 2000
 }, 
 {
@@ -200,7 +200,7 @@
     "creador": "Theory11",
     "marca": "theory11",
     "formato": "fisico",
-    "img": "star__wars__cartas.webp",
+    "img": "cartas__star__wars.jpg",
     "precio": 5050
 }, 
 {
