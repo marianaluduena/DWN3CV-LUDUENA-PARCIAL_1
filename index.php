@@ -323,21 +323,21 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
                             <ul class="list-unstyled list-inline">
                                 <li class="list-inline-item">
                                     <div class="container">
-                                        <a href="#" class="btn-floating btn-sm text-white">
+                                        <a href="https://www.instagram.com" target="_blank" class="btn-floating btn-sm text-white">
                                             <img src="./img/redes__soc/instagram.png" width="70px" alt="Logo de Instagram" class="img-fluid" />
                                         </a>
                                     </div>
                                 </li>
                                 <li class="list-inline-item">
                                     <div class="container">
-                                        <a href="#" class="btn-floating btn-sm text-white">
+                                        <a href="https://twitter.com/" target="_blank" class="btn-floating btn-sm text-white">
                                             <img src="./img/redes__soc/twitter.png" width="70px" alt="Logo de Twitter" class="img-fluid" />
                                         </a>
                                     </div>
                                 </li>
                                 <li class="list-inline-item">
                                     <div class="container">
-                                        <a href="#" class="btn-floating btn-sm text-white">
+                                        <a href="https://es-la.facebook.com/" target="_blank" class="btn-floating btn-sm text-white">
                                             <img src="./img/redes__soc/facebook.png" width="70px" alt="Logo de Facebook" class="img-fluid" />
                                         </a>
                                     </div>
