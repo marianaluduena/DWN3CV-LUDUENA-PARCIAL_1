@@ -68,6 +68,10 @@ li.nav-item.dropdown>a.nav-link.dropdown-toggle{
 
 /*...............SECCIÓN: HOME..............*/
 
+.cartel__iconos__envios__pagos__whsp{
+    justify-content: space-around;
+}
+
 .h3__especial {
     width: 700px;
     font-size: 1.8rem;
@@ -134,11 +138,17 @@ span {
     margin: 0;
 }
 
-/*...............SECCIÓN: ¿POR QUÈ APRENDER MAGIA? ............*/
+/*...............SECCIÓN: BENEFICIOS ............*/
 
 iframe {
     display: block;
     margin: 3rem auto;
+}
+
+/*.............SECCIÓN: TRUCO.....................*/
+
+#img__teatro{
+    height: 400px;
 }
 
 /*................SECCIÓN: FORMULARIO.........................*/

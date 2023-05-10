@@ -84,6 +84,10 @@ h3 {
     width: 100%;
 }
 
+.titulo__sin__bg__color {
+    background-color: rgba(255, 255, 255, 0);
+}
+
 h2,
 h3,
 h4 {
@@ -99,6 +103,10 @@ section {
 .container__texto__fondo {
     background-color: #5f9ea04f;
     border-radius: 5px;
+}
+
+.container__texto__fondo__especial{
+    background-color: #0d6f7270;
 }
 
 p {
@@ -236,6 +244,30 @@ ul li:hover >ul{
 
 
 /*...............SECCIÓN: HOME..............*/
+
+.cartel__iconos__envios__pagos__whsp {
+    background-color: #306775bd;
+    padding: 1.5rem;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.container__icono {
+    display: flex;
+    align-items: center;
+}
+
+.img__icono {
+    height: 50px;
+}
+
+.span__iconos {
+    display: inline-block;
+    padding: 0.7rem;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+
 
 .h3__especial {
     width: 290px;
@@ -437,6 +469,12 @@ span {
 .card .titulo__beneficios {
     background-color: #16161687;
     margin-top: 1.5rem;
+}
+
+/*.............SECCIÓN: TRUCO.....................*/
+
+#img__teatro{
+    height: auto;
 }
 
 /*............SECCIÓN: CONTACTO................*/

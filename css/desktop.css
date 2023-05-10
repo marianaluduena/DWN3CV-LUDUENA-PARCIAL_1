@@ -82,11 +82,17 @@ a.card-link.btn__comprar:hover{
    background-color: rgb(247 175 21 / 80%);
 }
 
-/*...............SECCIÓN: ¿POR QUÉ APRENDER MAGIA? ............*/
+/*...............SECCIÓN: BENEFICIOS ............*/
 
 iframe {
     display: block;
     aspect-ratio: 16/ 9;
+}
+
+/*.............SECCIÓN: TRUCO.....................*/
+
+#img__teatro{
+    height: 600px;
 }
 
 /*...............SECCIÓN: CONTACTO - FORMULARIO ............*/

@@ -18,7 +18,7 @@
                     <div class="card skills__card mx-1">
 
                         <div class="skills__img__container px-2">
-                            <img src="./img/varios/skills.png" class="card-img-top" alt="Icono de una computadora">
+                            <img src="./img/perfil__ml/skills.png" class="card-img-top" alt="Icono de una computadora">
                         </div>
 
                         <div class="card-body">
@@ -37,7 +37,7 @@
                     <div class="card skills__card mx-1">
 
                         <div class="skills__img__container px-2">
-                            <img src="./img/varios/idiomas.png" class="card-img-top" alt="Banderas inglesa, española y alemana">
+                            <img src="./img/perfil__ml/idiomas.png" class="card-img-top" alt="Banderas inglesa, española y alemana">
                         </div>
 
                         <div class="card-body">
@@ -54,7 +54,7 @@
                     <div class="card skills__card mx-1">
 
                         <div class="skills__img__container px-2">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="./img/perfil__ml/portfolio.png" class="card-img-top" alt="Porfolio">
                         </div>
 
                         <div class="card-body">
@@ -63,8 +63,6 @@
                                 <a href="https://marianaluduena.github.io/coder__house__repo/" target="_blank">
                                     <li><strong>Viandas Gaia</strong>: 2022</li>
                                 </a>
-                                <li><strong>Inglés</strong>: B2</li>
-                                <li><strong>Alemán</strong>: B1</li>
                             </ul>
 
                         </div>
@@ -73,11 +71,15 @@
                     <div class="card skills__card mx-1">
 
                         <div class="skills__img__container px-2">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="./img/perfil__ml/socialmedia__rubik.png" class="card-img-top" alt="Cubo rubik con imágenes de redes sociales">
                         </div>
 
                         <div class="card-body">
-                            <h4 class="card-title">Mis redes</h4>
+                            <h4 class="card-title">Contacto</h4>
+                            <ul class="skills__lista">
+                                <li> <a href="">mariana.luduena@davinci.edu.ar</a></li>
+                            </ul>
+                           
                             <ul class="skills__lista">
                                 <a class="link__btn__redes" href="https://github.com/marianaluduena?tab=repositories" target="_blank"><button class="btn btn-primary" role="button"><strong>GitHub</strong></button></a>
                                 <a class="link__btn__redes" href="https://www.linkedin.com/in/mariana-ludue%C3%B1a-41839698" target="_blank"><button class="btn btn-primary" role="button"><strong>LinkedIn</strong></button></a>

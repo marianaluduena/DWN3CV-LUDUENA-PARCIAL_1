@@ -77,10 +77,33 @@ $catalogo = $objetoEfecto->mostrarLosMasVendidos();
         </div>
     </div>
 </div>
-
+ 
+<!--
 <section>
-    <!-- Envíos, medios de pago y contacto en un sólo div-->
-</section>
+     Envíos, medios de pago y contacto en un sólo div
+
+    <div class="container d-block d-md-flex cartel__iconos__envios__pagos__whsp">
+
+         Insertar luego las img con PHP
+        <div class="container__icono">
+            <img class="img-fluid img__icono" src="./img/iconos__contacto/envios__icono.png" alt="Camión de envíos">
+        </div>
+
+        <span class="span__iconos">Envíos gratis a todo el país desde $ 10.000</span>
+
+        <div class="container__icono">
+            <img class="img-fluid img__icono" src="./img/iconos__contacto/tarjeta__credito__icono.png" alt="Tarjeta de crédito">
+        </div>
+
+        <span class="span__iconos">Aboná con tarjeta de crédito, débito o Mercado Pago</span>
+
+        <div class="container__icono">
+            <img class="img-fluid img__icono" src="./img/iconos__contacto/whsp__icono.png" alt="Icono de Whatsapp">
+
+        </div>
+        <span class="span__iconos">Estamos para ayudarte con tus compras</span>
+    </div>
+</section> -->
 
 
 

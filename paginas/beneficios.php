@@ -151,7 +151,7 @@
                 
                     <p class="card-text">
                         Hablando de <strong>magia</strong>, ¿te gustaría ver un efecto ahora mismo? Vamos a jugar con tu mente e intentaremos
-                        engañarla desde tu pantalla el siguiente juego aquí: 👉 <a href="./truco/efecto.html">Ver efecto</a>.
+                        engañarla desde tu pantalla el siguiente juego aquí: 👉 <a href="index.php?pag=truco">Ver efecto</a>.
                     </p>
                 </div>
             </div>
