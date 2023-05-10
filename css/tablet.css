@@ -27,7 +27,7 @@ h3 {
 
 h2 {
     font-size: 2rem;
-    width: 80%;
+   
 }
 
 h3 {
@@ -172,9 +172,10 @@ input .form-control {
     font-size: 1.2rem;
 }*/
 
+
 .form__btn {
     font-size: 1.3rem;
-    width: 70%;
+    width: 30%;
     margin: 1.5rem auto;
     padding: 0.5rem;
 }

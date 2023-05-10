@@ -61,7 +61,6 @@ $catalogo = $objetoEfecto->mostrarLosMasVendidos();
                     <p class="box b1 animUno parrafo__carrousel">
                         Conocé más
                     </p>
-                    <!-- Link a los productos -->
                     <a href="index.php?pag=productos&rama=todos"><button class="btn btn-primary form__btn">Ver productos</button></a>
                 </div>
             </div>
@@ -83,17 +82,15 @@ $catalogo = $objetoEfecto->mostrarLosMasVendidos();
     <!-- Envíos, medios de pago y contacto en un sólo div-->
 </section>
 
-<!-- Llenar sección con un resumen de toda la web, banners, links a los productos, etc -->
+
 
 <section class="row p-slider justify-content-center">
 
-    <!-- Slider de productos más vendidos -->
+    <!-- Productos más vendidos -->
 
     <div>
         <h3 class="titulo__especial text-center py-3 my-2 h3__especial">Lo más vendidos</h3>
     </div>
-
-    <!-- 2do intento de slider/ cards de más vendidos -->
 
     <div class="galeria__mas__vendidos d-block d-md-flex flex-wrap">
         <?php foreach ($catalogo as $producto) { ?>
@@ -106,6 +103,25 @@ $catalogo = $objetoEfecto->mostrarLosMasVendidos();
                 </div>
             </div>
         <?php } ?>
+    </div>
+
+    <h3 class="titulo__especial text-center py-3 my-2 h3__especial">Visitanos</h3>
+
+    <div class="d-block d-lg-flex container m-md-3 p-3">
+        <div class="card mb-3 col-md-10 m-md-auto m-lg-0 col-lg-6">
+            <img src="./img/varios/tienda__magia.jpg" class="card-img-top img-fluid" alt="Tienda de magia">
+            <div class="card-body">
+                <h4 class="card-title">Nuestra tienda</h4>
+                <p class="card-text">Ubicados en la hermosa zona de Palermo, CABA, somos una de las más grandes <strong> tiendas de magia profesional</strong>
+                    que existen. ¡Mirá todo lo que tenemos para vos esperándote!</p>
+                <a href="index.php?pag=productos&rama=todos"><button class="btn btn-primary btn__comprar btn__ver__mas">Ver más</button></a>
+            </div>
+        </div>
+
+        <div class="mapa d-block d-md-flex m-none m-lg-3">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d580.6943541188234!2d-58.4219526266474!3d-34.581312656600566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5837660ebb7%3A0xd80f6e5d08a2d8ba!2sThames%202483%2C%20C1425FII%20CABA!5e0!3m2!1ses!2sar!4v1683629673506!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
 
 </section>

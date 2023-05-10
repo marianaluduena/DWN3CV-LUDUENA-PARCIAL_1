@@ -161,7 +161,7 @@ class Efecto
     // Devolver / traer el precio formateado del producto
 
     /** 
-     * Función wue devuelve un string con el precio formateado con . y , correspondientes
+     * Función que devuelve un string con el precio formateado con . y , correspondientes
      */
 
     public function traerPrecioYFormatear(): string

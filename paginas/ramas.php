@@ -12,21 +12,32 @@
 
         <div class="container__texto__fondo">
             <p class="card-text">
+            <p class="card-text">
                 La <strong>magia</strong> tiene muchas ramas y cada mago tiene una en la que decide
                 especializarse según sus gustos. Para <strong>Harry Houdini</strong> fue el
-                <strong>escapismo</strong>, mientras que para <strong>René Lavand</strong> fue la
-                <strong>cartomagia</strong>. Y para el dúo de magos cómicos <strong>Penn</strong> y
-                <strong lang="en">Teller</strong> es la <strong>magia de salón</strong>. Otra rama de la
-                <strong>magia</strong> es el <strong lang="en">close-up</strong> o <strong>magia de
-                    cerca</strong>.
+                <strong>escapismo</strong>.
+                Para <strong>René Lavand</strong> la rama en la que se especializó y lograba crear lo más
+                cercano
+                a un milagro fue la <strong>cartomagia</strong>. Y para el dúo de magos cómicos
+                <strong>Penn</strong> y
+                <strong lang="en">Teller</strong> es la <strong>magia de escenario</strong>.
             </p>
-            <p class="card-text">¿Sos de la rama del <strong lang="en">close-up</strong>? ¿O quizás de los que
+            <p>
+                Después de la <strong>cartomagia</strong>, la <strong>magia de cerca</strong> es el segundo tipo
+                de <strong>magia</strong> más popular, y consiste en crear una gran variedad de efectos
+                asombrosos usando prácticamente lo que sea que tengas a mano.
+            </p>
+            <p class="card-text">¿Sos de la rama de la <strong lang="en">manipulación</strong>? ¿O quizás de los
+                que
                 les
                 gusta practicar
-                <strong>escapismo</strong>? ¿Preferís la <strong>cartomagia</strong>? ¿Sos un mix de todas las
+                <strong>escapismo</strong>? ¿Preferís la <strong>cartomagia</strong>? ¿Sentís que lo tuyo es el
+                escenario? ¿Sos un mix de todas las
                 ramas
                 de
-                la <strong>magia</strong>? ¡Si es así, no estás solo!
+                la <strong>magia</strong>? ¡Si es así, no estás solo! ¡En nuestra tienda hay para todos los
+                gustos!
+            </p>
             </p>
         </div>
 

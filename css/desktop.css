@@ -110,6 +110,10 @@ textarea {
     min-height: 15rem;
 }*/
 
+.input__form{
+    width: 80%;
+}
+
 .form__btn {
     font-size: 1.5rem;
     width: 20%;

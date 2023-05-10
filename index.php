@@ -4,6 +4,7 @@
 
 require_once "clases/Efecto.php";
 
+
 // Defino cuáles serán las páginas/secciones válidas del sitio web
 
 $pagsValidas = [
@@ -214,14 +215,14 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
         </div>
     </nav>
 
-   
+
 
     <main class="container">
 
-    <header class="container d-flex justify-content-center">
-        <h1 class="text-warning text-center d-none d-md-block">El baúl mágico</h1>
-    </header>
-    
+        <header class="container d-flex justify-content-center">
+            <h1 class="text-warning text-center d-none d-md-block">El baúl mágico</h1>
+        </header>
+
         <?php
 
         // Función que verifica que un archivo existe
@@ -285,6 +286,9 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
                         <a href="index.php?pag=productos&rama=todos">
                             <li>Productos</li>
                         </a>
+                        <a href="index.php?pag=truco">
+                            <li>¡Probá éste truco!</li>
+                        </a>
                         <a href="index.php?pag=contacto">
                             <li>Contacto</li>
                         </a>
@@ -318,16 +322,32 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
                         <div class="text-center text-md-right">
                             <ul class="list-unstyled list-inline">
                                 <li class="list-inline-item">
-                                    <a href="#" class="btn-floating btn-sm text-white">Instagram</a>
+                                    <div class="container">
+                                        <a href="#" class="btn-floating btn-sm text-white">
+                                            <img src="./img/redes__soc/instagram.png" width="70px" alt="Logo de Instagram" class="img-fluid" />
+                                        </a>
+                                    </div>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="btn-floating btn-sm text-white">Twitter</a>
+                                    <div class="container">
+                                        <a href="#" class="btn-floating btn-sm text-white">
+                                            <img src="./img/redes__soc/twitter.png" width="70px" alt="Logo de Twitter" class="img-fluid" />
+                                        </a>
+                                    </div>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="btn-floating btn-sm text-white">Facebook</a>
+                                    <div class="container">
+                                        <a href="#" class="btn-floating btn-sm text-white">
+                                            <img src="./img/redes__soc/facebook.png" width="70px" alt="Logo de Facebook" class="img-fluid" />
+                                        </a>
+                                    </div>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="btn-floating btn-sm text-white">Youtube</a>
+                                    <div class="container">
+                                        <a href="https://www.youtube.com" target="blank" class="btn-floating btn-sm text-white">
+                                            <img src="./img/redes__soc/youtube.png" width="70px" alt="Logo de Youtube" class="img-fluid" />
+                                        </a>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
