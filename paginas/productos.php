@@ -58,15 +58,11 @@ $tituloNivel = ucwords($nivelElegido);
                         </div>
 
                         <div class="col-12 p-3">
-
                             <div class="card">
-
                                 <img src="./img/productos/<?= $efecto->traerImg() ?>" class="card-img-top pastilla__producto" alt="<?= $efecto->traerNombre() ?>">
 
                                 <div class="card-body">
-
                                     <h3 class="titulo__producto__card"> Descripción</h3>
-
                                     <p class="card-text text-md-center">
                                         <?= $efecto->resumirDescProd() ?>
                                     </p>
@@ -76,21 +72,20 @@ $tituloNivel = ucwords($nivelElegido);
                                     <p class="card-text text-md-center"> 
                                        //< ?= //$efecto->traerNivelYFormatear()?>
                                     </p>-->
-
                                     <span class="precio">$ <?= $efecto->traerPrecioYFormatear() ?></span>
-
                                     <a href="index.php?pag=producto&id=<?= $efecto->traerId() ?>" class="card-link btn__comprar">Ver más</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
             <?php } ?>
 
             <!-- Si el array del catálogo está vacío-->
         <?php } else { ?>
-            <div class="col-12 text-danger text-center h3">No se encontraron resultados de ésa categoría</div>
+            <div class="col-12 text-center advertencia__no__encontrado">
+                No se encontraron resultados de ésa categoría
+            </div>
         <?php } ?>
     </section>
 <?php } else { ?>
@@ -147,7 +142,9 @@ $tituloNivel = ucwords($nivelElegido);
 
             <!-- Si el array del catálogo está vacío-->
         <?php } else { ?>
-            <div class="col-12 text-danger text-center h3">No se encontraron resultados de ése nivel</div>
+            <div class="col-12 advertencia__no__encontrado text-center">
+                No se encontraron resultados de ése nivel
+            </div>
         <?php } ?>
     </section>
 <?php } ?>

@@ -124,7 +124,12 @@ img {
     border-radius: 5px;
 }
 
-
+.advertencia__no__encontrado{
+    font-family: "Playfair", "Lora", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: rgb(247, 175, 21);
+    text-shadow: 2px 2px 2px #212120;
+}
 /*.........MENÚ DE NAVEGACIÓN.......*/
 
 nav {
@@ -220,28 +225,6 @@ div>.container-fluid {
 .navbar ul {
     list-style: none;
 }
-
-/*
-.navbar ul li ul{
-   position: absolute;
-   left: 0;
-    width: 200px;
-    display: none;
-}
-
-.navbar li ul li{
-    width: 100%;
-}
-.navbar li ul li ul{
-    left: 200px;
-    top: 0;
-}
-
-.navbar li:focus-within > ul,
-ul li:hover >ul{
-    display: initial;
-}*/
-
 
 /*...............SECCIÓN: HOME..............*/
 
@@ -477,7 +460,7 @@ span {
 
 /*.............SECCIÓN: TRUCO.....................*/
 
-#img__teatro{
+.img__teatro{
     height: auto;
 }
 

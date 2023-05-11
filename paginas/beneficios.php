@@ -3,13 +3,10 @@
 ?>
 
     <section class="row">
-
         <div class="container container__solo__texto">
             <h2 id="beneficios" class="titulo__especial my-3 my-md-5 text-center py-3 px-1">¿Por qué aprender magia?</h2>
-
             <div class="row">
                 <div class="col-12 p-3">
-
                     <div class="container__texto__fondo">
                         <p class="card-text">Como ya mencionamos antes, aprender <strong>magia</strong> trae
                             muchos
@@ -17,7 +14,6 @@
                             de detrás de la oreja de tu público, involucra estar atento en todo momento, hablar,
                             moverse y nunca perder el control de la situación por más que tu efecto no haya salido
                             como esperabas o alguien no reacciona como querías.
-
                         </p>
                         <p>
                             Sin
@@ -32,9 +28,7 @@
                 </div>
             </div>
 
-
             <div class="row row-cols-1 row-cols-md-1 p-md-4 row-cols-lg-2 g-4 p-lg-5">
-
                 <div class="col">
                     <div class="card card__beneficios">
                         <img src="./img/varios/solving__skills.jpg" class="img-fluid rounded-start" alt="Piezas de rompecabezas" />
@@ -55,7 +49,6 @@
                         </div>
                     </div>
                 </div>
-
 
                 <div class="col">
                     <div class="card card__beneficios">
@@ -142,7 +135,7 @@
                                 Pomar</strong> nos lo cuenta en ésta charla <strong>Ted</strong>.
                         </p>
                     </div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/S8BOduNrTFA" title="La magia no está en la magia | Esteban Pomar | TEDxRiodelaPlata" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="video" src="https://www.youtube.com/embed/S8BOduNrTFA" title="La magia no está en la magia | Esteban Pomar | TEDxRiodelaPlata" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
 
                 <div class="container__texto__fondo">
