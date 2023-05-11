@@ -68,7 +68,7 @@ $tituloNivel = ucwords($nivelElegido);
                                     <h3 class="titulo__producto__card"> Descripción</h3>
 
                                     <p class="card-text text-md-center">
-                                        <?=$efecto->resumirDescProd() ?>
+                                        <?= $efecto->resumirDescProd() ?>
                                     </p>
                                     <!--
                                     <h3 class="titulo__producto__card">Nivel</h3>
@@ -84,7 +84,6 @@ $tituloNivel = ucwords($nivelElegido);
                             </div>
                         </div>
                     </div>
-                </div>
                 </div>
 
             <?php } ?>
@@ -142,7 +141,6 @@ $tituloNivel = ucwords($nivelElegido);
                             </div>
                         </div>
                     </div>
-                </div>
                 </div>
 
             <?php } ?>
