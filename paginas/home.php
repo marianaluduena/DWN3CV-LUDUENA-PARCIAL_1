@@ -61,7 +61,7 @@ $catalogo = $objetoEfecto->mostrarLosMasVendidos();
                     <p class="box b1 animUno parrafo__carrousel">
                         Conocé más
                     </p>
-                    <a href="index.php?pag=productos&rama=todos"><button class="btn btn-primary form__btn">Ver productos</button></a>
+                    <a href="index.php?pag=productos&rama=todos"><span class="btn btn-primary form__btn">Ver productos</span></a>
                 </div>
             </div>
 
@@ -77,34 +77,6 @@ $catalogo = $objetoEfecto->mostrarLosMasVendidos();
         </div>
     </div>
 </div>
- 
-<!--
-<section>
-     Envíos, medios de pago y contacto en un sólo div
-
-    <div class="container d-block d-md-flex cartel__iconos__envios__pagos__whsp">
-
-         Insertar luego las img con PHP
-        <div class="container__icono">
-            <img class="img-fluid img__icono" src="./img/iconos__contacto/envios__icono.png" alt="Camión de envíos">
-        </div>
-
-        <span class="span__iconos">Envíos gratis a todo el país desde $ 10.000</span>
-
-        <div class="container__icono">
-            <img class="img-fluid img__icono" src="./img/iconos__contacto/tarjeta__credito__icono.png" alt="Tarjeta de crédito">
-        </div>
-
-        <span class="span__iconos">Aboná con tarjeta de crédito, débito o Mercado Pago</span>
-
-        <div class="container__icono">
-            <img class="img-fluid img__icono" src="./img/iconos__contacto/whsp__icono.png" alt="Icono de Whatsapp">
-
-        </div>
-        <span class="span__iconos">Estamos para ayudarte con tus compras</span>
-    </div>
-</section> -->
-
 
 
 <section class="row p-slider justify-content-center">
@@ -112,7 +84,7 @@ $catalogo = $objetoEfecto->mostrarLosMasVendidos();
     <!-- Productos más vendidos -->
 
     <div>
-        <h3 class="titulo__especial text-center py-3 my-2 h3__especial">Lo más vendidos</h3>
+        <h2 class="titulo__especial text-center py-3 my-2 h3__especial">Lo más vendidos</h2>
     </div>
 
     <div class="galeria__mas__vendidos d-block d-md-flex flex-wrap">
@@ -122,7 +94,7 @@ $catalogo = $objetoEfecto->mostrarLosMasVendidos();
                 <div class="card-body body__mas__vendidos py-3">
                     <h4 class="card-title text-center px-3 py-2"><?= $producto->traerNombre() ?></h4>
                     <p class="card-text"><?= $producto->resumirDescProd() ?></p>
-                    <a href="index.php?pag=producto&id=<?= $producto->traerId() ?>"><button class="btn btn-primary btn__comprar d-flex text-center m-auto">Ver más</button></a>
+                    <a href="index.php?pag=producto&id=<?= $producto->traerId() ?>"><span class="btn btn-primary btn__comprar ">Ver más</span></a>
                 </div>
             </div>
         <?php } ?>
@@ -137,13 +109,12 @@ $catalogo = $objetoEfecto->mostrarLosMasVendidos();
                 <h4 class="card-title">Nuestra tienda</h4>
                 <p class="card-text">Ubicados en la hermosa zona de Palermo, CABA, somos una de las más grandes <strong> tiendas de magia profesional</strong>
                     que existen. ¡Mirá todo lo que tenemos para vos esperándote!</p>
-                <a href="index.php?pag=productos&rama=todos"><button class="btn btn-primary btn__comprar btn__ver__mas">Ver más</button></a>
+                <a href="index.php?pag=productos&rama=todos"><span class="btn btn-primary btn__comprar btn__ver__mas">Ver más</span></a>
             </div>
         </div>
 
         <div class="mapa d-block d-md-flex m-none m-lg-3">
-
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d580.6943541188234!2d-58.4219526266474!3d-34.581312656600566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5837660ebb7%3A0xd80f6e5d08a2d8ba!2sThames%202483%2C%20C1425FII%20CABA!5e0!3m2!1ses!2sar!4v1683629673506!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d580.6943541188234!2d-58.4219526266474!3d-34.581312656600566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5837660ebb7%3A0xd80f6e5d08a2d8ba!2sThames%202483%2C%20C1425FII%20CABA!5e0!3m2!1ses!2sar!4v1683629673506!5m2!1ses!2sar" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 

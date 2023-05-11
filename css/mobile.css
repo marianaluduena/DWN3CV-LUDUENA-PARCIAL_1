@@ -299,6 +299,10 @@ ul li:hover >ul{
     background-color: #306775bd;
 }
 
+iframe{
+    width: 100%;
+}
+
 /*.........SECCIÓN: NOSOTROS.......*/
 
 .card__fondo__transparente {
@@ -616,7 +620,7 @@ form>button {
 }
 
 
-/*............FOOTER: ACERCA DE MI................*/
+/*............SECCIÓN: ACERCA DE MI................*/
 
 
 .skills__img__container {
