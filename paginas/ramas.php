@@ -1,8 +1,6 @@
 <?php
 ?>
 
-</section>
-
 <!-- sección ramas de la magia -->
 
 <section class="row">
@@ -38,17 +36,18 @@
                 la <strong>magia</strong>? ¡Si es así, no estás solo! ¡En nuestra tienda hay para todos los
                 gustos!
             </p>
-            </p>
+
         </div>
 
         <div class="row g-0">
 
             <h3 class="px-2 my-3 my-md-5 card-title text-md-center text-lg-start py-3">
-                Cartomagia</h3>
+                Cartomagia
+            </h3>
             <div class="col-md-10 m-md-auto col-lg-4 my-3">
-
                 <img src="./img/varios/cartomagia.jpg" class="img-fluid rounded-start" alt="Cartas siendo manipuladas" />
             </div>
+
             <div class="col-md-12 col-lg-8 ps-md-3 pe-lg-5">
                 <div class="card-body ps-1 my-3 ps-md-3 ps-lg-5">
 
@@ -70,7 +69,7 @@
                         </p>
 
                         <div class="p-2">
-                            <a href="index.php?pag=productos&rama=cartomagia"><button class="btn btn-primary btn__comprar">Ver productos de Cartomagia</button></a>
+                            <a href="index.php?pag=productos&rama=cartomagia"><span class="btn btn-primary btn__comprar">Ver productos de Cartomagia</span></a>
                         </div>
 
                     </div>
@@ -105,7 +104,7 @@
                             manos hábiles para cualquier rutina.
                         </p>
                         <div class="p-2">
-                            <a href="index.php?pag=productos&rama=manipulacion"><button class="btn btn-primary btn__comprar">Ver productos de Manipulación</button></a>
+                            <a href="index.php?pag=productos&rama=manipulacion"><span class="btn btn-primary btn__comprar">Ver productos de Manipulación</span></a>
                         </div>
                     </div>
                 </div>
@@ -139,7 +138,7 @@
                             forma imposible!
                         </p>
                         <div class="p-2">
-                            <a href="index.php?pag=productos&rama=escapismo"><button class="btn btn-primary btn__comprar">Ver productos de Escapismo</button></a>
+                            <a href="index.php?pag=productos&rama=escapismo"><span class="btn btn-primary btn__comprar">Ver productos de Escapismo</span></a>
                         </div>
                     </div>
                 </div>
@@ -170,12 +169,39 @@
                             todos!
                         </p>
                         <div class="p-2">
-                            <a href="index.php?pag=productos&rama=mentalismo"><button class="btn btn-primary btn__comprar">Ver productos de Mentalismo</button></a>
+                            <a href="index.php?pag=productos&rama=mentalismo"><span class="btn btn-primary btn__comprar">Ver productos de Mentalismo</span></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="row g-0">
+            <h3 class="px-2 my-4 my-md-5 card-title text-md-center text-lg-start py-3">
+                Magia de Escenario</h3>
+            <div class="col-md-10 m-md-auto col-lg-4 my-3">
+                <img src="./img/varios/magia__escenario.jpg" class="img-fluid rounded-start" alt="Maga durante un show" />
+            </div>
+            <div class="col-md-12 col-lg-8 ps-md-3 pe-lg-5">
+                <div class="card-body ps-1 my-3 ps-md-3 ps-lg-5">
+
+                    <h4 class="subtitle card-subtitle mb-2 d-none d-lg-block">El escenario es tu reino</h4>
+
+                    <div class="container__texto__fondo container__categorias">
+                        <p>
+                            Si lo tuyo es hacer <strong>magia</strong> para grandes multitudes, te encantan los aplausos y te encanta hablar en público entonces ésta es tu rama.
+                        </p>
+                        <p>
+                            El escenario te da otras libertades y posibilidades que la <strong>Manipulación</strong> tal vez no, ¡y se mezcla perfecto con el <strong>Mentalismo</strong> y el <strong>Escapismo</strong>!
+                        </p>
+                        <div class="p-2">
+                            <a href="index.php?pag=productos&rama=magia__de__escenario"><span class="btn btn-primary btn__comprar">Ver productos de Magia de Escenario</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- FIN CONTAINER -->
     </div>
 </section>
