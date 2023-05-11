@@ -465,97 +465,10 @@ span {
 }
 
 /*............SECCIÓN: CONTACTO................*/
-/*
-form {
-
-    padding: 1.5rem;
-}
-
-.form-control {
-    margin-bottom: 1.5rem;
-}
-
-label .form-label {
-    margin-bottom: 1.2rem;
-    padding: 1rem;
-    margin: 1.2rem auto;
-    text-align: center;
-    line-height: 2.5rem;
-  
-}
-
-.form-label {
-   margin-bottom: 2rem;
-    
-     width: 250px;
-    
-    border-radius: 5px;
-    padding: 0.5rem;
-}
-
-.datos {
-    background-color: #306775bd;
-    text-shadow: 2px 2px 2px #212120;
-}
-
-label {
-    font-size: 1.2rem;
-    display: inline-block;
-}
-
-#opciones {
-    display: flex;
-    justify-content: center;
-}
-
-input {
-    width: 250px;
-}
-
-.form-select {
-    background-color: #2f7587;
-    color: white;
-    text-shadow: 1px 1px 1px black;
-    border: none;
-}
-
-#magiaFav label {
-    width: 210px;
-
-}
-
-#magiaFav {
-    padding: 0.5rem;
-    font-size: 1.3rem;
-
-}
-
-#datos {
-    width: 210px;
-}
-
-.container__form__textarea {
-
-    width: 100%;
-    margin: auto;
-}
-
-#comentarios {
-    min-height: 10rem;
-    width: 100%;
-    margin: auto;
-    align-self: center;
-    font-size: 1rem;
-    padding: 0.5rem;
-    font-family: "Playfair", Arial, Helvetica, sans-serif;
+.form__contacto{
+    background-color: #0a46657a;
     border-radius: 5px;
 }
-
-form>select {
-    margin: 3rem auto;
-    padding: 1rem;
-}
-*/
 
 .datos {
 

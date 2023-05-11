@@ -52,19 +52,15 @@
                     </div>
 
                     <div class="card skills__card mx-1">
-
                         <div class="skills__img__container px-2">
                             <img src="./img/perfil__ml/portfolio.png" class="card-img-top" alt="Porfolio">
                         </div>
 
                         <div class="card-body">
                             <h4 class="card-title">Portfolio</h4>
-                            <ul class="skills__lista">
-                                <a href="https://marianaluduena.github.io/coder__house__repo/" target="_blank">
-                                    <li><strong>Viandas Gaia</strong>: 2022</li>
+                                <a href="https://marianaluduena.github.io/coder__house__repo/" target="_blank" class="d-block footer__links__secciones">
+                                    Viandas Gaia: 2022
                                 </a>
-                            </ul>
-
                         </div>
                     </div>
 
@@ -76,14 +72,9 @@
 
                         <div class="card-body">
                             <h4 class="card-title">Contacto</h4>
-                            <ul class="skills__lista">
-                                <li> <a href="">mariana.luduena@davinci.edu.ar</a></li>
-                            </ul>
-                           
-                            <ul class="skills__lista">
-                                <a class="link__btn__redes" href="https://github.com/marianaluduena?tab=repositories" target="_blank"><button class="btn btn-primary" role="button"><strong>GitHub</strong></button></a>
-                                <a class="link__btn__redes" href="https://www.linkedin.com/in/mariana-ludue%C3%B1a-41839698" target="_blank"><button class="btn btn-primary" role="button"><strong>LinkedIn</strong></button></a>
-                            </ul>
+                               <p>mariana.luduena@davinci.edu.ar</p>
+                                <a class="link__btn__redes" href="https://github.com/marianaluduena?tab=repositories" target="_blank"><span class="btn btn-primary"><strong>GitHub</strong></span></a>
+                                <a class="link__btn__redes" href="https://www.linkedin.com/in/mariana-ludue%C3%B1a-41839698" target="_blank"><span class="btn btn-primary"><strong>LinkedIn</strong></span></a>
                         </div>
                     </div>
                 </div>

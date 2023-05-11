@@ -77,12 +77,9 @@ $producto = $objetoEfecto->traerProductoPorId($idProducto);
 
             <!-- Fin btns para versión móvil-->
         </div>
-        </div>
-
-        </div>
 
         <!-- Si el array del catálogo está vacío-->
     <?php } else { ?>
-        <div class="col-12 text-danger text-center h3">No encontramos el producto buscado</div>
+        <div class="col-12 advertencia__no__encontrado text-center"">No encontramos el producto buscado</div>
     <?php } ?>
 </section>

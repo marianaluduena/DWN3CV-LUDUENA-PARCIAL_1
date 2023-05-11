@@ -8,8 +8,8 @@
         <h2 class="titulo__especial my-4 text-md-center py-3">Contacto</h2>
 
         <div class="row justify-content-center">
-            <div class="col-lg-10 col-md-12">
-                <form class="row g-3 form justify-content-center p-md-3" method="POST" action="ultraSecreto/enviar__datos.php">
+            <div class="col-lg-10 col-md-12 p-3 p-md-5">
+                <form class="row g-3 form justify-content-center p-md-3 form__contacto" method="POST" action="ultraSecreto/enviar__datos.php">
                     <div class="col-md-6">
                         <label for="nombre" class="form-label datos">Nombre *</label>
                         <input type="text" class="form-control my-1 input__form" id="nombre" name="nombre" aria-describedby="nombre" placeholder="Ingresá tu nombre" required>
