@@ -339,6 +339,7 @@
             <img class="img-fluid" src="./img/truco/cartas__truco__dos.png" alt="Cartas de póker extendidas" />
         </div>
 
+        <div class="container__texto__fondo">
         <p class="card-text">
             ¿Cómo lo hice? <strong>¡Magia!</strong>
         </p>
@@ -351,4 +352,5 @@
             que tu cerebro, en su
             eterna búsqueda de la simplicidad, los pase por alto.
         </p>
+        </div>
 </section>

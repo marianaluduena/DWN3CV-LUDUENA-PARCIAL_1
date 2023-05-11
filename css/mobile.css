@@ -652,7 +652,11 @@ ul.skills__lista>li {
     border-style: dotted;
 }
 
-.list-unstyled li {
+.list-unstyled, .footer__links__secciones {
     font-family: "Lora", Arial, Helvetica, sans-serif;
     margin: 0.5rem auto;
+}
+
+.logo__redes__soc{
+    width: 70px;
 }

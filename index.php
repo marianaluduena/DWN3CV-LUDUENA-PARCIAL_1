@@ -133,77 +133,35 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
                     <a class="nav-link active" aria-current="page" href="index.php?pag=home">Home</a>
                     <a class="nav-link active" aria-current="page" href="index.php?pag=nosotros">Nosotros</a>
                     <a class="nav-link active" href="index.php?pag=ramas">Tipos de magia</a>
-
-                    <li class="nav-item dropdown">
-
-                        <a class="nav-link dropdown-toggle" href="index.php?pag=productos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Productos
-                        </a>
-
-                        <ul class="dropdown-menu">
-
-                            <!--CÓDIGO ORIGINAL -->
-
-                            <ul class="ul-second">
-                                <li class="niveles li__subcategorias text-center">
-                                    Categorías
-                                    <ul class="ul-third">
-                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=todos">Todos</a> </li>
-                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=cartomagia">Cartomagia</a></li>
-                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=manipulacion">Manipulación</a></li>
-                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=mentalismo">Mentalismo</a></li>
-                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=magia__de__escenario">Escenario</a></li>
-                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=escapismo">Escapismo</a></li>
-                                    </ul>
-                                </li>
+                    <ul>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="index.php?pag=productos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="index.php?pag=productos&rama=todos">Todos</a></li>
+                                <li><a class="dropdown-item" href="index.php?pag=productos&rama=cartomagia">Cartomagia</a></li>
+                                <li><a class="dropdown-item" href="index.php?pag=productos&rama=manipulacion">Manipulación</a></li>
+                                <li><a class="dropdown-item" href="index.php?pag=productos&rama=mentalismo">Mentalismo</a></li>
+                                <li><a class="dropdown-item" href="index.php?pag=productos&rama=magia__de__escenario">Escenario</a></li>
+                                <li><a class="dropdown-item" href="index.php?pag=productos&rama=escapismo">Escapismo</a></li>
                             </ul>
+                        </li>
+                    </ul>
 
-                            <ul class="ul-second">
-                                <li class="niveles li__subcategorias text-center">
-                                    Niveles
-                                    <ul class="ul-third">
-                                        <li><a class="dropdown-item" href="index.php?pag=productos&nivel=todos">Todos</a></li>
-                                        <li><a class="dropdown-item" href="index.php?pag=productos&nivel=facil">Fácil</a></li>
-                                        <li><a class="dropdown-item" href="index.php?pag=productos&nivel=intermedio">Intemedio</a></li>
-                                        <li><a class="dropdown-item" href="index.php?pag=productos&nivel=dificil">Difícil</a></li>
-                                    </ul>
-                                </li>
+                    <ul>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="index.php?pag=productos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Nivel
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="index.php?pag=productos&nivel=todos">Todos</a></li>
+                                <li><a class="dropdown-item" href="index.php?pag=productos&nivel=facil">Fácil</a></li>
+                                <li><a class="dropdown-item" href="index.php?pag=productos&nivel=intermedio">Intemedio</a></li>
+                                <li><a class="dropdown-item" href="index.php?pag=productos&nivel=dificil">Difícil</a></li>
                             </ul>
-
-                            <!-- CÓDIGO PRUEBA DE DESPLEGAR LOS MENÚS: BORRAR SI NO FUNCIONA
-                                <li class="text-center">
-                                    Categorías
-                                    <ul class="ul-third">
-                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=cartomagia">Cartomagia</a></li>
-                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=manipulacion">Manipulación</a></li>
-                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=mentalismo">Mentalismo</a></li>
-                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=magia__de__escenario">Escenario</a></li>
-                                        <li><a class="dropdown-item" href="index.php?pag=productos&rama=escapismo">Escapismo</a></li>
-                                    </ul>
-                                </li>
-                           
-
-                            Niveles
-
-                           
-                                <li class="text-center">
-                                    Niveles
-                                    <ul class="ul-third">
-                                        <li class="dropdown-item li__subcategorias">Todos</li>
-                                        <li class="dropdown-item li__subcategorias">Fácil</li>
-                                        <li class="dropdown-item li__subcategorias">Intemedio</li>
-                                        <li class="dropdown-item li__subcategorias">Difícil</li>
-                                    </ul>
-                                </li> -->
-
-
-
-
-
-
-                        </ul>
-                        <!-- li nav-item dropdown -->
-                    </li>
+                        </li>
+                    </ul>
 
                     <a class="nav-link active" href="index.php?pag=beneficios">Beneficios de la magia</a>
                     <a class="nav-link active" href="index.php?pag=truco">¡Probá éste truco!</a>
@@ -211,7 +169,6 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
                     <a class="nav-link active" href="index.php?pag=acerca">Acerca</a>
                 </div>
             </div>
-
         </div>
     </nav>
 
@@ -240,70 +197,67 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
                 <div class="col-md-3 col-lg-3 mx-auto mt-3">
                     <h3 class="md-4 font-weight-bold">El baúl mágico</h3>
                     <hr />
-                    <label for="newsletter" id="newsletter" name="newsletter">
-                        <input class="form-control d-lg-none" id="input__newsletter__sm__y__md" type="email" placeholder="Ingresá tu mail" required />
-
-                        <!--  Input sólo versión lg -->
-
-                        <input class="form-control d-none d-lg-block" id="input__newsletter" type="email" placeholder="Ingresá tu mail y recibí beneficios!" required />
-
-                    </label>
-                    <button type="submit" class="btn btn-primary form__btn" id="btn__newsletter">Enviar</button>
+                    <ul class="list-unstyled">
+                        <li>🏠 Av. Siempreviva 456, CABA</li>
+                        <li>⏲️ Días y horarios de atención: Lun a Vie: de 10 a 17 hs y Sáb: 10 a 13.30 hs.</li>
+                    </ul>
                 </div>
 
                 <div class="col-md-2 col-lg-2 mx-auto mt-3">
                     <h3 class="md-4 font-weight-bold">Productos</h3>
                     <hr />
-                    <ul class="list-unstyled">
-                        <a href="index.php?pag=productos&rama=todos">
-                            <li>Todos</li>
-                        </a>
-                        <a href="index.php?pag=productos&rama=cartomagia">
-                            <li>Cartomagia</li>
-                        </a>
-                        <a href="index.php?pag=productos&rama=manipulacion">
-                            <li>Manipulación</li>
-                        </a>
-                        <a href="index.php?pag=productos&rama=mentalismo">
-                            <li>Mentalismo</li>
-                        </a>
-                        <a href="index.php?pag=productos&rama=magia__de__escenario">
-                            <li>Magia de escenario</li>
-                        </a>
-                        <a href="index.php?pag=productos&rama=escapismo">
-                            <li>Escapismo</li>
-                        </a>
-                    </ul>
+
+                    <a href="index.php?pag=productos&rama=todos" class="d-block footer__links__secciones">
+                        Todos
+                    </a>
+
+                    <a href="index.php?pag=productos&rama=cartomagia" class="d-block footer__links__secciones">
+                        Cartomagia
+                    </a>
+                    <a href="index.php?pag=productos&rama=manipulacion" class="d-block footer__links__secciones">
+                        Manipulación
+                    </a>
+                    <a href="index.php?pag=productos&rama=mentalismo" class="d-block footer__links__secciones">
+                        Mentalismo
+                    </a>
+                    <a href="index.php?pag=productos&rama=magia__de__escenario" class="d-block footer__links__secciones">
+                        Magia de escenario
+                    </a>
+                    <a href="index.php?pag=productos&rama=escapismo" class="d-block footer__links__secciones">
+                        Escapismo
+                    </a>
+
                 </div>
 
                 <div class="col-md-2 col-lg-2 mx-auto mt-3">
                     <h3 class="md-4 font-weight-bold">Nosotros</h3>
                     <hr />
-                    <ul class="list-unstyled">
-                        <a href="index.php?pag=nosotros">
-                            <li>Historia</li>
-                        </a>
-                        <a href="index.php?pag=productos&rama=todos">
-                            <li>Productos</li>
-                        </a>
-                        <a href="index.php?pag=truco">
-                            <li>¡Probá éste truco!</li>
-                        </a>
-                        <a href="index.php?pag=contacto">
-                            <li>Contacto</li>
-                        </a>
-                        <a href="index.php?pag=acerca">
-                            <li>Acerca de</li>
-                        </a>
-                    </ul>
+
+                    <a href="index.php?pag=home" class="d-block footer__links__secciones">
+                        Home
+                    </a>
+                    <a href="index.php?pag=nosotros" class="d-block footer__links__secciones">
+                        Historia
+                    </a>
+                    <a href="index.php?pag=productos&rama=todos" class="d-block footer__links__secciones">
+                        Productos
+                    </a>
+                    <a href="index.php?pag=truco" class="d-block footer__links__secciones">
+                        ¡Probá éste truco!
+                    </a>
+                    <a href="index.php?pag=contacto" class="d-block footer__links__secciones">
+                        Contacto
+                    </a>
+                    <a href="index.php?pag=acerca" class="d-block footer__links__secciones">
+                        Acerca de
+                    </a>
+
                 </div>
 
                 <div class="col-md-3 col-lg-3 mx-auto mt-3">
                     <h3 class="md-4 font-weight-bold">Contacto</h3>
                     <hr />
                     <ul class="list-unstyled">
-                        <li>🏠 Av. Siempreviva 456, CABA</li>
-                        <li>⏲️ Días y horarios de atención: Lun a Vie: de 10 a 17 hs y Sáb: 10 a 13.30 hs.</li>
                         <li>📞 Tel.: +54 1122-3344</li>
                         <li>📧 E-mail: www.elbaulmagico@info.com.ar</li>
                     </ul>
@@ -324,28 +278,28 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
                                 <li class="list-inline-item">
                                     <div class="container">
                                         <a href="https://www.instagram.com" target="_blank" class="btn-floating btn-sm text-white">
-                                            <img src="./img/redes__soc/instagram.png" width="70px" alt="Logo de Instagram" class="img-fluid" />
+                                            <img src="./img/redes__soc/instagram.png" alt="Logo de Instagram" class="img-fluid logo__redes__soc" />
                                         </a>
                                     </div>
                                 </li>
                                 <li class="list-inline-item">
                                     <div class="container">
                                         <a href="https://twitter.com/" target="_blank" class="btn-floating btn-sm text-white">
-                                            <img src="./img/redes__soc/twitter.png" width="70px" alt="Logo de Twitter" class="img-fluid" />
+                                            <img src="./img/redes__soc/twitter.png" alt="Logo de Twitter" class="img-fluid logo__redes__soc" />
                                         </a>
                                     </div>
                                 </li>
                                 <li class="list-inline-item">
                                     <div class="container">
                                         <a href="https://es-la.facebook.com/" target="_blank" class="btn-floating btn-sm text-white">
-                                            <img src="./img/redes__soc/facebook.png" width="70px" alt="Logo de Facebook" class="img-fluid" />
+                                            <img src="./img/redes__soc/facebook.png" alt="Logo de Facebook" class="img-fluid logo__redes__soc" />
                                         </a>
                                     </div>
                                 </li>
                                 <li class="list-inline-item">
                                     <div class="container">
                                         <a href="https://www.youtube.com" target="blank" class="btn-floating btn-sm text-white">
-                                            <img src="./img/redes__soc/youtube.png" width="70px" alt="Logo de Youtube" class="img-fluid" />
+                                            <img src="./img/redes__soc/youtube.png" alt="Logo de Youtube" class="img-fluid logo__redes__soc" />
                                         </a>
                                     </div>
                                 </li>
