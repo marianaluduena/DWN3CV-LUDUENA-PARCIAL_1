@@ -148,46 +148,4 @@
             </div>
         </div>
 
-        <div class="row row-cols-1 row-cols-md-1 p-md-4 row-cols-lg-2 g-5 p-lg-5">
-            <div class="col">
-                <div class="card card__fondo__transparente">
-                    <img src="./img/nuestra__mision/asombrar.jpg" class="card-img-top" alt="Público asombrado">
-                    <div class="card-body">
-                        <h3 class="card-title text-center">Asombrar e inspirar</h3>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card card__fondo__transparente">
-                    <img src="./img/nuestra__mision/buen__rato.jpg" class="card-img-top" alt="Gente feliz en una fiesta">
-
-                    <div class="card-body">
-                        <h3 class="card-title text-center">Que todos disfruten con vos</h3>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card card__fondo__transparente">
-                    <img src="./img/nuestra__mision/hablar__en__publico.jpg" class="card-img-top" alt="Hombre hablando en público">
-
-                    <div class="card-body">
-                        <h3 class="card-title text-center">Poder hablar en público</h3>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card card__fondo__transparente">
-                    <img src="./img/nuestra__mision/maga__divertida.jpg" class="card-img-top" alt="Maga durante un efecto de cambio de ropa">
-                    <div class="card-body">
-                        <h3 class="card-title text-center">Divertirte</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>

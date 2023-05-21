@@ -78,6 +78,44 @@ $catalogo = $objetoEfecto->mostrarLosMasVendidos();
     </div>
 </div>
 
+<!-- Benficios de aprender magia -->
+
+<section class="row p-slider justify-content-center">
+    <div>
+        <h2 id="beneficios" class="titulo__especial my-3 my-md-5 text-center py-3 px-1">¿Por qué aprender magia?</h2>
+    </div>
+
+    <div class="row">
+        <div class="col-12 p-3">
+            <div class="container__texto__fondo">
+                <p class="card-text">Como ya mencionamos antes, aprender <strong>magia</strong> trae
+                    muchos
+                    <strong>beneficios</strong>. Presentar un efecto es mucho más que sólo sacar una moneda
+                    de detrás de la oreja de tu público, involucra estar atento en todo momento, hablar,
+                    moverse y nunca perder el control de la situación por más que tu efecto no haya salido
+                    como esperabas o alguien no reacciona como querías.
+                </p>
+                <p>
+                    Sin
+                    importar la edad o si sos un profesional o un simple aficionado, éstas son algunas
+                    de
+                    las
+                    ventajas
+                    que
+                    obtenés al practicar <strong>magia</strong>:
+                </p>
+            </div>
+        </div>
+
+        <div>
+            <ul>
+                <li>Mejor al resolver problemas</li>
+                <li>Mejores habilidades sociales</li>
+                <li> Mayor confianza y autoestima</li>
+                <li> Ser más paciente y perseverante</li>
+            </ul>
+        </div>
+</section>
 
 <section class="row p-slider justify-content-center">
 
@@ -116,6 +154,33 @@ $catalogo = $objetoEfecto->mostrarLosMasVendidos();
         <div class="mapa d-block d-md-flex m-none m-lg-3">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d580.6943541188234!2d-58.4219526266474!3d-34.581312656600566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5837660ebb7%3A0xd80f6e5d08a2d8ba!2sThames%202483%2C%20C1425FII%20CABA!5e0!3m2!1ses!2sar!4v1683629673506!5m2!1ses!2sar" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+    </div>
+
+    <div class="container container__solo__texto d-none d-md-block my-md-4 my-lg-5">
+        <h3 class="titulo__especial my-4 my-md-5 text-md-center py-3 subtitulo__principal">Y algo más...</h3>
+
+        <div class="container__texto__fondo">
+            <p class="card-text">
+                En el mundo de las ilusiones nada es lo que parece. La <strong>magia</strong> nos
+                asombra incluso sabiendo que lo que vemos es un truco, porque aún así los magos
+                conseguimos desafiar a la lógica, la física y doblar las leyes naturales a nuestro
+                antojo para crear aquel momento mágico y el asombro del resto.
+            </p>
+            <p>
+                Descubrí la perspectiva que tiene un mago al presentar un efecto de
+                <strong>magia</strong>.
+                <strong>Esteban
+                    Pomar</strong> nos lo cuenta en ésta charla <strong>Ted</strong>.
+            </p>
+        </div>
+        <iframe class="video" src="https://www.youtube.com/embed/S8BOduNrTFA" title="La magia no está en la magia | Esteban Pomar | TEDxRiodelaPlata" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="container__texto__fondo">
+        <p class="card-text">
+            Hablando de <strong>magia</strong>, ¿te gustaría ver un efecto ahora mismo? Vamos a jugar con tu mente e intentaremos
+            engañarla desde tu pantalla el siguiente juego aquí: 👉 <a href="index.php?pag=truco">Ver efecto</a>.
+        </p>
     </div>
 
 </section>

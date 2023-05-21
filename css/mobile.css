@@ -332,7 +332,8 @@ iframe{
 .card {
 
     --bs-card-border-color: none;
-    --bs-card-bg: #2f7587;
+   /* --bs-card-bg: #2f7587;*/
+    --bs-card-bg: #0a46657a;
 }
 
 .titulo__producto__card {

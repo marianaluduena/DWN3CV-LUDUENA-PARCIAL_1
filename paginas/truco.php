@@ -116,7 +116,7 @@
                 </div>
                 <div class="container__texto__fondo">
                     <p class="card-text">
-                        Ah, y una cosa más que es muy importante: si te saltás el post hasta ell final la
+                        Ah, y una cosa más que es muy importante: si te saltás el post hasta el final la
                         <strong>magia</strong>
                         no tendrá ningún efecto y el truco no va a funcionar. Como todo en la
                         <strong>magia</strong>, vos,
@@ -321,7 +321,7 @@
                     carta 20 veces en voz alta las <strong> vibraciones psíquicas </strong> de tu cerebro llegarían hasta mí sin importar
                     la
                     distancia,
-                    permitiéndome que, mágicamente, adivinara tu carta elegida. ¿Preparado? ¿Allá vamos!:
+                    permitiéndome que, mágicamente, adivinara tu carta elegida. ¿Preparado? ¡Allá vamos!:
                 </p>
             </div>
         </div>
@@ -332,7 +332,7 @@
 
     <div class="container__texto__fondo">
         <p class="card-text">
-            Mirá el set orginal de cartas que te mostré. Falta la carta que elegiste ¿cierto?
+            Mirá el set orginal de cartas que te mostré. Falta la <strong>carta</strong> que elegiste ¿cierto?
         </p>
     </div>
 

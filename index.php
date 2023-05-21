@@ -24,9 +24,6 @@ $pagsValidas = [
     "producto" => [
         "titulo" => "Detalle de producto",
     ],
-    "beneficios" => [
-        "titulo" => "Beneficios de la magia",
-    ],
     "truco" => [
         "titulo" => "Probá éste truco",
     ],
@@ -163,7 +160,7 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
                         </li>
                     </ul>
 
-                    <a class="nav-link active" href="index.php?pag=beneficios">Beneficios de la magia</a>
+                   
                     <a class="nav-link active" href="index.php?pag=truco">¡Probá éste truco!</a>
                     <a class="nav-link active" href="index.php?pag=contacto">Contacto</a>
                     <a class="nav-link active" href="index.php?pag=acerca">Acerca</a>
@@ -238,6 +235,9 @@ if (!(array_key_exists($pagina, $pagsValidas))) {
                     </a>
                     <a href="index.php?pag=nosotros" class="d-block footer__links__secciones">
                         Historia
+                    </a>
+                    <a href="index.php?pag=ramas" class="d-block footer__links__secciones">
+                        Ramas de la Magia
                     </a>
                     <a href="index.php?pag=productos&rama=todos" class="d-block footer__links__secciones">
                         Productos

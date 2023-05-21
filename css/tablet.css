@@ -159,36 +159,6 @@ iframe {
 }
 
 /*................SECCIÓN: FORMULARIO.........................*/
-/*
-label {
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-.form-control {
-    padding: 1rem;
-    width: 80%;
-}
-
-input .form-control {
-    width: 300px;
-}
-
-#opciones {
-    margin: 2rem auto;
-}
-
-#magiaFav {
-
-    padding: 0.5rem;
-    font-size: 1.4rem;
-}
-
-#comentarios {
-    min-height: 20rem;
-    font-size: 1.2rem;
-}*/
-
 
 .form__btn {
     font-size: 1.3rem;
